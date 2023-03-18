@@ -1,0 +1,19 @@
+{
+  "name": "conan_westermarck_pont_sur_la_crique_des_ronces_01",
+  "width": 6600,
+  "height": 6000,
+  "grid": 150,
+  "shiftX": 0,
+  "shiftY": 0,
+  "gridDistance": 5.0,
+  "gridUnits": "ft",
+  "padding": 0.0,
+  "gridColor": "#000000",
+  "gridAlpha": 0.2,
+  "globalLight": true,
+  "darkness": 0.6,
+  "lights": [],
+  "walls": [],
+  "img": null,
+  "foreground": null
+}
