@@ -1,0 +1,539 @@
+{
+  "package": "world.fr-le-fleau-des-rois-barbares-tables",
+  "metadata": {
+    "name": "fr-le-fleau-des-rois-barbares-tables",
+    "label": "FR Le fléau des rois barbares Tables",
+    "path": "worlds/dcc-le-fleau-des-rois-barbares/packs/fr-le-fleau-des-rois-barbares-tables.db",
+    "private": false,
+    "type": "RollTable",
+    "system": "dcc",
+    "flags": {},
+    "packageType": "world",
+    "packageName": "dcc-le-fleau-des-rois-barbares",
+    "id": "world.fr-le-fleau-des-rois-barbares-tables"
+  },
+  "type": "RollTable",
+  "items": [
+    {
+      "name": "Rumeurs, Légendes, & Superstitions",
+      "img": "modules/dcc-doom-of-the-savage-kings/assets/icons/RoadCrew1-DemonSkull.webp",
+      "results": [
+        {
+          "_id": "5LSgBhiTI7Vngxf3",
+          "flags": {},
+          "type": 0,
+          "text": "Le molosse craint l’aconit.",
+          "img": "icons/svg/d20-black.svg",
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "documentId": null
+        },
+        {
+          "_id": "AwKrUdLWJUs2HkDD",
+          "flags": {},
+          "type": 0,
+          "text": "Ymae, la Veuve Folle, est une sorcière et sait comment piéger le molosse.",
+          "img": "icons/svg/d20-black.svg",
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "documentId": null
+        },
+        {
+          "_id": "jJsONIeZc3ExnXfv",
+          "flags": {},
+          "type": 0,
+          "text": "Le molosse est immunisé aux armes.",
+          "img": "icons/svg/d20-black.svg",
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "documentId": null
+        },
+        {
+          "_id": "naOuPKM6XwfTloKN",
+          "flags": {},
+          "type": 0,
+          "text": "Les armes en argent, bénies par un homme de foi, brûlent le molosse comme des tisons ardents.",
+          "img": "icons/svg/d20-black.svg",
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "documentId": null
+        },
+        {
+          "_id": "IEEAvUy9qoirzHku",
+          "flags": {},
+          "type": 0,
+          "text": "Le jarl et ses thegns n’ont pas la moindre idée sur la manière de vaincre le molosse.",
+          "img": "icons/svg/d20-black.svg",
+          "weight": 1,
+          "range": [
+            5,
+            5
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "documentId": null
+        },
+        {
+          "_id": "yy3w7CaEj6jyzPsU",
+          "flags": {},
+          "type": 0,
+          "text": "Le molosse ne peut pas être tué par les seules armes.",
+          "img": "icons/svg/d20-black.svg",
+          "weight": 1,
+          "range": [
+            6,
+            6
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "documentId": null
+        },
+        {
+          "_id": "TSuiQVsP1q4Ps3nb",
+          "flags": {},
+          "type": 0,
+          "text": "Le molosse ne tue que les pécheurs.",
+          "img": "icons/svg/d20-black.svg",
+          "weight": 1,
+          "range": [
+            7,
+            7
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "documentId": null
+        },
+        {
+          "_id": "OdNzfCh46laTKQ9Z",
+          "flags": {},
+          "type": 0,
+          "text": "Le jarl travaille à un plan pour se débarrasser du molosse; il faut juste qu’on lui laisse le temps d’accomplir sa tâche !",
+          "img": "icons/svg/d20-black.svg",
+          "weight": 1,
+          "range": [
+            8,
+            8
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "documentId": null
+        },
+        {
+          "_id": "pTAKNVUR290wsnpi",
+          "flags": {},
+          "type": 0,
+          "text": "La tombe d’un ancien chef est dissimulée dans les collines au nord de la ville. Le roi barbare était surnommé le Tueur de Loups.",
+          "img": "icons/svg/d20-black.svg",
+          "weight": 1,
+          "range": [
+            9,
+            9
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "documentId": null
+        },
+        {
+          "_id": "lSe2w2cPH5whyasu",
+          "flags": {},
+          "type": 0,
+          "text": "Le sorcier du jarl contrôle secrètement le molosse. Tuez le sorcier et vous tuerez la bête !",
+          "img": "icons/svg/d20-black.svg",
+          "weight": 1,
+          "range": [
+            10,
+            10
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "documentId": null
+        },
+        {
+          "_id": "mQc3z0fI10EIOJfJ",
+          "flags": {},
+          "type": 0,
+          "text": "Les frères Kej, Stein et Ilham ont découvert un trésor digne d’un roi, caché dans les collines au nord de Hirot et sont partis pour les contrées du sud.",
+          "img": "icons/svg/d20-black.svg",
+          "weight": 1,
+          "range": [
+            11,
+            11
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "documentId": null
+        },
+        {
+          "_id": "ILTDjbVwnk1DrwI0",
+          "flags": {},
+          "type": 0,
+          "text": "Le molosse ne peut pas être repoussé ou renvoyé par les hommes de foi.",
+          "img": "icons/svg/d20-black.svg",
+          "weight": 1,
+          "range": [
+            12,
+            12
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "documentId": null
+        },
+        {
+          "_id": "SUlGtimaYkKPa76X",
+          "flags": {},
+          "type": 0,
+          "text": "Dans les temps anciens, les tribus sauvages vénéraient un esprit de loup maléfique, lui offrant des sacrifices dans une fosse des tourbières basses.",
+          "img": "icons/svg/d20-black.svg",
+          "weight": 1,
+          "range": [
+            13,
+            13
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "documentId": null
+        },
+        {
+          "_id": "ZrJzxEyOhVqAkvKo",
+          "flags": {},
+          "type": 0,
+          "text": "Le molosse peut traverser les murs.",
+          "img": "icons/svg/d20-black.svg",
+          "weight": 1,
+          "range": [
+            14,
+            14
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "documentId": null
+        },
+        {
+          "_id": "5QEqkXKmmwFog0U0",
+          "flags": {},
+          "type": 0,
+          "text": "Un ancien seigneur de guerre possédait une lance magique qui pourrait tuer le molosse et un bouclier magique qui pourrait repousser les attaques de la bête. Les bardes l’appellent l’Ulfheonar et disent que sa tombe se trouve au nord.",
+          "img": "icons/svg/d20-black.svg",
+          "weight": 1,
+          "range": [
+            15,
+            15
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "documentId": null
+        },
+        {
+          "_id": "16ZwkGA0INm1USfN",
+          "flags": {},
+          "type": 0,
+          "text": "Le molosse guérit de ses blessures pendant le jour, et revient aussi puissant la nuit suivante.",
+          "img": "icons/svg/d20-black.svg",
+          "weight": 1,
+          "range": [
+            16,
+            16
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "documentId": null
+        },
+        {
+          "_id": "XM5gCMsU3RnK1XPg",
+          "flags": {},
+          "type": 0,
+          "text": "Le molosse prend des femmes sublimes pour en faire ses épouses dans un royaume sous la lande.",
+          "img": "icons/svg/d20-black.svg",
+          "weight": 1,
+          "range": [
+            17,
+            17
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "documentId": null
+        },
+        {
+          "_id": "7Qg3xfewDaiAmLmn",
+          "flags": {},
+          "type": 0,
+          "text": "Le molosse n’attaquera pas un homme de vraie foi.",
+          "img": "icons/svg/d20-black.svg",
+          "weight": 1,
+          "range": [
+            18,
+            18
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "documentId": null
+        },
+        {
+          "_id": "4pa2uyXDU330goQ3",
+          "flags": {},
+          "type": 0,
+          "text": "Pour tuer le molosse, il faut l’immobiliser avant d’administrer le coup fatal !",
+          "img": "icons/svg/d20-black.svg",
+          "weight": 1,
+          "range": [
+            19,
+            19
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "documentId": null
+        },
+        {
+          "_id": "IwLLiXaPP5Wb6pq6",
+          "flags": {},
+          "type": 0,
+          "text": "Le sang frais distrait le molosse. Portez une outre de sang de mouton avec vous et vous pourrez peut-être vous en sortir vivant !",
+          "img": "icons/svg/d20-black.svg",
+          "weight": 1,
+          "range": [
+            20,
+            20
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "documentId": null
+        },
+        {
+          "_id": "iN0t4lRsjQW3jW5B",
+          "flags": {},
+          "type": 0,
+          "text": "Le molosse se terre quelque part dans les tourbières basses.",
+          "img": "icons/svg/d20-black.svg",
+          "weight": 1,
+          "range": [
+            21,
+            21
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "documentId": null
+        },
+        {
+          "_id": "xuSkYvQd0TJfbbr3",
+          "flags": {},
+          "type": 0,
+          "text": "Les corps des victimes du molosse doivent être brûlés sous peine de revenir sous forme d’horreurs mort vivantes à la prochaine pleine lune.",
+          "img": "icons/svg/d20-black.svg",
+          "weight": 1,
+          "range": [
+            22,
+            22
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "documentId": null
+        },
+        {
+          "_id": "kgRazcRDUjtkpqId",
+          "flags": {},
+          "type": 0,
+          "text": "Le molosse ne trouvera pas le repos avant la mort du dernier habitant de Hirot.",
+          "img": "icons/svg/d20-black.svg",
+          "weight": 1,
+          "range": [
+            23,
+            23
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "documentId": null
+        },
+        {
+          "_id": "ejDKhPRpb9iMgtJC",
+          "flags": {},
+          "type": 0,
+          "text": "La morsure du molosse transfère une maladie atroce qui transforme sa victime en loup.",
+          "img": "icons/svg/d20-black.svg",
+          "weight": 1,
+          "range": [
+            24,
+            24
+          ],
+          "drawn": false,
+          "documentCollection": "",
+          "documentId": null
+        }
+      ],
+      "formula": "1d24",
+      "replacement": true,
+      "displayRoll": true,
+      "flags": {
+        "core": {
+          "sourceId": "RollTable.Dz66VBvGJboCFohU"
+        }
+      },
+      "description": "",
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1677677323756,
+        "modifiedTime": 1683365785271,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "s7EqhHEcgNHr2jb4"
+    },
+    {
+      "name": "Table de rencontre des tourbières basses",
+      "img": "modules/dcc-doom-of-the-savage-kings/assets/icons/dcc_rpg_logo.webp",
+      "results": [
+        {
+          "_id": "XUmQxjM7L1MVglty",
+          "type": 0,
+          "text": "Perdus! Les PJ s’aperçoivent avec horreur qu’ils ont perdu tout repère dans les brumes grises. Heureusement pour eux, ils doivent juste trouver la tanière du molosse, au cœur de la zone marécageuse, et peuvent suivre pour cela les filets d’eau huileuse qui coulent dans cette direction. Le trajet du retour, par contre, peut s’avérer beaucoup plus compliqué, à l’appréciation du juge.",
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {},
+          "img": "icons/svg/d20-black.svg",
+          "documentCollection": "",
+          "documentId": null
+        },
+        {
+          "_id": "9fQ2SLkiMxsxM9sX",
+          "type": 0,
+          "text": "Miasme étouffant. Le sol boueux vomit un nuage de gaz puant qui déferle sur les PJ. Tous les personnages pris dans le nuage doivent réussir un JS Vigueur DD 5 ou tomber à genoux, en suffoquant. Les PJ subissent une perte de 1d6 points d’Endurance par round et sombrent dans l’inconscience quand leur Endurance tombe à 0. Une fois inconscients, ils subissent 1d3 points de dégâts par round. Toute l’Endurance perdue est récupérée instantanément quand les personnages sont extraits du nuage. Les miasmes se dissipent en 1d5 rounds.",
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {},
+          "img": "icons/svg/d20-black.svg",
+          "documentCollection": "",
+          "documentId": null
+        },
+        {
+          "_id": "Ti7AW0JfxGJivywz",
+          "type": 0,
+          "text": "Gouffre. Le sol s’ouvre sous les pieds du groupe ! Chaque personnage doit réussir un JS Réflexes DD 5 ou tomber dans l’obscurité gluante quelques 4,5 m plus bas. Les personnages ne disposent que de 1d5+2 rounds pour sauver ceux qui sont tombés dans le gouffre avant que la terre ne se referme sur eux, les engloutissant pour toujours.",
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {},
+          "img": "icons/svg/d20-black.svg",
+          "documentCollection": "",
+          "documentId": null
+        },
+        {
+          "_id": "FzsQMGxfmdvSZmCv",
+          "type": 0,
+          "text": "Lianes de Tindalos. 1d3 lianes semi-vivantes s’attaquent à quelques personnages au hasard, tentant de traîner leurs victimes sous les eaux troubles du marais. Un PJ peut se soustraire à la prise d’une liane avec un test de Force DD 15 ou en tranchant la liane (en infligeant 6 points de dégâts ou plus en une seule frappe)  @UUID[Actor.M9rcwI7ncarV9ikx]{Lianes de Tindalos} (1d3) : Init +4; Att coup +3 corps-à-corps (1d4 + constriction) ; CA 10 ; DV 2d8; PV 12; Mvt 1,5 m; Act 1d20 ; AS 1d3 dégâts de constriction puis traîné sur 1,5 m; JS Vig +3, Réf -1, Vol +4; AL N.",
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "flags": {},
+          "img": "icons/svg/d20-black.svg",
+          "documentCollection": "",
+          "documentId": null
+        },
+        {
+          "_id": "fCAQlfl2LjbhHn1l",
+          "type": 0,
+          "text": "Sources boueuses. Des sources sifflantes éructent, éclaboussant les PJ de boue brûlante. Les PJ affectés doivent réussir un JS de Réflexes DD 10 ou subir 1d3 points de dégâts.",
+          "weight": 1,
+          "range": [
+            5,
+            5
+          ],
+          "drawn": false,
+          "flags": {},
+          "img": "icons/svg/d20-black.svg",
+          "documentCollection": "",
+          "documentId": null
+        },
+        {
+          "_id": "VmjbrpeB6UwBYCz3",
+          "type": 0,
+          "text": "Totems-crânes. Les PJ tombent sur une étrange collection de crânes humanoïdes, percés de pieux pointus en bois. Les pieux sont enfoncés dans le sol marécageux en d’étranges formations, réminiscences d’anciennes runes utilisées pour lier des démons.",
+          "weight": 1,
+          "range": [
+            6,
+            6
+          ],
+          "drawn": false,
+          "flags": {},
+          "img": "icons/svg/d20-black.svg",
+          "documentCollection": "",
+          "documentId": null
+        },
+        {
+          "_id": "sOduKZDq1wJNicpj",
+          "type": 0,
+          "text": "Chacals des marais. Une meute de chacals des marais suit les PJ à distance, leurs yeux sombres observant à travers le brouillard. Ces créatures bigarrées et dégoûtantes font montre d’une cruauté envers leurs proies qui laisse deviner une intelligence maléfique. Lâchement, les chacals pistent les PJ pendant des jours, attaquant seulement quand leurs proies montrent des signes de faiblesse.  @UUID[Actor.78tivRxPhibaDJ85]{Chacals des marais} (3d7) : Init +2; Att morsure +2 corps-à- corps (1d4) ; CA 12; DV 1d8; PV 4 ; Mvt 12 m; Act 1d20; JS Vig +1, Réf +2, Vol +1 ; AL C.",
+          "weight": 1,
+          "range": [
+            7,
+            7
+          ],
+          "drawn": false,
+          "flags": {},
+          "img": "icons/svg/d20-black.svg",
+          "documentCollection": "",
+          "documentId": null
+        }
+      ],
+      "formula": "1d8",
+      "replacement": true,
+      "displayRoll": true,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.world.fr-le-fleau-des-rois-barbares-tables.ebN7y6TxAnvbS3o7"
+        }
+      },
+      "description": "",
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683557792070,
+        "modifiedTime": 1683558313339,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "kFQa1hFRClvXDsYI"
+    }
+  ],
+  "source": {
+    "world": "dcc-le-fleau-des-rois-barbares",
+    "system": "dcc",
+    "version": {
+      "core": "10.291",
+      "system": "0.35.1"
+    }
+  }
+}

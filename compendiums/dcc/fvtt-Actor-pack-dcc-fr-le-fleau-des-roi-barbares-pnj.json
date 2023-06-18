@@ -1,0 +1,7005 @@
+{
+  "package": "world.fr-le-fleau-des-roi-barbares-pnj",
+  "metadata": {
+    "label": "FR Le fléau des roi barbares PNJ",
+    "type": "Actor",
+    "name": "fr-le-fleau-des-roi-barbares-pnj",
+    "path": "packs/fr-le-fleau-des-roi-barbares-pnj.db",
+    "system": "dcc",
+    "private": false,
+    "flags": {},
+    "package": "world",
+    "id": "world.fr-le-fleau-des-roi-barbares-pnj",
+    "packageType": "world",
+    "packageName": "dcc-le-fleau-des-rois-barbares"
+  },
+  "type": "Actor",
+  "items": [
+    {
+      "name": "Chacal des marais",
+      "type": "NPC",
+      "img": "modules/dcc-doom-of-the-savage-kings/assets/tokens/swampjackal.webp",
+      "items": [
+        {
+          "_id": "1UayhX58MMmOY5Pj",
+          "name": "bite",
+          "type": "weapon",
+          "sort": 100000,
+          "flags": {},
+          "effects": [],
+          "img": "icons/svg/item-bag.svg",
+          "folder": null,
+          "system": {
+            "description": {
+              "value": "",
+              "chat": "",
+              "unidentified": "",
+              "summary": ""
+            },
+            "source": "",
+            "quantity": 1,
+            "weight": 0,
+            "equipped": true,
+            "identified": true,
+            "value": {
+              "pp": 0,
+              "ep": 0,
+              "gp": 0,
+              "sp": 0,
+              "cp": 0
+            },
+            "config": {
+              "inheritActionDie": true,
+              "inheritCritRange": true
+            },
+            "actionDie": "1d20",
+            "toHit": "+2",
+            "damage": "1d4",
+            "range": "",
+            "twoHanded": false,
+            "melee": true,
+            "shortRangeStrength": 0,
+            "subdual": 0,
+            "backstab": false,
+            "backstabDamage": null,
+            "doubleIfMounted": 0,
+            "critRange": 20,
+            "trained": true
+          },
+          "ownership": {
+            "default": 0
+          },
+          "_stats": {
+            "systemId": null,
+            "systemVersion": null,
+            "coreVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        }
+      ],
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-monsters.HHg751jECgWhe5UN"
+        }
+      },
+      "system": {
+        "abilities": {
+          "str": {
+            "label": "DCC.AbilityStr",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "agl": {
+            "label": "DCC.AbilityAgl",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "sta": {
+            "label": "DCC.AbilitySta",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "per": {
+            "label": "DCC.AbilityPer",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "int": {
+            "label": "DCC.AbilityInt",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "lck": {
+            "label": "DCC.AbilityLck",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          }
+        },
+        "attributes": {
+          "ac": {
+            "value": 12,
+            "checkPenalty": 0,
+            "speedPenalty": 0,
+            "fumbleDie": "1d4"
+          },
+          "actionDice": {
+            "value": "1d20",
+            "options": [
+              "1d20"
+            ]
+          },
+          "critical": {
+            "die": "1d6",
+            "table": "M"
+          },
+          "fumble": {
+            "die": "1d4"
+          },
+          "hitDice": {
+            "value": "1d8"
+          },
+          "hp": {
+            "value": 4,
+            "min": 0,
+            "max": 4,
+            "temp": 0,
+            "tempmax": 0
+          },
+          "init": {
+            "die": "1d20",
+            "value": 2
+          },
+          "speed": {
+            "value": "40'",
+            "base": 30,
+            "special": "",
+            "other": ""
+          },
+          "special": {
+            "value": ""
+          }
+        },
+        "details": {
+          "level": {
+            "value": 0
+          },
+          "alignment": "c",
+          "attackBonus": "+0",
+          "languages": "",
+          "occupation": "",
+          "title": "",
+          "notes": {
+            "value": "Swamp Jackals (3d7): Init +2; Atk bite +2 melee (1d4); AC 12; HD 1d8; hp 4; MV 40’; Act 1d20; SV Fort +1, Ref +2, Will +1; AL C."
+          }
+        },
+        "saves": {
+          "frt": {
+            "label": "DCC.SavesFortitude",
+            "value": 1
+          },
+          "ref": {
+            "label": "DCC.SavesReflex",
+            "value": 2
+          },
+          "wil": {
+            "label": "DCC.SavesWill",
+            "value": 1
+          }
+        },
+        "currency": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "0",
+          "sp": "0",
+          "cp": "0"
+        },
+        "config": {
+          "attackBonusMode": "flat",
+          "actionDice": "1d20",
+          "capLevel": false,
+          "maxLevel": 0,
+          "rollAttackBonus": false,
+          "computeAC": false,
+          "baseACAbility": "agl",
+          "computeSpeed": false,
+          "computeCheckPenalty": false,
+          "sortInventory": true,
+          "removeEmptyItems": true,
+          "showSpells": false,
+          "showSkills": false,
+          "showMaxAbilities": true,
+          "showBackstab": false,
+          "showMaxAttributes": false
+        },
+        "class": {
+          "spellCheck": 1,
+          "spellCheckAbility": "int"
+        }
+      },
+      "prototypeToken": {
+        "flags": {},
+        "name": "Swamp Jackals (3d7)",
+        "displayName": 20,
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "actorLink": false,
+        "disposition": -1,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "attributes.hp"
+        },
+        "bar2": {
+          "attribute": "abilities.lck.value"
+        },
+        "randomImg": false,
+        "alpha": 1,
+        "light": {
+          "alpha": 1,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          },
+          "color": null,
+          "attenuation": 0.5
+        },
+        "texture": {
+          "src": "modules/dcc-doom-of-the-savage-kings/assets/tokens/swampjackal.webp",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": []
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1677677323444,
+        "modifiedTime": 1684781401674,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "78tivRxPhibaDJ85"
+    },
+    {
+      "name": "Chasseur",
+      "type": "NPC",
+      "img": "modules/dcc-doom-of-the-savage-kings/assets/tokens/huntsman.webp",
+      "items": [
+        {
+          "_id": "zAzakIxcuLmHCUkG",
+          "name": "shortsword",
+          "type": "weapon",
+          "sort": 100000,
+          "flags": {},
+          "effects": [],
+          "img": "icons/svg/item-bag.svg",
+          "folder": null,
+          "system": {
+            "description": {
+              "value": "",
+              "chat": "",
+              "unidentified": "",
+              "summary": ""
+            },
+            "source": "",
+            "quantity": 1,
+            "weight": 0,
+            "equipped": true,
+            "identified": true,
+            "value": {
+              "pp": 0,
+              "ep": 0,
+              "gp": 0,
+              "sp": 0,
+              "cp": 0
+            },
+            "config": {
+              "inheritActionDie": true,
+              "inheritCritRange": true
+            },
+            "actionDie": "1d20",
+            "toHit": "+2",
+            "damage": "1d6+1",
+            "range": "",
+            "twoHanded": false,
+            "melee": true,
+            "shortRangeStrength": 0,
+            "subdual": 0,
+            "backstab": false,
+            "backstabDamage": null,
+            "doubleIfMounted": 0,
+            "critRange": 20,
+            "trained": true
+          },
+          "ownership": {
+            "default": 0
+          },
+          "_stats": {
+            "systemId": null,
+            "systemVersion": null,
+            "coreVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        },
+        {
+          "_id": "9mXa8YzmewVBCjfz",
+          "name": "shortbow",
+          "type": "weapon",
+          "sort": 200000,
+          "flags": {},
+          "effects": [],
+          "img": "icons/svg/item-bag.svg",
+          "folder": null,
+          "system": {
+            "description": {
+              "value": "",
+              "chat": "",
+              "unidentified": "",
+              "summary": ""
+            },
+            "source": "",
+            "quantity": 1,
+            "weight": 0,
+            "equipped": true,
+            "identified": true,
+            "value": {
+              "pp": 0,
+              "ep": 0,
+              "gp": 0,
+              "sp": 0,
+              "cp": 0
+            },
+            "config": {
+              "inheritActionDie": true,
+              "inheritCritRange": true
+            },
+            "actionDie": "1d20",
+            "toHit": "+3",
+            "damage": "1d6",
+            "range": "",
+            "twoHanded": false,
+            "melee": false,
+            "shortRangeStrength": 0,
+            "subdual": 0,
+            "backstab": false,
+            "backstabDamage": null,
+            "doubleIfMounted": 0,
+            "critRange": 20,
+            "trained": true
+          },
+          "ownership": {
+            "default": 0
+          },
+          "_stats": {
+            "systemId": null,
+            "systemVersion": null,
+            "coreVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        }
+      ],
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-monsters.EoDP72ysfniLcJJE"
+        }
+      },
+      "system": {
+        "abilities": {
+          "str": {
+            "label": "DCC.AbilityStr",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "agl": {
+            "label": "DCC.AbilityAgl",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "sta": {
+            "label": "DCC.AbilitySta",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "per": {
+            "label": "DCC.AbilityPer",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "int": {
+            "label": "DCC.AbilityInt",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "lck": {
+            "label": "DCC.AbilityLck",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          }
+        },
+        "attributes": {
+          "ac": {
+            "value": 15,
+            "checkPenalty": 0,
+            "speedPenalty": 0,
+            "fumbleDie": "1d4"
+          },
+          "actionDice": {
+            "value": "1d20",
+            "options": [
+              "1d20"
+            ]
+          },
+          "critical": {
+            "die": "1d6",
+            "table": "III"
+          },
+          "fumble": {
+            "die": "1d4"
+          },
+          "hitDice": {
+            "value": "1d8"
+          },
+          "hp": {
+            "value": 5,
+            "min": 0,
+            "max": 5,
+            "temp": 0,
+            "tempmax": 0
+          },
+          "init": {
+            "die": "1d20",
+            "value": 2
+          },
+          "speed": {
+            "value": "20'",
+            "base": 30,
+            "special": "",
+            "other": ""
+          },
+          "special": {
+            "value": ""
+          }
+        },
+        "details": {
+          "level": {
+            "value": 0
+          },
+          "alignment": "c",
+          "attackBonus": "+0",
+          "languages": "",
+          "occupation": "",
+          "title": "",
+          "notes": {
+            "value": "Huntsmen (5): Init +2; Atk shortsword +2 melee (1d6+1) or shortbow +3 missile fire (1d6); AC 15; HD 1d8; hp 5; MV 20’; Act 1d20; SV Fort +2, Ref +2, Will +0; AL C."
+          }
+        },
+        "saves": {
+          "frt": {
+            "label": "DCC.SavesFortitude",
+            "value": 2
+          },
+          "ref": {
+            "label": "DCC.SavesReflex",
+            "value": 2
+          },
+          "wil": {
+            "label": "DCC.SavesWill",
+            "value": 0
+          }
+        },
+        "currency": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "0",
+          "sp": "0",
+          "cp": "0"
+        },
+        "config": {
+          "attackBonusMode": "flat",
+          "actionDice": "1d20",
+          "capLevel": false,
+          "maxLevel": 0,
+          "rollAttackBonus": false,
+          "computeAC": false,
+          "baseACAbility": "agl",
+          "computeSpeed": false,
+          "computeCheckPenalty": false,
+          "sortInventory": true,
+          "removeEmptyItems": true,
+          "showSpells": false,
+          "showSkills": false,
+          "showMaxAbilities": true,
+          "showBackstab": false,
+          "showMaxAttributes": false
+        },
+        "class": {
+          "spellCheck": 1,
+          "spellCheckAbility": "int"
+        }
+      },
+      "prototypeToken": {
+        "flags": {},
+        "name": "Huntsman",
+        "displayName": 20,
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "actorLink": false,
+        "disposition": 0,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "attributes.hp"
+        },
+        "bar2": {
+          "attribute": "abilities.lck.value"
+        },
+        "randomImg": false,
+        "alpha": 1,
+        "light": {
+          "alpha": 1,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          },
+          "color": null,
+          "attenuation": 0.5
+        },
+        "texture": {
+          "src": "modules/dcc-doom-of-the-savage-kings/assets/tokens/huntsman.webp",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": []
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1677677323443,
+        "modifiedTime": 1684781401675,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "1OAGKfRmFWhdhcsd"
+    },
+    {
+      "name": "Chatons",
+      "type": "NPC",
+      "img": "systems/dcc/styles/images/actor.webp",
+      "system": {
+        "abilities": {
+          "str": {
+            "label": "DCC.AbilityStr",
+            "value": 10,
+            "max": 10
+          },
+          "agl": {
+            "label": "DCC.AbilityAgl",
+            "value": 10,
+            "max": 10
+          },
+          "sta": {
+            "label": "DCC.AbilitySta",
+            "value": 10,
+            "max": 10
+          },
+          "per": {
+            "label": "DCC.AbilityPer",
+            "value": 10,
+            "max": 10
+          },
+          "int": {
+            "label": "DCC.AbilityInt",
+            "value": 10,
+            "max": 10
+          },
+          "lck": {
+            "label": "DCC.AbilityLck",
+            "value": 10,
+            "max": 10
+          }
+        },
+        "attributes": {
+          "ac": {
+            "value": 10,
+            "checkPenalty": 0,
+            "speedPenalty": 0
+          },
+          "actionDice": {
+            "value": "1d20",
+            "options": [
+              "1d20"
+            ]
+          },
+          "critical": {
+            "die": "1d4",
+            "table": "M"
+          },
+          "fumble": {
+            "die": "1d4"
+          },
+          "hitDice": {
+            "value": "1d6"
+          },
+          "hp": {
+            "value": 10,
+            "min": 0,
+            "max": 10,
+            "temp": 0,
+            "tempmax": 0
+          },
+          "init": {
+            "die": "1d20",
+            "value": 0
+          },
+          "speed": {
+            "value": "30'",
+            "base": 30,
+            "special": "",
+            "other": ""
+          },
+          "special": {
+            "value": ""
+          }
+        },
+        "details": {
+          "level": {
+            "value": 0
+          },
+          "alignment": "l",
+          "attackBonus": "+0",
+          "languages": "",
+          "occupation": "",
+          "title": "",
+          "notes": ""
+        },
+        "saves": {
+          "frt": {
+            "label": "DCC.SavesFortitude",
+            "value": 0
+          },
+          "ref": {
+            "label": "DCC.SavesReflex",
+            "value": 0
+          },
+          "wil": {
+            "label": "DCC.SavesWill",
+            "value": 0
+          }
+        },
+        "currency": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "0",
+          "sp": "0",
+          "cp": "0"
+        },
+        "config": {
+          "attackBonusMode": "flat",
+          "actionDice": "1d20",
+          "capLevel": false,
+          "maxLevel": 10,
+          "rollAttackBonus": false,
+          "computeAC": false,
+          "baseACAbility": "agl",
+          "computeSpeed": false,
+          "computeCheckPenalty": false,
+          "sortInventory": true,
+          "removeEmptyItems": true,
+          "showSpells": false,
+          "showSkills": false,
+          "showMaxAbilities": true,
+          "showBackstab": false
+        },
+        "class": {
+          "spellCheck": 1,
+          "spellCheckAbility": "int"
+        }
+      },
+      "prototypeToken": {
+        "name": "Chatons",
+        "displayName": 0,
+        "actorLink": false,
+        "texture": {
+          "src": "systems/dcc/styles/images/actor.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0,
+          "tint": null
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": "attributes.hp"
+        },
+        "bar2": {
+          "attribute": "abilities.lck.value"
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": null,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683447065147,
+        "modifiedTime": 1684781401677,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "NomNnXFfK1AxrgHK"
+    },
+    {
+      "name": "Esprit Serpent",
+      "type": "NPC",
+      "img": "modules/dcc-doom-of-the-savage-kings/assets/tokens/serpentspirit.webp",
+      "items": [
+        {
+          "_id": "Flz9MNKmGTy6fsDu",
+          "name": "slam",
+          "type": "weapon",
+          "sort": 100000,
+          "flags": {},
+          "effects": [],
+          "img": "icons/svg/item-bag.svg",
+          "folder": null,
+          "system": {
+            "description": {
+              "value": "",
+              "chat": "",
+              "unidentified": "",
+              "summary": ""
+            },
+            "source": "",
+            "quantity": 1,
+            "weight": 0,
+            "equipped": true,
+            "identified": true,
+            "value": {
+              "pp": 0,
+              "ep": 0,
+              "gp": 0,
+              "sp": 0,
+              "cp": 0
+            },
+            "config": {
+              "inheritActionDie": true,
+              "inheritCritRange": true
+            },
+            "actionDie": "1d20",
+            "toHit": "+3",
+            "damage": "1d5",
+            "range": "",
+            "twoHanded": false,
+            "melee": true,
+            "shortRangeStrength": 0,
+            "subdual": 0,
+            "backstab": false,
+            "backstabDamage": null,
+            "doubleIfMounted": 0,
+            "critRange": 20,
+            "trained": true
+          },
+          "ownership": {
+            "default": 0
+          },
+          "_stats": {
+            "systemId": null,
+            "systemVersion": null,
+            "coreVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        }
+      ],
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-monsters.r8LltuCCmvSg02J9"
+        }
+      },
+      "system": {
+        "abilities": {
+          "str": {
+            "label": "DCC.AbilityStr",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "agl": {
+            "label": "DCC.AbilityAgl",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "sta": {
+            "label": "DCC.AbilitySta",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "per": {
+            "label": "DCC.AbilityPer",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "int": {
+            "label": "DCC.AbilityInt",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "lck": {
+            "label": "DCC.AbilityLck",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          }
+        },
+        "attributes": {
+          "ac": {
+            "value": 14,
+            "checkPenalty": 0,
+            "speedPenalty": 0,
+            "fumbleDie": "1d4"
+          },
+          "actionDice": {
+            "value": "1d20",
+            "options": [
+              "1d20"
+            ]
+          },
+          "critical": {
+            "die": "1d8",
+            "table": "U"
+          },
+          "fumble": {
+            "die": "1d4"
+          },
+          "hitDice": {
+            "value": "4d8"
+          },
+          "hp": {
+            "value": 24,
+            "min": 0,
+            "max": 24,
+            "temp": 0,
+            "tempmax": 0
+          },
+          "init": {
+            "die": "1d20",
+            "value": 3
+          },
+          "speed": {
+            "value": "40'",
+            "base": 30,
+            "special": "",
+            "other": ""
+          },
+          "special": {
+            "value": "engloutit et noie, vulnérable au feu et à la chaleur, traits élémentaires"
+          }
+        },
+        "details": {
+          "level": {
+            "value": 0
+          },
+          "alignment": "n",
+          "attackBonus": "+0",
+          "languages": "",
+          "occupation": "",
+          "title": "",
+          "notes": {
+            "value": "Serpent Spirit: Init +3; Atk slam +3 melee (1d5); AC 14; HD 4d8; hp 24; MV 40’; Act 1d20; SP engulf and drown, vulnerable to fire and heat, elemental traits; SV Fort +2, Ref +2, Will +4; AL N."
+          }
+        },
+        "saves": {
+          "frt": {
+            "label": "DCC.SavesFortitude",
+            "value": 2
+          },
+          "ref": {
+            "label": "DCC.SavesReflex",
+            "value": 2
+          },
+          "wil": {
+            "label": "DCC.SavesWill",
+            "value": 4
+          }
+        },
+        "currency": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "0",
+          "sp": "0",
+          "cp": "0"
+        },
+        "config": {
+          "attackBonusMode": "flat",
+          "actionDice": "1d20",
+          "capLevel": false,
+          "maxLevel": 0,
+          "rollAttackBonus": false,
+          "computeAC": false,
+          "baseACAbility": "agl",
+          "computeSpeed": false,
+          "computeCheckPenalty": false,
+          "sortInventory": true,
+          "removeEmptyItems": true,
+          "showSpells": false,
+          "showSkills": false,
+          "showMaxAbilities": true,
+          "showBackstab": false,
+          "showMaxAttributes": false
+        },
+        "class": {
+          "spellCheck": 1,
+          "spellCheckAbility": "int"
+        }
+      },
+      "prototypeToken": {
+        "flags": {},
+        "name": "Serpent Spirit",
+        "displayName": 20,
+        "width": 2,
+        "height": 2,
+        "lockRotation": false,
+        "rotation": 0,
+        "actorLink": false,
+        "disposition": -1,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "attributes.hp"
+        },
+        "bar2": {
+          "attribute": "abilities.lck.value"
+        },
+        "randomImg": false,
+        "alpha": 1,
+        "light": {
+          "alpha": 1,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          },
+          "color": null,
+          "attenuation": 0.5
+        },
+        "texture": {
+          "src": "modules/dcc-doom-of-the-savage-kings/assets/tokens/serpentspirit.webp",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": []
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1677677323452,
+        "modifiedTime": 1684781401679,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "8nTHFahqYuDkVoaU"
+    },
+    {
+      "name": "Frère Aker",
+      "type": "NPC",
+      "img": "systems/dcc/styles/images/actor.webp",
+      "system": {
+        "abilities": {
+          "str": {
+            "label": "DCC.AbilityStr",
+            "value": 10,
+            "max": 10
+          },
+          "agl": {
+            "label": "DCC.AbilityAgl",
+            "value": 10,
+            "max": 10
+          },
+          "sta": {
+            "label": "DCC.AbilitySta",
+            "value": 10,
+            "max": 10
+          },
+          "per": {
+            "label": "DCC.AbilityPer",
+            "value": 10,
+            "max": 10
+          },
+          "int": {
+            "label": "DCC.AbilityInt",
+            "value": 10,
+            "max": 10
+          },
+          "lck": {
+            "label": "DCC.AbilityLck",
+            "value": 10,
+            "max": 10
+          }
+        },
+        "attributes": {
+          "ac": {
+            "value": 10,
+            "checkPenalty": 0,
+            "speedPenalty": 0
+          },
+          "actionDice": {
+            "value": "1d20",
+            "options": [
+              "1d20"
+            ]
+          },
+          "critical": {
+            "die": "1d4",
+            "table": "M"
+          },
+          "fumble": {
+            "die": "1d4"
+          },
+          "hitDice": {
+            "value": "1d6"
+          },
+          "hp": {
+            "value": 10,
+            "min": 0,
+            "max": 10,
+            "temp": 0,
+            "tempmax": 0
+          },
+          "init": {
+            "die": "1d20",
+            "value": 0
+          },
+          "speed": {
+            "value": "30'",
+            "base": 30,
+            "special": "",
+            "other": ""
+          },
+          "special": {
+            "value": ""
+          }
+        },
+        "details": {
+          "level": {
+            "value": 0
+          },
+          "alignment": "l",
+          "attackBonus": "+0",
+          "languages": "",
+          "occupation": "",
+          "title": "",
+          "notes": ""
+        },
+        "saves": {
+          "frt": {
+            "label": "DCC.SavesFortitude",
+            "value": 0
+          },
+          "ref": {
+            "label": "DCC.SavesReflex",
+            "value": 0
+          },
+          "wil": {
+            "label": "DCC.SavesWill",
+            "value": 0
+          }
+        },
+        "currency": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "0",
+          "sp": "0",
+          "cp": "0"
+        },
+        "config": {
+          "attackBonusMode": "flat",
+          "actionDice": "1d20",
+          "capLevel": false,
+          "maxLevel": 10,
+          "rollAttackBonus": false,
+          "computeAC": false,
+          "baseACAbility": "agl",
+          "computeSpeed": false,
+          "computeCheckPenalty": false,
+          "sortInventory": true,
+          "removeEmptyItems": true,
+          "showSpells": false,
+          "showSkills": false,
+          "showMaxAbilities": true,
+          "showBackstab": false
+        },
+        "class": {
+          "spellCheck": 1,
+          "spellCheckAbility": "int"
+        }
+      },
+      "prototypeToken": {
+        "name": "Frère Aker",
+        "displayName": 0,
+        "actorLink": false,
+        "texture": {
+          "src": "systems/dcc/styles/images/actor.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0,
+          "tint": null
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": "attributes.hp"
+        },
+        "bar2": {
+          "attribute": "abilities.lck.value"
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": null,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683446403835,
+        "modifiedTime": 1684781401680,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "hcpsn7w7RVy9MhXs"
+    },
+    {
+      "name": "Frère Haams",
+      "type": "NPC",
+      "img": "systems/dcc/styles/images/actor.webp",
+      "system": {
+        "abilities": {
+          "str": {
+            "label": "DCC.AbilityStr",
+            "value": 10,
+            "max": 10
+          },
+          "agl": {
+            "label": "DCC.AbilityAgl",
+            "value": 10,
+            "max": 10
+          },
+          "sta": {
+            "label": "DCC.AbilitySta",
+            "value": 10,
+            "max": 10
+          },
+          "per": {
+            "label": "DCC.AbilityPer",
+            "value": 10,
+            "max": 10
+          },
+          "int": {
+            "label": "DCC.AbilityInt",
+            "value": 10,
+            "max": 10
+          },
+          "lck": {
+            "label": "DCC.AbilityLck",
+            "value": 10,
+            "max": 10
+          }
+        },
+        "attributes": {
+          "ac": {
+            "value": 10,
+            "checkPenalty": 0,
+            "speedPenalty": 0
+          },
+          "actionDice": {
+            "value": "1d20",
+            "options": [
+              "1d20"
+            ]
+          },
+          "critical": {
+            "die": "1d4",
+            "table": "M"
+          },
+          "fumble": {
+            "die": "1d4"
+          },
+          "hitDice": {
+            "value": "1d6"
+          },
+          "hp": {
+            "value": 10,
+            "min": 0,
+            "max": 10,
+            "temp": 0,
+            "tempmax": 0
+          },
+          "init": {
+            "die": "1d20",
+            "value": 0
+          },
+          "speed": {
+            "value": "30'",
+            "base": 30,
+            "special": "",
+            "other": ""
+          },
+          "special": {
+            "value": ""
+          }
+        },
+        "details": {
+          "level": {
+            "value": 0
+          },
+          "alignment": "l",
+          "attackBonus": "+0",
+          "languages": "",
+          "occupation": "",
+          "title": "",
+          "notes": ""
+        },
+        "saves": {
+          "frt": {
+            "label": "DCC.SavesFortitude",
+            "value": 0
+          },
+          "ref": {
+            "label": "DCC.SavesReflex",
+            "value": 0
+          },
+          "wil": {
+            "label": "DCC.SavesWill",
+            "value": 0
+          }
+        },
+        "currency": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "0",
+          "sp": "0",
+          "cp": "0"
+        },
+        "config": {
+          "attackBonusMode": "flat",
+          "actionDice": "1d20",
+          "capLevel": false,
+          "maxLevel": 10,
+          "rollAttackBonus": false,
+          "computeAC": false,
+          "baseACAbility": "agl",
+          "computeSpeed": false,
+          "computeCheckPenalty": false,
+          "sortInventory": true,
+          "removeEmptyItems": true,
+          "showSpells": false,
+          "showSkills": false,
+          "showMaxAbilities": true,
+          "showBackstab": false
+        },
+        "class": {
+          "spellCheck": 1,
+          "spellCheckAbility": "int"
+        }
+      },
+      "prototypeToken": {
+        "name": "Frère Haams",
+        "displayName": 0,
+        "actorLink": false,
+        "texture": {
+          "src": "systems/dcc/styles/images/actor.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0,
+          "tint": null
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": "attributes.hp"
+        },
+        "bar2": {
+          "attribute": "abilities.lck.value"
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": null,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683446477925,
+        "modifiedTime": 1684781401681,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "NERDEWb1uP9FaaOV"
+    },
+    {
+      "name": "Garde de nuit",
+      "type": "NPC",
+      "img": "modules/dcc-doom-of-the-savage-kings/assets/tokens/nightwatch.webp",
+      "items": [
+        {
+          "_id": "Ybqtpfz8oOCGftbQ",
+          "name": "spear",
+          "type": "weapon",
+          "sort": 100000,
+          "flags": {},
+          "effects": [],
+          "img": "icons/svg/item-bag.svg",
+          "folder": null,
+          "system": {
+            "description": {
+              "value": "",
+              "chat": "",
+              "unidentified": "",
+              "summary": ""
+            },
+            "source": "",
+            "quantity": 1,
+            "weight": 0,
+            "equipped": true,
+            "identified": true,
+            "value": {
+              "pp": 0,
+              "ep": 0,
+              "gp": 0,
+              "sp": 0,
+              "cp": 0
+            },
+            "config": {
+              "inheritActionDie": true,
+              "inheritCritRange": true
+            },
+            "actionDie": "1d20",
+            "toHit": "+1",
+            "damage": "1d6",
+            "range": "",
+            "twoHanded": false,
+            "melee": true,
+            "shortRangeStrength": 0,
+            "subdual": 0,
+            "backstab": false,
+            "backstabDamage": null,
+            "doubleIfMounted": 0,
+            "critRange": 20,
+            "trained": true
+          },
+          "ownership": {
+            "default": 0
+          },
+          "_stats": {
+            "systemId": null,
+            "systemVersion": null,
+            "coreVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        }
+      ],
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-monsters.zIlYN9j6rmiqrpmJ"
+        }
+      },
+      "system": {
+        "abilities": {
+          "str": {
+            "label": "DCC.AbilityStr",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "agl": {
+            "label": "DCC.AbilityAgl",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "sta": {
+            "label": "DCC.AbilitySta",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "per": {
+            "label": "DCC.AbilityPer",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "int": {
+            "label": "DCC.AbilityInt",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "lck": {
+            "label": "DCC.AbilityLck",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          }
+        },
+        "attributes": {
+          "ac": {
+            "value": 14,
+            "checkPenalty": 0,
+            "speedPenalty": 0,
+            "fumbleDie": "1d4"
+          },
+          "actionDice": {
+            "value": "1d20",
+            "options": [
+              "1d20"
+            ]
+          },
+          "critical": {
+            "die": "1d6",
+            "table": "III"
+          },
+          "fumble": {
+            "die": "1d4"
+          },
+          "hitDice": {
+            "value": "1d8"
+          },
+          "hp": {
+            "value": 4,
+            "min": 0,
+            "max": 4,
+            "temp": 0,
+            "tempmax": 0
+          },
+          "init": {
+            "die": "1d20",
+            "value": 0
+          },
+          "speed": {
+            "value": "25'",
+            "base": 30,
+            "special": "",
+            "other": ""
+          },
+          "special": {
+            "value": ""
+          }
+        },
+        "details": {
+          "level": {
+            "value": 0
+          },
+          "alignment": "l",
+          "attackBonus": "+0",
+          "languages": "",
+          "occupation": "",
+          "title": "",
+          "notes": {
+            "value": "Night Watch (6): Init +0; Atk spear +1 melee (1d6); AC 14; HD 1d8; hp 4; MV 25’; Act 1d20; SV Fort +1, Ref +1, Will +0; AL L."
+          }
+        },
+        "saves": {
+          "frt": {
+            "label": "DCC.SavesFortitude",
+            "value": 1
+          },
+          "ref": {
+            "label": "DCC.SavesReflex",
+            "value": 1
+          },
+          "wil": {
+            "label": "DCC.SavesWill",
+            "value": 0
+          }
+        },
+        "currency": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "0",
+          "sp": "0",
+          "cp": "0"
+        },
+        "config": {
+          "attackBonusMode": "flat",
+          "actionDice": "1d20",
+          "capLevel": false,
+          "maxLevel": 0,
+          "rollAttackBonus": false,
+          "computeAC": false,
+          "baseACAbility": "agl",
+          "computeSpeed": false,
+          "computeCheckPenalty": false,
+          "sortInventory": true,
+          "removeEmptyItems": true,
+          "showSpells": false,
+          "showSkills": false,
+          "showMaxAbilities": true,
+          "showBackstab": false,
+          "showMaxAttributes": false
+        },
+        "class": {
+          "spellCheck": 1,
+          "spellCheckAbility": "int"
+        }
+      },
+      "prototypeToken": {
+        "flags": {},
+        "name": "Night Watch",
+        "displayName": 20,
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "actorLink": false,
+        "disposition": 0,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "attributes.hp"
+        },
+        "bar2": {
+          "attribute": "abilities.lck.value"
+        },
+        "randomImg": false,
+        "alpha": 1,
+        "light": {
+          "alpha": 1,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          },
+          "color": null,
+          "attenuation": 0.5
+        },
+        "texture": {
+          "src": "modules/dcc-doom-of-the-savage-kings/assets/tokens/nightwatch.webp",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": []
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1677677323453,
+        "modifiedTime": 1684781401682,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "6kL8d5O1yu4VPMrE"
+    },
+    {
+      "name": "Garde des cercueils",
+      "type": "NPC",
+      "img": "modules/dcc-doom-of-the-savage-kings/assets/tokens/bierguard.webp",
+      "items": [
+        {
+          "_id": "DWCQh9pMLdLvX3iO",
+          "name": "spear",
+          "type": "weapon",
+          "sort": 100000,
+          "flags": {},
+          "effects": [],
+          "img": "icons/svg/item-bag.svg",
+          "folder": null,
+          "system": {
+            "description": {
+              "value": "",
+              "chat": "",
+              "unidentified": "",
+              "summary": ""
+            },
+            "source": "",
+            "quantity": 1,
+            "weight": 0,
+            "equipped": true,
+            "identified": true,
+            "value": {
+              "pp": 0,
+              "ep": 0,
+              "gp": 0,
+              "sp": 0,
+              "cp": 0
+            },
+            "config": {
+              "inheritActionDie": true,
+              "inheritCritRange": true
+            },
+            "actionDie": "1d20",
+            "toHit": "+1",
+            "damage": "1d6",
+            "range": "",
+            "twoHanded": false,
+            "melee": true,
+            "shortRangeStrength": 0,
+            "subdual": 0,
+            "backstab": false,
+            "backstabDamage": null,
+            "doubleIfMounted": 0,
+            "critRange": 20,
+            "trained": true
+          },
+          "ownership": {
+            "default": 0
+          },
+          "_stats": {
+            "systemId": null,
+            "systemVersion": null,
+            "coreVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        }
+      ],
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-monsters.0tQFFvVL0yLqgBoM"
+        }
+      },
+      "system": {
+        "abilities": {
+          "str": {
+            "label": "DCC.AbilityStr",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "agl": {
+            "label": "DCC.AbilityAgl",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "sta": {
+            "label": "DCC.AbilitySta",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "per": {
+            "label": "DCC.AbilityPer",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "int": {
+            "label": "DCC.AbilityInt",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "lck": {
+            "label": "DCC.AbilityLck",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          }
+        },
+        "attributes": {
+          "ac": {
+            "value": 14,
+            "checkPenalty": 0,
+            "speedPenalty": 0,
+            "fumbleDie": "1d4"
+          },
+          "actionDice": {
+            "value": "1d20",
+            "options": [
+              "1d20"
+            ]
+          },
+          "critical": {
+            "die": "1d6",
+            "table": "III"
+          },
+          "fumble": {
+            "die": "1d4"
+          },
+          "hitDice": {
+            "value": "1d8"
+          },
+          "hp": {
+            "value": 4,
+            "min": 0,
+            "max": 4,
+            "temp": 0,
+            "tempmax": 0
+          },
+          "init": {
+            "die": "1d20",
+            "value": 0
+          },
+          "speed": {
+            "value": "25'",
+            "base": 30,
+            "special": "",
+            "other": ""
+          },
+          "special": {
+            "value": ""
+          }
+        },
+        "details": {
+          "level": {
+            "value": 0
+          },
+          "alignment": "l",
+          "attackBonus": "+0",
+          "languages": "",
+          "occupation": "",
+          "title": "",
+          "notes": {
+            "value": "Bier Guards (3): Init +0; Atk spear +1 melee (1d6); AC 14; HD 1d8; hp 4; MV 25’; Act 1d20; SV Fort +1, Ref +1, Will +0; AL L."
+          }
+        },
+        "saves": {
+          "frt": {
+            "label": "DCC.SavesFortitude",
+            "value": 1
+          },
+          "ref": {
+            "label": "DCC.SavesReflex",
+            "value": 1
+          },
+          "wil": {
+            "label": "DCC.SavesWill",
+            "value": 0
+          }
+        },
+        "currency": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "0",
+          "sp": "0",
+          "cp": "0"
+        },
+        "config": {
+          "attackBonusMode": "flat",
+          "actionDice": "1d20",
+          "capLevel": false,
+          "maxLevel": 0,
+          "rollAttackBonus": false,
+          "computeAC": false,
+          "baseACAbility": "agl",
+          "computeSpeed": false,
+          "computeCheckPenalty": false,
+          "sortInventory": true,
+          "removeEmptyItems": true,
+          "showSpells": false,
+          "showSkills": false,
+          "showMaxAbilities": true,
+          "showBackstab": false,
+          "showMaxAttributes": false
+        },
+        "class": {
+          "spellCheck": 1,
+          "spellCheckAbility": "int"
+        }
+      },
+      "prototypeToken": {
+        "flags": {},
+        "name": "Bier Guard",
+        "displayName": 20,
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "actorLink": true,
+        "disposition": 0,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "attributes.hp"
+        },
+        "bar2": {
+          "attribute": "abilities.lck.value"
+        },
+        "randomImg": false,
+        "alpha": 1,
+        "light": {
+          "alpha": 1,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          },
+          "color": null,
+          "attenuation": 0.5
+        },
+        "texture": {
+          "src": "modules/dcc-doom-of-the-savage-kings/assets/tokens/bierguard.webp",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": []
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1677677323436,
+        "modifiedTime": 1684781401683,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "TYpqPVa2uVapO2KJ"
+    },
+    {
+      "name": "Goule des tombeaux",
+      "type": "NPC",
+      "img": "modules/dcc-doom-of-the-savage-kings/assets/tokens/ghoul.webp",
+      "items": [
+        {
+          "_id": "fwCckkLne2PqtgGn",
+          "name": "Griffe",
+          "type": "weapon",
+          "sort": 100000,
+          "flags": {},
+          "effects": [],
+          "img": "icons/svg/item-bag.svg",
+          "folder": null,
+          "system": {
+            "description": {
+              "value": "",
+              "chat": "",
+              "unidentified": "",
+              "summary": ""
+            },
+            "source": "",
+            "quantity": 1,
+            "weight": 0,
+            "equipped": true,
+            "identified": true,
+            "value": {
+              "pp": 0,
+              "ep": 0,
+              "gp": 0,
+              "sp": 0,
+              "cp": 0
+            },
+            "config": {
+              "inheritActionDie": true,
+              "inheritCritRange": true
+            },
+            "actionDie": "1d20",
+            "toHit": "+1",
+            "damage": "1d5",
+            "range": "",
+            "twoHanded": false,
+            "melee": true,
+            "shortRangeStrength": 0,
+            "subdual": 0,
+            "backstab": false,
+            "backstabDamage": null,
+            "doubleIfMounted": 0,
+            "critRange": 20,
+            "trained": true
+          },
+          "ownership": {
+            "default": 0
+          },
+          "_stats": {
+            "systemId": "dcc",
+            "systemVersion": "0.35.1",
+            "coreVersion": "10.291",
+            "createdTime": null,
+            "modifiedTime": 1683456172375,
+            "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+          }
+        }
+      ],
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-monsters.g5d3P3JgUMPRqzRh"
+        }
+      },
+      "system": {
+        "abilities": {
+          "str": {
+            "label": "DCC.AbilityStr",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "agl": {
+            "label": "DCC.AbilityAgl",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "sta": {
+            "label": "DCC.AbilitySta",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "per": {
+            "label": "DCC.AbilityPer",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "int": {
+            "label": "DCC.AbilityInt",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "lck": {
+            "label": "DCC.AbilityLck",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          }
+        },
+        "attributes": {
+          "ac": {
+            "value": 8,
+            "checkPenalty": 0,
+            "speedPenalty": 0,
+            "fumbleDie": "1d4"
+          },
+          "actionDice": {
+            "value": "1d20",
+            "options": [
+              "1d20",
+              "1d20"
+            ]
+          },
+          "critical": {
+            "die": "1d8",
+            "table": "U"
+          },
+          "fumble": {
+            "die": "1d4"
+          },
+          "hitDice": {
+            "value": "3d6"
+          },
+          "hp": {
+            "value": 10,
+            "min": 0,
+            "max": 10,
+            "temp": 0,
+            "tempmax": 0
+          },
+          "init": {
+            "die": "1d20",
+            "value": 1
+          },
+          "speed": {
+            "value": "25'",
+            "base": 30,
+            "special": "",
+            "other": ""
+          },
+          "special": {
+            "value": "Traits de mort-vivant, vision dans le noir 30 m"
+          }
+        },
+        "details": {
+          "level": {
+            "value": 0
+          },
+          "alignment": "c",
+          "attackBonus": "+0",
+          "languages": "",
+          "occupation": "",
+          "title": "",
+          "notes": {
+            "value": "<p><strong>Init</strong> +1; <strong>Att griffe</strong> +1 <strong>corps-&agrave;-corps</strong> (1d5) ; <strong>CA</strong> 8; <strong>DV</strong> 3d6; <strong>PV</strong> 10, 13; <strong>Mvt</strong> 7,5 m, escalade 7,5 m ; <strong>Act</strong> 2d20; <strong>AS</strong> traits de mort-vivant, vision dans le noir 30 m; <strong>JS</strong> Vig +1, R&eacute;f +0, Vol +0 ; <strong>AL</strong> C.</p>"
+          }
+        },
+        "saves": {
+          "frt": {
+            "label": "DCC.SavesFortitude",
+            "value": 1
+          },
+          "ref": {
+            "label": "DCC.SavesReflex",
+            "value": 0
+          },
+          "wil": {
+            "label": "DCC.SavesWill",
+            "value": 0
+          }
+        },
+        "currency": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "0",
+          "sp": "0",
+          "cp": "0"
+        },
+        "config": {
+          "attackBonusMode": "flat",
+          "actionDice": "2d20",
+          "capLevel": false,
+          "maxLevel": 0,
+          "rollAttackBonus": false,
+          "computeAC": false,
+          "baseACAbility": "agl",
+          "computeSpeed": false,
+          "computeCheckPenalty": false,
+          "sortInventory": true,
+          "removeEmptyItems": true,
+          "showSpells": false,
+          "showSkills": false,
+          "showMaxAbilities": true,
+          "showBackstab": false,
+          "showMaxAttributes": false
+        },
+        "class": {
+          "spellCheck": 1,
+          "spellCheckAbility": "int"
+        }
+      },
+      "prototypeToken": {
+        "flags": {},
+        "name": "Tomb Ghoul",
+        "displayName": 20,
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "actorLink": false,
+        "disposition": -1,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "attributes.hp"
+        },
+        "bar2": {
+          "attribute": "abilities.lck.value"
+        },
+        "randomImg": false,
+        "alpha": 1,
+        "light": {
+          "alpha": 1,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          },
+          "color": null,
+          "attenuation": 0.5
+        },
+        "texture": {
+          "src": "modules/dcc-doom-of-the-savage-kings/assets/tokens/ghoul.webp",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": []
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1677677323451,
+        "modifiedTime": 1684781401684,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "HNavNHnQyAuAYIPA"
+    },
+    {
+      "name": "Iraco, le maître de chasse",
+      "type": "NPC",
+      "img": "modules/dcc-doom-of-the-savage-kings/assets/tokens/iraco.webp",
+      "items": [
+        {
+          "_id": "MUJret1q9OLwSeuf",
+          "name": "longsword",
+          "type": "weapon",
+          "sort": 100000,
+          "flags": {},
+          "effects": [],
+          "img": "icons/svg/item-bag.svg",
+          "folder": null,
+          "system": {
+            "description": {
+              "value": "",
+              "chat": "",
+              "unidentified": "",
+              "summary": ""
+            },
+            "source": "",
+            "quantity": 1,
+            "weight": 0,
+            "equipped": true,
+            "identified": true,
+            "value": {
+              "pp": 0,
+              "ep": 0,
+              "gp": 0,
+              "sp": 0,
+              "cp": 0
+            },
+            "config": {
+              "inheritActionDie": true,
+              "inheritCritRange": true
+            },
+            "actionDie": "1d20",
+            "toHit": "+4",
+            "damage": "1d8+2",
+            "range": "",
+            "twoHanded": false,
+            "melee": true,
+            "shortRangeStrength": 0,
+            "subdual": 0,
+            "backstab": false,
+            "backstabDamage": null,
+            "doubleIfMounted": 0,
+            "critRange": 20,
+            "trained": true
+          },
+          "ownership": {
+            "default": 0
+          },
+          "_stats": {
+            "systemId": null,
+            "systemVersion": null,
+            "coreVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        },
+        {
+          "_id": "YPYTdyExMSkK4FCP",
+          "name": "shortbow",
+          "type": "weapon",
+          "sort": 200000,
+          "flags": {},
+          "effects": [],
+          "img": "icons/svg/item-bag.svg",
+          "folder": null,
+          "system": {
+            "description": {
+              "value": "",
+              "chat": "",
+              "unidentified": "",
+              "summary": ""
+            },
+            "source": "",
+            "quantity": 1,
+            "weight": 0,
+            "equipped": true,
+            "identified": true,
+            "value": {
+              "pp": 0,
+              "ep": 0,
+              "gp": 0,
+              "sp": 0,
+              "cp": 0
+            },
+            "config": {
+              "inheritActionDie": true,
+              "inheritCritRange": true
+            },
+            "actionDie": "1d20",
+            "toHit": "+5",
+            "damage": "1d6",
+            "range": "",
+            "twoHanded": false,
+            "melee": false,
+            "shortRangeStrength": 0,
+            "subdual": 0,
+            "backstab": false,
+            "backstabDamage": null,
+            "doubleIfMounted": 0,
+            "critRange": 20,
+            "trained": true
+          },
+          "ownership": {
+            "default": 0
+          },
+          "_stats": {
+            "systemId": null,
+            "systemVersion": null,
+            "coreVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        }
+      ],
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-monsters.zxgroy1DS6sajkO4"
+        }
+      },
+      "system": {
+        "abilities": {
+          "str": {
+            "label": "DCC.AbilityStr",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "agl": {
+            "label": "DCC.AbilityAgl",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "sta": {
+            "label": "DCC.AbilitySta",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "per": {
+            "label": "DCC.AbilityPer",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "int": {
+            "label": "DCC.AbilityInt",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "lck": {
+            "label": "DCC.AbilityLck",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          }
+        },
+        "attributes": {
+          "ac": {
+            "value": 16,
+            "checkPenalty": 0,
+            "speedPenalty": 0,
+            "fumbleDie": "1d4"
+          },
+          "actionDice": {
+            "value": "1d20",
+            "options": [
+              "1d20"
+            ]
+          },
+          "critical": {
+            "die": "1d8",
+            "table": "III"
+          },
+          "fumble": {
+            "die": "1d4"
+          },
+          "hitDice": {
+            "value": "2d8"
+          },
+          "hp": {
+            "value": 15,
+            "min": 0,
+            "max": 15,
+            "temp": 0,
+            "tempmax": 0
+          },
+          "init": {
+            "die": "1d20",
+            "value": 4
+          },
+          "speed": {
+            "value": "20'",
+            "base": 30,
+            "special": "",
+            "other": ""
+          },
+          "special": {
+            "value": ""
+          }
+        },
+        "details": {
+          "level": {
+            "value": 0
+          },
+          "alignment": "c",
+          "attackBonus": "+0",
+          "languages": "",
+          "occupation": "",
+          "title": "",
+          "notes": {
+            "value": "Iraco, the Hunt Master: Init +4; Atk longsword +4 melee (1d8+2) or shortbow +5 missile fire (1d6); AC 16; HD 2d8; hp 15; MV 20’; Act 1d20; SV Fort +3, Ref +3, Will +1; AL C."
+          }
+        },
+        "saves": {
+          "frt": {
+            "label": "DCC.SavesFortitude",
+            "value": 3
+          },
+          "ref": {
+            "label": "DCC.SavesReflex",
+            "value": 3
+          },
+          "wil": {
+            "label": "DCC.SavesWill",
+            "value": 1
+          }
+        },
+        "currency": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "0",
+          "sp": "0",
+          "cp": "0"
+        },
+        "config": {
+          "attackBonusMode": "flat",
+          "actionDice": "1d20",
+          "capLevel": false,
+          "maxLevel": 0,
+          "rollAttackBonus": false,
+          "computeAC": false,
+          "baseACAbility": "agl",
+          "computeSpeed": false,
+          "computeCheckPenalty": false,
+          "sortInventory": true,
+          "removeEmptyItems": true,
+          "showSpells": false,
+          "showSkills": false,
+          "showMaxAbilities": true,
+          "showBackstab": false,
+          "showMaxAttributes": false
+        },
+        "class": {
+          "spellCheck": 1,
+          "spellCheckAbility": "int"
+        }
+      },
+      "prototypeToken": {
+        "flags": {},
+        "name": "Iraco, the Hunt Master",
+        "displayName": 20,
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "actorLink": true,
+        "disposition": 0,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "attributes.hp"
+        },
+        "bar2": {
+          "attribute": "abilities.lck.value"
+        },
+        "randomImg": false,
+        "alpha": 1,
+        "light": {
+          "alpha": 1,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          },
+          "color": null,
+          "attenuation": 0.5
+        },
+        "texture": {
+          "src": "modules/dcc-doom-of-the-savage-kings/assets/tokens/iraco.webp",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": []
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1677677323454,
+        "modifiedTime": 1684781401686,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "zrDLjkXzAIsIclwQ"
+    },
+    {
+      "name": "Jarl",
+      "type": "NPC",
+      "img": "modules/dcc-doom-of-the-savage-kings/assets/tokens/jarl.webp",
+      "items": [
+        {
+          "_id": "a3oGh1UDlfDESgWu",
+          "name": "longsword",
+          "type": "weapon",
+          "sort": 100000,
+          "flags": {},
+          "effects": [],
+          "img": "icons/svg/item-bag.svg",
+          "folder": null,
+          "system": {
+            "description": {
+              "value": "",
+              "chat": "",
+              "unidentified": "",
+              "summary": ""
+            },
+            "source": "",
+            "quantity": 1,
+            "weight": 0,
+            "equipped": true,
+            "identified": true,
+            "value": {
+              "pp": 0,
+              "ep": 0,
+              "gp": 0,
+              "sp": 0,
+              "cp": 0
+            },
+            "config": {
+              "inheritActionDie": true,
+              "inheritCritRange": true
+            },
+            "actionDie": "1d20",
+            "toHit": "+4",
+            "damage": "1d8",
+            "range": "",
+            "twoHanded": false,
+            "melee": true,
+            "shortRangeStrength": 0,
+            "subdual": 0,
+            "backstab": false,
+            "backstabDamage": null,
+            "doubleIfMounted": 0,
+            "critRange": 20,
+            "trained": true
+          },
+          "ownership": {
+            "default": 0
+          },
+          "_stats": {
+            "systemId": null,
+            "systemVersion": null,
+            "coreVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        },
+        {
+          "_id": "kTLj7o0YzpokVYbU",
+          "name": "bow",
+          "type": "weapon",
+          "sort": 200000,
+          "flags": {},
+          "effects": [],
+          "img": "icons/svg/item-bag.svg",
+          "folder": null,
+          "system": {
+            "description": {
+              "value": "",
+              "chat": "",
+              "unidentified": "",
+              "summary": ""
+            },
+            "source": "",
+            "quantity": 1,
+            "weight": 0,
+            "equipped": true,
+            "identified": true,
+            "value": {
+              "pp": 0,
+              "ep": 0,
+              "gp": 0,
+              "sp": 0,
+              "cp": 0
+            },
+            "config": {
+              "inheritActionDie": true,
+              "inheritCritRange": true
+            },
+            "actionDie": "1d20",
+            "toHit": "+4",
+            "damage": "1d6",
+            "range": "",
+            "twoHanded": false,
+            "melee": false,
+            "shortRangeStrength": 0,
+            "subdual": 0,
+            "backstab": false,
+            "backstabDamage": null,
+            "doubleIfMounted": 0,
+            "critRange": 20,
+            "trained": true
+          },
+          "ownership": {
+            "default": 0
+          },
+          "_stats": {
+            "systemId": null,
+            "systemVersion": null,
+            "coreVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        }
+      ],
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-monsters.MqkqFUwRWAQbAnlH"
+        }
+      },
+      "system": {
+        "abilities": {
+          "str": {
+            "label": "DCC.AbilityStr",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "agl": {
+            "label": "DCC.AbilityAgl",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "sta": {
+            "label": "DCC.AbilitySta",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "per": {
+            "label": "DCC.AbilityPer",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "int": {
+            "label": "DCC.AbilityInt",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "lck": {
+            "label": "DCC.AbilityLck",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          }
+        },
+        "attributes": {
+          "ac": {
+            "value": 18,
+            "checkPenalty": 0,
+            "speedPenalty": 0,
+            "fumbleDie": "1d4"
+          },
+          "actionDice": {
+            "value": "1d20",
+            "options": [
+              "1d20"
+            ]
+          },
+          "critical": {
+            "die": "1d8",
+            "table": "III"
+          },
+          "fumble": {
+            "die": "1d4"
+          },
+          "hitDice": {
+            "value": "2d8"
+          },
+          "hp": {
+            "value": 16,
+            "min": 0,
+            "max": 16,
+            "temp": 0,
+            "tempmax": 0
+          },
+          "init": {
+            "die": "1d20",
+            "value": 2
+          },
+          "speed": {
+            "value": "20'",
+            "base": 30,
+            "special": "",
+            "other": ""
+          },
+          "special": {
+            "value": ""
+          }
+        },
+        "details": {
+          "level": {
+            "value": 0
+          },
+          "alignment": "l",
+          "attackBonus": "+0",
+          "languages": "",
+          "occupation": "",
+          "title": "",
+          "notes": {
+            "value": "Jarl: Init +2; Atk longsword +4 melee (1d8) or bow +4 missile fire (1d6); AC 18; HD 2d8; hp 16; MV 20’; Act 1d20; SV Fort +1, Ref +2, Will +2; AL L."
+          }
+        },
+        "saves": {
+          "frt": {
+            "label": "DCC.SavesFortitude",
+            "value": 1
+          },
+          "ref": {
+            "label": "DCC.SavesReflex",
+            "value": 2
+          },
+          "wil": {
+            "label": "DCC.SavesWill",
+            "value": 2
+          }
+        },
+        "currency": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "0",
+          "sp": "0",
+          "cp": "0"
+        },
+        "config": {
+          "attackBonusMode": "flat",
+          "actionDice": "1d20",
+          "capLevel": false,
+          "maxLevel": 0,
+          "rollAttackBonus": false,
+          "computeAC": false,
+          "baseACAbility": "agl",
+          "computeSpeed": false,
+          "computeCheckPenalty": false,
+          "sortInventory": true,
+          "removeEmptyItems": true,
+          "showSpells": false,
+          "showSkills": false,
+          "showMaxAbilities": true,
+          "showBackstab": false,
+          "showMaxAttributes": false
+        },
+        "class": {
+          "spellCheck": 1,
+          "spellCheckAbility": "int"
+        }
+      },
+      "prototypeToken": {
+        "flags": {},
+        "name": "Jarl",
+        "displayName": 20,
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "actorLink": false,
+        "disposition": -1,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "attributes.hp"
+        },
+        "bar2": {
+          "attribute": "abilities.lck.value"
+        },
+        "randomImg": false,
+        "alpha": 1,
+        "light": {
+          "alpha": 1,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          },
+          "color": null,
+          "attenuation": 0.5
+        },
+        "texture": {
+          "src": "modules/dcc-doom-of-the-savage-kings/tokens/jarl.webp",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": []
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1677677323447,
+        "modifiedTime": 1684781401687,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "ZrwRdSsVPLRBrvrt"
+    },
+    {
+      "name": "Le molosse de Hirot",
+      "type": "NPC",
+      "img": "modules/dcc-doom-of-the-savage-kings/assets/tokens/hound.webp",
+      "items": [
+        {
+          "_id": "X4OPRjtXXiiTAaF8",
+          "name": "bite",
+          "type": "weapon",
+          "sort": 100000,
+          "flags": {},
+          "effects": [],
+          "img": "icons/svg/item-bag.svg",
+          "folder": null,
+          "system": {
+            "description": {
+              "value": "",
+              "chat": "",
+              "unidentified": "",
+              "summary": ""
+            },
+            "source": "",
+            "quantity": 1,
+            "weight": 0,
+            "equipped": true,
+            "identified": true,
+            "value": {
+              "pp": 0,
+              "ep": 0,
+              "gp": 0,
+              "sp": 0,
+              "cp": 0
+            },
+            "config": {
+              "inheritActionDie": true,
+              "inheritCritRange": true
+            },
+            "actionDie": "1d20",
+            "toHit": "+3",
+            "damage": "1d8",
+            "range": "",
+            "twoHanded": false,
+            "melee": true,
+            "shortRangeStrength": 0,
+            "subdual": 0,
+            "backstab": false,
+            "backstabDamage": null,
+            "doubleIfMounted": 0,
+            "critRange": 20,
+            "trained": true
+          },
+          "ownership": {
+            "default": 0
+          },
+          "_stats": {
+            "systemId": null,
+            "systemVersion": null,
+            "coreVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        },
+        {
+          "_id": "aQkI1o5uv2CxswZO",
+          "name": "claw",
+          "type": "weapon",
+          "sort": 200000,
+          "flags": {},
+          "effects": [],
+          "img": "icons/svg/item-bag.svg",
+          "folder": null,
+          "system": {
+            "description": {
+              "value": "",
+              "chat": "",
+              "unidentified": "",
+              "summary": ""
+            },
+            "source": "",
+            "quantity": 1,
+            "weight": 0,
+            "equipped": true,
+            "identified": true,
+            "value": {
+              "pp": 0,
+              "ep": 0,
+              "gp": 0,
+              "sp": 0,
+              "cp": 0
+            },
+            "config": {
+              "inheritActionDie": true,
+              "inheritCritRange": true
+            },
+            "actionDie": "1d20",
+            "toHit": "+3",
+            "damage": "1d4",
+            "range": "",
+            "twoHanded": false,
+            "melee": true,
+            "shortRangeStrength": 0,
+            "subdual": 0,
+            "backstab": false,
+            "backstabDamage": null,
+            "doubleIfMounted": 0,
+            "critRange": 20,
+            "trained": true
+          },
+          "ownership": {
+            "default": 0
+          },
+          "_stats": {
+            "systemId": null,
+            "systemVersion": null,
+            "coreVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        }
+      ],
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-monsters.BA7E9QQicSlTI7af"
+        }
+      },
+      "system": {
+        "abilities": {
+          "str": {
+            "label": "DCC.AbilityStr",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "agl": {
+            "label": "DCC.AbilityAgl",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "sta": {
+            "label": "DCC.AbilitySta",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "per": {
+            "label": "DCC.AbilityPer",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "int": {
+            "label": "DCC.AbilityInt",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "lck": {
+            "label": "DCC.AbilityLck",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          }
+        },
+        "attributes": {
+          "ac": {
+            "value": 15,
+            "checkPenalty": 0,
+            "speedPenalty": 0,
+            "fumbleDie": "1d4"
+          },
+          "actionDice": {
+            "value": "1d20",
+            "options": [
+              "1d20",
+              "1d20",
+              "1d20"
+            ]
+          },
+          "critical": {
+            "die": "1d10",
+            "table": "M"
+          },
+          "fumble": {
+            "die": "1d4"
+          },
+          "hitDice": {
+            "value": "4d12"
+          },
+          "hp": {
+            "value": 13,
+            "min": 0,
+            "max": 20,
+            "temp": 0,
+            "tempmax": 0
+          },
+          "init": {
+            "die": "1d20",
+            "value": 2
+          },
+          "speed": {
+            "value": "30'",
+            "base": 30,
+            "special": "",
+            "other": "fly 30’"
+          },
+          "special": {
+            "value": "forme gazeuse, immunisé aux charmes, immortel"
+          }
+        },
+        "details": {
+          "level": {
+            "value": 0
+          },
+          "alignment": "c",
+          "attackBonus": "+0",
+          "languages": "",
+          "occupation": "",
+          "title": "",
+          "notes": {
+            "value": "<div>\n<p>Le molosse de Hirot: Init +2; Att morsure +3 corps-&agrave;-corps (1d8) ou griffe +3 corps-&agrave;-corps (1d4) ; CA 15; DV 4d12; PV 20; Mvt 9 m ou vol 9 m ; Act 3d20 (griffe, griffe, morsure); AS forme gazeuse, immunis&eacute; aux charmes, immortel; JS Vig +4, R&eacute;f +4, Vol +0 ; AL C.</p>\n</div>"
+          }
+        },
+        "saves": {
+          "frt": {
+            "label": "DCC.SavesFortitude",
+            "value": 4
+          },
+          "ref": {
+            "label": "DCC.SavesReflex",
+            "value": 4
+          },
+          "wil": {
+            "label": "DCC.SavesWill",
+            "value": 0
+          }
+        },
+        "currency": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "0",
+          "sp": "0",
+          "cp": "0"
+        },
+        "config": {
+          "attackBonusMode": "flat",
+          "actionDice": "3d20",
+          "capLevel": false,
+          "maxLevel": 0,
+          "rollAttackBonus": false,
+          "computeAC": false,
+          "baseACAbility": "agl",
+          "computeSpeed": false,
+          "computeCheckPenalty": false,
+          "sortInventory": true,
+          "removeEmptyItems": true,
+          "showSpells": false,
+          "showSkills": false,
+          "showMaxAbilities": true,
+          "showBackstab": false,
+          "showMaxAttributes": false
+        },
+        "class": {
+          "spellCheck": 1,
+          "spellCheckAbility": "int"
+        }
+      },
+      "prototypeToken": {
+        "flags": {},
+        "name": "The Hound of Hirot",
+        "displayName": 20,
+        "width": 2,
+        "height": 2,
+        "lockRotation": false,
+        "rotation": 0,
+        "actorLink": true,
+        "disposition": -1,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "attributes.hp"
+        },
+        "bar2": {
+          "attribute": "abilities.lck.value"
+        },
+        "randomImg": false,
+        "alpha": 1,
+        "light": {
+          "alpha": 1,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          },
+          "color": null,
+          "attenuation": 0.5
+        },
+        "texture": {
+          "src": "modules/dcc-doom-of-the-savage-kings/assets/tokens/hound.webp",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": []
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1677677323441,
+        "modifiedTime": 1684781401688,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "nfvA92sLiErlIW1m"
+    },
+    {
+      "name": "Le molosse de Hirot (dans son antre)",
+      "type": "NPC",
+      "img": "modules/dcc-doom-of-the-savage-kings/assets/tokens/hound.webp",
+      "items": [
+        {
+          "_id": "rcGSnEegCqjcl6gf",
+          "name": "bite",
+          "type": "weapon",
+          "sort": 100000,
+          "flags": {},
+          "effects": [],
+          "img": "icons/svg/item-bag.svg",
+          "folder": null,
+          "system": {
+            "description": {
+              "value": "",
+              "chat": "",
+              "unidentified": "",
+              "summary": ""
+            },
+            "source": "",
+            "quantity": 1,
+            "weight": 0,
+            "equipped": true,
+            "identified": true,
+            "value": {
+              "pp": 0,
+              "ep": 0,
+              "gp": 0,
+              "sp": 0,
+              "cp": 0
+            },
+            "config": {
+              "inheritActionDie": true,
+              "inheritCritRange": true
+            },
+            "actionDie": "1d20",
+            "toHit": "+3",
+            "damage": "1d8",
+            "range": "",
+            "twoHanded": false,
+            "melee": true,
+            "shortRangeStrength": 0,
+            "subdual": 0,
+            "backstab": false,
+            "backstabDamage": null,
+            "doubleIfMounted": 0,
+            "critRange": 20,
+            "trained": true
+          },
+          "ownership": {
+            "default": 0
+          },
+          "_stats": {
+            "systemId": null,
+            "systemVersion": null,
+            "coreVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        },
+        {
+          "_id": "U8irsnYw3hW6wAE6",
+          "name": "claw",
+          "type": "weapon",
+          "sort": 200000,
+          "flags": {},
+          "effects": [],
+          "img": "icons/svg/item-bag.svg",
+          "folder": null,
+          "system": {
+            "description": {
+              "value": "",
+              "chat": "",
+              "unidentified": "",
+              "summary": ""
+            },
+            "source": "",
+            "quantity": 1,
+            "weight": 0,
+            "equipped": true,
+            "identified": true,
+            "value": {
+              "pp": 0,
+              "ep": 0,
+              "gp": 0,
+              "sp": 0,
+              "cp": 0
+            },
+            "config": {
+              "inheritActionDie": true,
+              "inheritCritRange": true
+            },
+            "actionDie": "1d20",
+            "toHit": "+3",
+            "damage": "1d4",
+            "range": "",
+            "twoHanded": false,
+            "melee": true,
+            "shortRangeStrength": 0,
+            "subdual": 0,
+            "backstab": false,
+            "backstabDamage": null,
+            "doubleIfMounted": 0,
+            "critRange": 20,
+            "trained": true
+          },
+          "ownership": {
+            "default": 0
+          },
+          "_stats": {
+            "systemId": null,
+            "systemVersion": null,
+            "coreVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        }
+      ],
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-monsters.ecjOKqb2sQaiRKib"
+        }
+      },
+      "system": {
+        "abilities": {
+          "str": {
+            "label": "DCC.AbilityStr",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "agl": {
+            "label": "DCC.AbilityAgl",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "sta": {
+            "label": "DCC.AbilitySta",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "per": {
+            "label": "DCC.AbilityPer",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "int": {
+            "label": "DCC.AbilityInt",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "lck": {
+            "label": "DCC.AbilityLck",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          }
+        },
+        "attributes": {
+          "ac": {
+            "value": 15,
+            "checkPenalty": 0,
+            "speedPenalty": 0,
+            "fumbleDie": "1d4"
+          },
+          "actionDice": {
+            "value": "1d20",
+            "options": [
+              "1d20",
+              "1d20",
+              "1d20"
+            ]
+          },
+          "critical": {
+            "die": "1d10",
+            "table": "M"
+          },
+          "fumble": {
+            "die": "1d4"
+          },
+          "hitDice": {
+            "value": "4d12"
+          },
+          "hp": {
+            "value": 34,
+            "min": 0,
+            "max": 34,
+            "temp": 0,
+            "tempmax": 0
+          },
+          "init": {
+            "die": "1d20",
+            "value": 2
+          },
+          "speed": {
+            "value": "30'",
+            "base": 30,
+            "special": "",
+            "other": "fly 30’"
+          },
+          "special": {
+            "value": "gaseous form, immune to charm effects"
+          }
+        },
+        "details": {
+          "level": {
+            "value": 0
+          },
+          "alignment": "c",
+          "attackBonus": "+0",
+          "languages": "",
+          "occupation": "",
+          "title": "",
+          "notes": {
+            "value": "The Hound of Hirot (lair version): Init +2; Atk bite +3 melee (1d8) or claw +3 melee (1d4); AC 15; HD 4d12; hp 34; MV 30’ or fly 30’; Act 3d20; SP gaseous form, immune to charm effects; SV Fort +4, Ref +4, Will +4; AL C."
+          }
+        },
+        "saves": {
+          "frt": {
+            "label": "DCC.SavesFortitude",
+            "value": 4
+          },
+          "ref": {
+            "label": "DCC.SavesReflex",
+            "value": 4
+          },
+          "wil": {
+            "label": "DCC.SavesWill",
+            "value": 4
+          }
+        },
+        "currency": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "0",
+          "sp": "0",
+          "cp": "0"
+        },
+        "config": {
+          "attackBonusMode": "flat",
+          "actionDice": "3d20",
+          "capLevel": false,
+          "maxLevel": 0,
+          "rollAttackBonus": false,
+          "computeAC": false,
+          "baseACAbility": "agl",
+          "computeSpeed": false,
+          "computeCheckPenalty": false,
+          "sortInventory": true,
+          "removeEmptyItems": true,
+          "showSpells": false,
+          "showSkills": false,
+          "showMaxAbilities": true,
+          "showBackstab": false,
+          "showMaxAttributes": false
+        },
+        "class": {
+          "spellCheck": 1,
+          "spellCheckAbility": "int"
+        }
+      },
+      "prototypeToken": {
+        "flags": {},
+        "name": "The Hound of Hirot (lair version)",
+        "displayName": 20,
+        "width": 2,
+        "height": 2,
+        "lockRotation": false,
+        "rotation": 0,
+        "actorLink": true,
+        "disposition": -1,
+        "displayBars": 40,
+        "bar1": {
+          "attribute": "attributes.hp"
+        },
+        "bar2": {
+          "attribute": "abilities.lck.value"
+        },
+        "randomImg": false,
+        "alpha": 1,
+        "light": {
+          "alpha": 1,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          },
+          "color": null,
+          "attenuation": 0.5
+        },
+        "texture": {
+          "src": "modules/dcc-doom-of-the-savage-kings/assets/tokens/hound.webp",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": []
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1677677323450,
+        "modifiedTime": 1684781401689,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "slcGngCkHtdSyFAY"
+    },
+    {
+      "name": "Le père Beacom",
+      "type": "NPC",
+      "img": "systems/dcc/styles/images/actor.webp",
+      "system": {
+        "abilities": {
+          "str": {
+            "label": "DCC.AbilityStr",
+            "value": 10,
+            "max": 10
+          },
+          "agl": {
+            "label": "DCC.AbilityAgl",
+            "value": 10,
+            "max": 10
+          },
+          "sta": {
+            "label": "DCC.AbilitySta",
+            "value": 10,
+            "max": 10
+          },
+          "per": {
+            "label": "DCC.AbilityPer",
+            "value": 10,
+            "max": 10
+          },
+          "int": {
+            "label": "DCC.AbilityInt",
+            "value": 10,
+            "max": 10
+          },
+          "lck": {
+            "label": "DCC.AbilityLck",
+            "value": 10,
+            "max": 10
+          }
+        },
+        "attributes": {
+          "ac": {
+            "value": 10,
+            "checkPenalty": 0,
+            "speedPenalty": 0
+          },
+          "actionDice": {
+            "value": "1d20",
+            "options": [
+              "1d20"
+            ]
+          },
+          "critical": {
+            "die": "1d4",
+            "table": "M"
+          },
+          "fumble": {
+            "die": "1d4"
+          },
+          "hitDice": {
+            "value": "1d6"
+          },
+          "hp": {
+            "value": 10,
+            "min": 0,
+            "max": 10,
+            "temp": 0,
+            "tempmax": 0
+          },
+          "init": {
+            "die": "1d20",
+            "value": 0
+          },
+          "speed": {
+            "value": "30'",
+            "base": 30,
+            "special": "",
+            "other": ""
+          },
+          "special": {
+            "value": "Homme mince, au visage de faucon"
+          }
+        },
+        "details": {
+          "level": {
+            "value": 0
+          },
+          "alignment": "l",
+          "attackBonus": "+0",
+          "languages": "",
+          "occupation": "",
+          "title": "",
+          "notes": ""
+        },
+        "saves": {
+          "frt": {
+            "label": "DCC.SavesFortitude",
+            "value": 0
+          },
+          "ref": {
+            "label": "DCC.SavesReflex",
+            "value": 0
+          },
+          "wil": {
+            "label": "DCC.SavesWill",
+            "value": 0
+          }
+        },
+        "currency": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "0",
+          "sp": "0",
+          "cp": "0"
+        },
+        "config": {
+          "attackBonusMode": "flat",
+          "actionDice": "1d20",
+          "capLevel": false,
+          "maxLevel": 10,
+          "rollAttackBonus": false,
+          "computeAC": false,
+          "baseACAbility": "agl",
+          "computeSpeed": false,
+          "computeCheckPenalty": false,
+          "sortInventory": true,
+          "removeEmptyItems": true,
+          "showSpells": false,
+          "showSkills": false,
+          "showMaxAbilities": true,
+          "showBackstab": false
+        },
+        "class": {
+          "spellCheck": 1,
+          "spellCheckAbility": "int"
+        }
+      },
+      "prototypeToken": {
+        "name": "Le père Beacom",
+        "displayName": 0,
+        "actorLink": false,
+        "texture": {
+          "src": "systems/dcc/styles/images/actor.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0,
+          "tint": null
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": "attributes.hp"
+        },
+        "bar2": {
+          "attribute": "abilities.lck.value"
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": null,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683446233143,
+        "modifiedTime": 1684781401690,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "d2YMUDB23MapYypk"
+    },
+    {
+      "name": "Lianes de Tindalos",
+      "type": "NPC",
+      "img": "modules/dcc-doom-of-the-savage-kings/assets/icons/vine-whip.webp",
+      "items": [
+        {
+          "name": "slam",
+          "type": "weapon",
+          "img": "systems/dcc/styles/images/weapon.webp",
+          "_id": "6vrj6tdnvprb6jo7",
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "flags": {},
+          "system": {
+            "description": {
+              "value": "+ constrict",
+              "chat": "",
+              "unidentified": "",
+              "summary": ""
+            },
+            "source": "",
+            "quantity": 1,
+            "weight": 0,
+            "equipped": true,
+            "identified": true,
+            "value": {
+              "pp": 0,
+              "ep": 0,
+              "gp": 0,
+              "sp": 0,
+              "cp": 0
+            },
+            "config": {
+              "inheritActionDie": true,
+              "inheritCritRange": true
+            },
+            "actionDie": "1d20",
+            "toHit": "+3",
+            "damage": "1d4",
+            "range": "",
+            "twoHanded": false,
+            "melee": true,
+            "shortRangeStrength": 0,
+            "subdual": 0,
+            "backstab": false,
+            "backstabDamage": null,
+            "doubleIfMounted": 0,
+            "critRange": 20,
+            "trained": true
+          },
+          "ownership": {
+            "default": 0
+          },
+          "_stats": {
+            "systemId": null,
+            "systemVersion": null,
+            "coreVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        }
+      ],
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-monsters.9smeg7lGDEjJxqvj"
+        }
+      },
+      "system": {
+        "abilities": {
+          "str": {
+            "label": "DCC.AbilityStr",
+            "value": 10,
+            "max": 10
+          },
+          "agl": {
+            "label": "DCC.AbilityAgl",
+            "value": 10,
+            "max": 10
+          },
+          "sta": {
+            "label": "DCC.AbilitySta",
+            "value": 10,
+            "max": 10
+          },
+          "per": {
+            "label": "DCC.AbilityPer",
+            "value": 10,
+            "max": 10
+          },
+          "int": {
+            "label": "DCC.AbilityInt",
+            "value": 10,
+            "max": 10
+          },
+          "lck": {
+            "label": "DCC.AbilityLck",
+            "value": 10,
+            "max": 10
+          }
+        },
+        "attributes": {
+          "ac": {
+            "value": 10,
+            "checkPenalty": 0,
+            "speedPenalty": 0
+          },
+          "actionDice": {
+            "value": "1d20",
+            "options": [
+              "1d20"
+            ]
+          },
+          "critical": {
+            "die": "1d4",
+            "table": "M"
+          },
+          "fumble": {
+            "die": "1d4"
+          },
+          "hitDice": {
+            "value": "2d8"
+          },
+          "hp": {
+            "value": 12,
+            "min": 0,
+            "max": 12,
+            "temp": 0,
+            "tempmax": 0
+          },
+          "init": {
+            "die": "1d20",
+            "value": 4
+          },
+          "speed": {
+            "value": "5'",
+            "base": 30,
+            "special": "",
+            "other": ""
+          },
+          "special": {
+            "value": "constriction for 1d3 and drag 5’"
+          }
+        },
+        "details": {
+          "level": {
+            "value": 0
+          },
+          "alignment": "n",
+          "attackBonus": "+0",
+          "languages": "",
+          "occupation": "",
+          "title": "",
+          "notes": {
+            "value": "Tindalos Vines (1d3): Init +4; Atk slam +3 melee (1d4 + constrict); AC 10; HD 2d8; hp 12; MV 5’; Act 1d20; SP constriction for 1d3 and drag 5’; SV Fort +3, Ref -1, Will +4; AL N."
+          }
+        },
+        "saves": {
+          "frt": {
+            "label": "DCC.SavesFortitude",
+            "value": 3
+          },
+          "ref": {
+            "label": "DCC.SavesReflex",
+            "value": -1
+          },
+          "wil": {
+            "label": "DCC.SavesWill",
+            "value": 4
+          }
+        },
+        "currency": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "0",
+          "sp": "0",
+          "cp": "0"
+        },
+        "config": {
+          "attackBonusMode": "flat",
+          "actionDice": "1d20",
+          "capLevel": false,
+          "maxLevel": 10,
+          "rollAttackBonus": false,
+          "computeAC": false,
+          "baseACAbility": "agl",
+          "computeSpeed": false,
+          "computeCheckPenalty": false,
+          "sortInventory": true,
+          "removeEmptyItems": true,
+          "showSpells": false,
+          "showSkills": false,
+          "showMaxAbilities": true,
+          "showBackstab": false
+        },
+        "class": {
+          "spellCheck": 1,
+          "spellCheckAbility": "int"
+        }
+      },
+      "prototypeToken": {
+        "name": "Tindalos Vines (1d3)",
+        "displayName": 20,
+        "actorLink": false,
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false,
+            "type": null
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          },
+          "color": null,
+          "attenuation": 0.5
+        },
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": "attributes.hp"
+        },
+        "bar2": {
+          "attribute": "abilities.lck.value"
+        },
+        "flags": {},
+        "randomImg": false,
+        "texture": {
+          "src": "modules/dcc-doom-of-the-savage-kings/assets/icons/vine-whip.webp",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": []
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1677677323438,
+        "modifiedTime": 1684781401691,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "M9rcwI7ncarV9ikx"
+    },
+    {
+      "name": "Loup",
+      "type": "NPC",
+      "img": "systems/dcc/styles/images/actor.webp",
+      "system": {
+        "abilities": {
+          "str": {
+            "label": "DCC.AbilityStr",
+            "value": 10,
+            "max": 10
+          },
+          "agl": {
+            "label": "DCC.AbilityAgl",
+            "value": 10,
+            "max": 10
+          },
+          "sta": {
+            "label": "DCC.AbilitySta",
+            "value": 10,
+            "max": 10
+          },
+          "per": {
+            "label": "DCC.AbilityPer",
+            "value": 10,
+            "max": 10
+          },
+          "int": {
+            "label": "DCC.AbilityInt",
+            "value": 10,
+            "max": 10
+          },
+          "lck": {
+            "label": "DCC.AbilityLck",
+            "value": 10,
+            "max": 10
+          }
+        },
+        "attributes": {
+          "ac": {
+            "value": 10,
+            "checkPenalty": 0,
+            "speedPenalty": 0
+          },
+          "actionDice": {
+            "value": "1d20",
+            "options": [
+              "1d20"
+            ]
+          },
+          "critical": {
+            "die": "1d4",
+            "table": "M"
+          },
+          "fumble": {
+            "die": "1d4"
+          },
+          "hitDice": {
+            "value": "1d6"
+          },
+          "hp": {
+            "value": 10,
+            "min": 0,
+            "max": 10,
+            "temp": 0,
+            "tempmax": 0
+          },
+          "init": {
+            "die": "1d20",
+            "value": 0
+          },
+          "speed": {
+            "value": "30'",
+            "base": 30,
+            "special": "",
+            "other": ""
+          },
+          "special": {
+            "value": ""
+          }
+        },
+        "details": {
+          "level": {
+            "value": 0
+          },
+          "alignment": "l",
+          "attackBonus": "+0",
+          "languages": "",
+          "occupation": "",
+          "title": "",
+          "notes": ""
+        },
+        "saves": {
+          "frt": {
+            "label": "DCC.SavesFortitude",
+            "value": 0
+          },
+          "ref": {
+            "label": "DCC.SavesReflex",
+            "value": 0
+          },
+          "wil": {
+            "label": "DCC.SavesWill",
+            "value": 0
+          }
+        },
+        "currency": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "0",
+          "sp": "0",
+          "cp": "0"
+        },
+        "config": {
+          "attackBonusMode": "flat",
+          "actionDice": "1d20",
+          "capLevel": false,
+          "maxLevel": 10,
+          "rollAttackBonus": false,
+          "computeAC": false,
+          "baseACAbility": "agl",
+          "computeSpeed": false,
+          "computeCheckPenalty": false,
+          "sortInventory": true,
+          "removeEmptyItems": true,
+          "showSpells": false,
+          "showSkills": false,
+          "showMaxAbilities": true,
+          "showBackstab": false
+        },
+        "class": {
+          "spellCheck": 1,
+          "spellCheckAbility": "int"
+        }
+      },
+      "prototypeToken": {
+        "name": "Loup",
+        "displayName": 0,
+        "actorLink": false,
+        "texture": {
+          "src": "systems/dcc/styles/images/actor.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0,
+          "tint": null
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": "attributes.hp"
+        },
+        "bar2": {
+          "attribute": "abilities.lck.value"
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": null,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683447148328,
+        "modifiedTime": 1684781401692,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "0FdkV9zJjpncjO2y"
+    },
+    {
+      "name": "Maître Jenks",
+      "type": "NPC",
+      "img": "systems/dcc/styles/images/actor.webp",
+      "system": {
+        "abilities": {
+          "str": {
+            "label": "DCC.AbilityStr",
+            "value": 10,
+            "max": 10
+          },
+          "agl": {
+            "label": "DCC.AbilityAgl",
+            "value": 10,
+            "max": 10
+          },
+          "sta": {
+            "label": "DCC.AbilitySta",
+            "value": 10,
+            "max": 10
+          },
+          "per": {
+            "label": "DCC.AbilityPer",
+            "value": 10,
+            "max": 10
+          },
+          "int": {
+            "label": "DCC.AbilityInt",
+            "value": 10,
+            "max": 10
+          },
+          "lck": {
+            "label": "DCC.AbilityLck",
+            "value": 10,
+            "max": 10
+          }
+        },
+        "attributes": {
+          "ac": {
+            "value": 10,
+            "checkPenalty": 0,
+            "speedPenalty": 0
+          },
+          "actionDice": {
+            "value": "1d20",
+            "options": [
+              "1d20"
+            ]
+          },
+          "critical": {
+            "die": "1d4",
+            "table": "M"
+          },
+          "fumble": {
+            "die": "1d4"
+          },
+          "hitDice": {
+            "value": "1d6"
+          },
+          "hp": {
+            "value": 10,
+            "min": 0,
+            "max": 10,
+            "temp": 0,
+            "tempmax": 0
+          },
+          "init": {
+            "die": "1d20",
+            "value": 0
+          },
+          "speed": {
+            "value": "30'",
+            "base": 30,
+            "special": "",
+            "other": ""
+          },
+          "special": {
+            "value": ""
+          }
+        },
+        "details": {
+          "level": {
+            "value": 0
+          },
+          "alignment": "l",
+          "attackBonus": "+0",
+          "languages": "",
+          "occupation": "",
+          "title": "",
+          "notes": ""
+        },
+        "saves": {
+          "frt": {
+            "label": "DCC.SavesFortitude",
+            "value": 0
+          },
+          "ref": {
+            "label": "DCC.SavesReflex",
+            "value": 0
+          },
+          "wil": {
+            "label": "DCC.SavesWill",
+            "value": 0
+          }
+        },
+        "currency": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "0",
+          "sp": "0",
+          "cp": "0"
+        },
+        "config": {
+          "attackBonusMode": "flat",
+          "actionDice": "1d20",
+          "capLevel": false,
+          "maxLevel": 10,
+          "rollAttackBonus": false,
+          "computeAC": false,
+          "baseACAbility": "agl",
+          "computeSpeed": false,
+          "computeCheckPenalty": false,
+          "sortInventory": true,
+          "removeEmptyItems": true,
+          "showSpells": false,
+          "showSkills": false,
+          "showMaxAbilities": true,
+          "showBackstab": false
+        },
+        "class": {
+          "spellCheck": 1,
+          "spellCheckAbility": "int"
+        }
+      },
+      "prototypeToken": {
+        "name": "Maître Jenks",
+        "displayName": 0,
+        "actorLink": false,
+        "texture": {
+          "src": "systems/dcc/styles/images/actor.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0,
+          "tint": null
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": "attributes.hp"
+        },
+        "bar2": {
+          "attribute": "abilities.lck.value"
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": null,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683446960832,
+        "modifiedTime": 1684781401693,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "SxNBlBdywXvSsjas"
+    },
+    {
+      "name": "Mini Toc",
+      "type": "NPC",
+      "img": "systems/dcc/styles/images/actor.webp",
+      "system": {
+        "abilities": {
+          "str": {
+            "label": "DCC.AbilityStr",
+            "value": 10,
+            "max": 10
+          },
+          "agl": {
+            "label": "DCC.AbilityAgl",
+            "value": 10,
+            "max": 10
+          },
+          "sta": {
+            "label": "DCC.AbilitySta",
+            "value": 10,
+            "max": 10
+          },
+          "per": {
+            "label": "DCC.AbilityPer",
+            "value": 10,
+            "max": 10
+          },
+          "int": {
+            "label": "DCC.AbilityInt",
+            "value": 10,
+            "max": 10
+          },
+          "lck": {
+            "label": "DCC.AbilityLck",
+            "value": 10,
+            "max": 10
+          }
+        },
+        "attributes": {
+          "ac": {
+            "value": 10,
+            "checkPenalty": 0,
+            "speedPenalty": 0
+          },
+          "actionDice": {
+            "value": "1d20",
+            "options": [
+              "1d20"
+            ]
+          },
+          "critical": {
+            "die": "1d4",
+            "table": "M"
+          },
+          "fumble": {
+            "die": "1d4"
+          },
+          "hitDice": {
+            "value": "1d6"
+          },
+          "hp": {
+            "value": 10,
+            "min": 0,
+            "max": 10,
+            "temp": 0,
+            "tempmax": 0
+          },
+          "init": {
+            "die": "1d20",
+            "value": 0
+          },
+          "speed": {
+            "value": "30'",
+            "base": 30,
+            "special": "",
+            "other": ""
+          },
+          "special": {
+            "value": ""
+          }
+        },
+        "details": {
+          "level": {
+            "value": 0
+          },
+          "alignment": "l",
+          "attackBonus": "+0",
+          "languages": "",
+          "occupation": "",
+          "title": "",
+          "notes": ""
+        },
+        "saves": {
+          "frt": {
+            "label": "DCC.SavesFortitude",
+            "value": 0
+          },
+          "ref": {
+            "label": "DCC.SavesReflex",
+            "value": 0
+          },
+          "wil": {
+            "label": "DCC.SavesWill",
+            "value": 0
+          }
+        },
+        "currency": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "0",
+          "sp": "0",
+          "cp": "0"
+        },
+        "config": {
+          "attackBonusMode": "flat",
+          "actionDice": "1d20",
+          "capLevel": false,
+          "maxLevel": 10,
+          "rollAttackBonus": false,
+          "computeAC": false,
+          "baseACAbility": "agl",
+          "computeSpeed": false,
+          "computeCheckPenalty": false,
+          "sortInventory": true,
+          "removeEmptyItems": true,
+          "showSpells": false,
+          "showSkills": false,
+          "showMaxAbilities": true,
+          "showBackstab": false
+        },
+        "class": {
+          "spellCheck": 1,
+          "spellCheckAbility": "int"
+        }
+      },
+      "prototypeToken": {
+        "name": "Mini Toc",
+        "displayName": 0,
+        "actorLink": false,
+        "texture": {
+          "src": "systems/dcc/styles/images/actor.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0,
+          "tint": null
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": "attributes.hp"
+        },
+        "bar2": {
+          "attribute": "abilities.lck.value"
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": null,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683447114538,
+        "modifiedTime": 1684781401694,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "bNPZKpm3y4mEnoKS"
+    },
+    {
+      "name": "Mocle",
+      "type": "NPC",
+      "img": "modules/dcc-doom-of-the-savage-kings/assets/tokens/moclenaven.webp",
+      "items": [
+        {
+          "_id": "ATLHFEDtZYBV9RvD",
+          "name": "spear",
+          "type": "weapon",
+          "sort": 100000,
+          "flags": {},
+          "effects": [],
+          "img": "icons/svg/item-bag.svg",
+          "folder": null,
+          "system": {
+            "description": {
+              "value": "",
+              "chat": "",
+              "unidentified": "",
+              "summary": ""
+            },
+            "source": "",
+            "quantity": 1,
+            "weight": 0,
+            "equipped": true,
+            "identified": true,
+            "value": {
+              "pp": 0,
+              "ep": 0,
+              "gp": 0,
+              "sp": 0,
+              "cp": 0
+            },
+            "config": {
+              "inheritActionDie": true,
+              "inheritCritRange": true
+            },
+            "actionDie": "1d20",
+            "toHit": "+1",
+            "damage": "1d6",
+            "range": "",
+            "twoHanded": false,
+            "melee": true,
+            "shortRangeStrength": 0,
+            "subdual": 0,
+            "backstab": false,
+            "backstabDamage": null,
+            "doubleIfMounted": 0,
+            "critRange": 20,
+            "trained": true
+          },
+          "ownership": {
+            "default": 0
+          },
+          "_stats": {
+            "systemId": null,
+            "systemVersion": null,
+            "coreVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        },
+        {
+          "_id": "NpW4mVfflKt7uyA8",
+          "name": "crossbow",
+          "type": "weapon",
+          "sort": 200000,
+          "flags": {},
+          "effects": [],
+          "img": "icons/svg/item-bag.svg",
+          "folder": null,
+          "system": {
+            "description": {
+              "value": "",
+              "chat": "",
+              "unidentified": "",
+              "summary": ""
+            },
+            "source": "",
+            "quantity": 1,
+            "weight": 0,
+            "equipped": true,
+            "identified": true,
+            "value": {
+              "pp": 0,
+              "ep": 0,
+              "gp": 0,
+              "sp": 0,
+              "cp": 0
+            },
+            "config": {
+              "inheritActionDie": true,
+              "inheritCritRange": true
+            },
+            "actionDie": "1d20",
+            "toHit": "+0",
+            "damage": "1d6",
+            "range": "",
+            "twoHanded": false,
+            "melee": false,
+            "shortRangeStrength": 0,
+            "subdual": 0,
+            "backstab": false,
+            "backstabDamage": null,
+            "doubleIfMounted": 0,
+            "critRange": 20,
+            "trained": true
+          },
+          "ownership": {
+            "default": 0
+          },
+          "_stats": {
+            "systemId": null,
+            "systemVersion": null,
+            "coreVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        }
+      ],
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-monsters.APJpXUEYhEFgRruT"
+        }
+      },
+      "system": {
+        "abilities": {
+          "str": {
+            "label": "DCC.AbilityStr",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "agl": {
+            "label": "DCC.AbilityAgl",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "sta": {
+            "label": "DCC.AbilitySta",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "per": {
+            "label": "DCC.AbilityPer",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "int": {
+            "label": "DCC.AbilityInt",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "lck": {
+            "label": "DCC.AbilityLck",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          }
+        },
+        "attributes": {
+          "ac": {
+            "value": 10,
+            "checkPenalty": 0,
+            "speedPenalty": 0,
+            "fumbleDie": "1d4"
+          },
+          "actionDice": {
+            "value": "1d20",
+            "options": [
+              "1d20"
+            ]
+          },
+          "critical": {
+            "die": "1d6",
+            "table": "III"
+          },
+          "fumble": {
+            "die": "1d4"
+          },
+          "hitDice": {
+            "value": "1d8"
+          },
+          "hp": {
+            "value": 4,
+            "min": 0,
+            "max": 4,
+            "temp": 0,
+            "tempmax": 0
+          },
+          "init": {
+            "die": "1d20",
+            "value": 0
+          },
+          "speed": {
+            "value": "25'",
+            "base": 30,
+            "special": "",
+            "other": ""
+          },
+          "special": {
+            "value": ""
+          }
+        },
+        "details": {
+          "level": {
+            "value": 0
+          },
+          "alignment": "l",
+          "attackBonus": "+0",
+          "languages": "",
+          "occupation": "",
+          "title": "",
+          "notes": {
+            "value": "Mocle and Naven: Init +0; Atk spear +1 melee (1d6) or crossbow +0 missile fire (1d6); AC 10; HD 1d8; hp 4; MV 25’; Act 1d20; SV Fort +1, Ref +1, Will +0; AL L."
+          }
+        },
+        "saves": {
+          "frt": {
+            "label": "DCC.SavesFortitude",
+            "value": 1
+          },
+          "ref": {
+            "label": "DCC.SavesReflex",
+            "value": 1
+          },
+          "wil": {
+            "label": "DCC.SavesWill",
+            "value": 0
+          }
+        },
+        "currency": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "0",
+          "sp": "0",
+          "cp": "0"
+        },
+        "config": {
+          "attackBonusMode": "flat",
+          "actionDice": "1d20",
+          "capLevel": false,
+          "maxLevel": 0,
+          "rollAttackBonus": false,
+          "computeAC": false,
+          "baseACAbility": "agl",
+          "computeSpeed": false,
+          "computeCheckPenalty": false,
+          "sortInventory": true,
+          "removeEmptyItems": true,
+          "showSpells": false,
+          "showSkills": false,
+          "showMaxAbilities": true,
+          "showBackstab": false,
+          "showMaxAttributes": false
+        },
+        "class": {
+          "spellCheck": 1,
+          "spellCheckAbility": "int"
+        }
+      },
+      "prototypeToken": {
+        "flags": {},
+        "name": "Mocle and Naven",
+        "displayName": 20,
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "actorLink": true,
+        "disposition": 0,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "attributes.hp"
+        },
+        "bar2": {
+          "attribute": "abilities.lck.value"
+        },
+        "randomImg": false,
+        "alpha": 1,
+        "light": {
+          "alpha": 1,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          },
+          "color": null,
+          "attenuation": 0.5
+        },
+        "texture": {
+          "src": "modules/dcc-doom-of-the-savage-kings/assets/tokens/moclenaven.webp",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": []
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1677677323439,
+        "modifiedTime": 1684781401695,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "3en1HtBqU58YvY4t"
+    },
+    {
+      "name": "Naven",
+      "type": "NPC",
+      "img": "modules/dcc-doom-of-the-savage-kings/assets/tokens/moclenaven.webp",
+      "items": [
+        {
+          "_id": "ATLHFEDtZYBV9RvD",
+          "name": "spear",
+          "type": "weapon",
+          "sort": 100000,
+          "flags": {},
+          "effects": [],
+          "img": "icons/svg/item-bag.svg",
+          "folder": null,
+          "system": {
+            "description": {
+              "value": "",
+              "chat": "",
+              "unidentified": "",
+              "summary": ""
+            },
+            "source": "",
+            "quantity": 1,
+            "weight": 0,
+            "equipped": true,
+            "identified": true,
+            "value": {
+              "pp": 0,
+              "ep": 0,
+              "gp": 0,
+              "sp": 0,
+              "cp": 0
+            },
+            "config": {
+              "inheritActionDie": true,
+              "inheritCritRange": true
+            },
+            "actionDie": "1d20",
+            "toHit": "+1",
+            "damage": "1d6",
+            "range": "",
+            "twoHanded": false,
+            "melee": true,
+            "shortRangeStrength": 0,
+            "subdual": 0,
+            "backstab": false,
+            "backstabDamage": null,
+            "doubleIfMounted": 0,
+            "critRange": 20,
+            "trained": true
+          },
+          "ownership": {
+            "default": 0
+          },
+          "_stats": {
+            "systemId": null,
+            "systemVersion": null,
+            "coreVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        },
+        {
+          "_id": "NpW4mVfflKt7uyA8",
+          "name": "crossbow",
+          "type": "weapon",
+          "sort": 200000,
+          "flags": {},
+          "effects": [],
+          "img": "icons/svg/item-bag.svg",
+          "folder": null,
+          "system": {
+            "description": {
+              "value": "",
+              "chat": "",
+              "unidentified": "",
+              "summary": ""
+            },
+            "source": "",
+            "quantity": 1,
+            "weight": 0,
+            "equipped": true,
+            "identified": true,
+            "value": {
+              "pp": 0,
+              "ep": 0,
+              "gp": 0,
+              "sp": 0,
+              "cp": 0
+            },
+            "config": {
+              "inheritActionDie": true,
+              "inheritCritRange": true
+            },
+            "actionDie": "1d20",
+            "toHit": "+0",
+            "damage": "1d6",
+            "range": "",
+            "twoHanded": false,
+            "melee": false,
+            "shortRangeStrength": 0,
+            "subdual": 0,
+            "backstab": false,
+            "backstabDamage": null,
+            "doubleIfMounted": 0,
+            "critRange": 20,
+            "trained": true
+          },
+          "ownership": {
+            "default": 0
+          },
+          "_stats": {
+            "systemId": null,
+            "systemVersion": null,
+            "coreVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        }
+      ],
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-monsters.Ylq5tuaXV6WFAwnU"
+        }
+      },
+      "system": {
+        "abilities": {
+          "str": {
+            "label": "DCC.AbilityStr",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "agl": {
+            "label": "DCC.AbilityAgl",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "sta": {
+            "label": "DCC.AbilitySta",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "per": {
+            "label": "DCC.AbilityPer",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "int": {
+            "label": "DCC.AbilityInt",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "lck": {
+            "label": "DCC.AbilityLck",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          }
+        },
+        "attributes": {
+          "ac": {
+            "value": 10,
+            "checkPenalty": 0,
+            "speedPenalty": 0,
+            "fumbleDie": "1d4"
+          },
+          "actionDice": {
+            "value": "1d20",
+            "options": [
+              "1d20"
+            ]
+          },
+          "critical": {
+            "die": "1d6",
+            "table": "III"
+          },
+          "fumble": {
+            "die": "1d4"
+          },
+          "hitDice": {
+            "value": "1d8"
+          },
+          "hp": {
+            "value": 4,
+            "min": 0,
+            "max": 4,
+            "temp": 0,
+            "tempmax": 0
+          },
+          "init": {
+            "die": "1d20",
+            "value": 0
+          },
+          "speed": {
+            "value": "25'",
+            "base": 30,
+            "special": "",
+            "other": ""
+          },
+          "special": {
+            "value": ""
+          }
+        },
+        "details": {
+          "level": {
+            "value": 0
+          },
+          "alignment": "l",
+          "attackBonus": "+0",
+          "languages": "",
+          "occupation": "",
+          "title": "",
+          "notes": {
+            "value": "Mocle and Naven: Init +0; Atk spear +1 melee (1d6) or crossbow +0 missile fire (1d6); AC 10; HD 1d8; hp 4; MV 25’; Act 1d20; SV Fort +1, Ref +1, Will +0; AL L."
+          }
+        },
+        "saves": {
+          "frt": {
+            "label": "DCC.SavesFortitude",
+            "value": 1
+          },
+          "ref": {
+            "label": "DCC.SavesReflex",
+            "value": 1
+          },
+          "wil": {
+            "label": "DCC.SavesWill",
+            "value": 0
+          }
+        },
+        "currency": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "0",
+          "sp": "0",
+          "cp": "0"
+        },
+        "config": {
+          "attackBonusMode": "flat",
+          "actionDice": "1d20",
+          "capLevel": false,
+          "maxLevel": 0,
+          "rollAttackBonus": false,
+          "computeAC": false,
+          "baseACAbility": "agl",
+          "computeSpeed": false,
+          "computeCheckPenalty": false,
+          "sortInventory": true,
+          "removeEmptyItems": true,
+          "showSpells": false,
+          "showSkills": false,
+          "showMaxAbilities": true,
+          "showBackstab": false,
+          "showMaxAttributes": false
+        },
+        "class": {
+          "spellCheck": 1,
+          "spellCheckAbility": "int"
+        }
+      },
+      "prototypeToken": {
+        "flags": {},
+        "name": "Mocle and Naven",
+        "displayName": 20,
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "actorLink": true,
+        "disposition": 0,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "attributes.hp"
+        },
+        "bar2": {
+          "attribute": "abilities.lck.value"
+        },
+        "randomImg": false,
+        "alpha": 1,
+        "light": {
+          "alpha": 1,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          },
+          "color": null,
+          "attenuation": 0.5
+        },
+        "texture": {
+          "src": "modules/dcc-doom-of-the-savage-kings/assets/tokens/moclenaven.webp",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": []
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1677677323448,
+        "modifiedTime": 1684781401696,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "FuvIX1Gf0L9hfgJy"
+    },
+    {
+      "name": "Nothan le Jeune, maître de la garde",
+      "type": "NPC",
+      "img": "modules/dcc-doom-of-the-savage-kings/assets/tokens/nothan.webp",
+      "items": [
+        {
+          "_id": "DRZIBouJUdTRlOiG",
+          "name": "longsword",
+          "type": "weapon",
+          "sort": 100000,
+          "flags": {},
+          "effects": [],
+          "img": "icons/svg/item-bag.svg",
+          "folder": null,
+          "system": {
+            "description": {
+              "value": "",
+              "chat": "",
+              "unidentified": "",
+              "summary": ""
+            },
+            "source": "",
+            "quantity": 1,
+            "weight": 0,
+            "equipped": true,
+            "identified": true,
+            "value": {
+              "pp": 0,
+              "ep": 0,
+              "gp": 0,
+              "sp": 0,
+              "cp": 0
+            },
+            "config": {
+              "inheritActionDie": true,
+              "inheritCritRange": true
+            },
+            "actionDie": "1d20",
+            "toHit": "+1",
+            "damage": "1d8",
+            "range": "",
+            "twoHanded": false,
+            "melee": true,
+            "shortRangeStrength": 0,
+            "subdual": 0,
+            "backstab": false,
+            "backstabDamage": null,
+            "doubleIfMounted": 0,
+            "critRange": 20,
+            "trained": true
+          },
+          "ownership": {
+            "default": 0
+          },
+          "_stats": {
+            "systemId": null,
+            "systemVersion": null,
+            "coreVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        }
+      ],
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-monsters.lm8viKvcGfrlDJGg"
+        }
+      },
+      "system": {
+        "abilities": {
+          "str": {
+            "label": "DCC.AbilityStr",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "agl": {
+            "label": "DCC.AbilityAgl",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "sta": {
+            "label": "DCC.AbilitySta",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "per": {
+            "label": "DCC.AbilityPer",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "int": {
+            "label": "DCC.AbilityInt",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "lck": {
+            "label": "DCC.AbilityLck",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          }
+        },
+        "attributes": {
+          "ac": {
+            "value": 15,
+            "checkPenalty": 0,
+            "speedPenalty": 0,
+            "fumbleDie": "1d4"
+          },
+          "actionDice": {
+            "value": "1d20",
+            "options": [
+              "1d20"
+            ]
+          },
+          "critical": {
+            "die": "1d8",
+            "table": "III"
+          },
+          "fumble": {
+            "die": "1d4"
+          },
+          "hitDice": {
+            "value": "2d8"
+          },
+          "hp": {
+            "value": 10,
+            "min": 0,
+            "max": 10,
+            "temp": 0,
+            "tempmax": 0
+          },
+          "init": {
+            "die": "1d20",
+            "value": 1
+          },
+          "speed": {
+            "value": "20'",
+            "base": 30,
+            "special": "",
+            "other": ""
+          },
+          "special": {
+            "value": ""
+          }
+        },
+        "details": {
+          "level": {
+            "value": 0
+          },
+          "alignment": "l",
+          "attackBonus": "+0",
+          "languages": "",
+          "occupation": "",
+          "title": "",
+          "notes": {
+            "value": "Nothan the Younger, Master of the Watch: Init +1; Atk longsword +1 melee (1d8); AC 15; HD 2d8; hp 10; MV 20’; Act 1d20; SV Fort +2, Ref +1, Will +1; AL L."
+          }
+        },
+        "saves": {
+          "frt": {
+            "label": "DCC.SavesFortitude",
+            "value": 2
+          },
+          "ref": {
+            "label": "DCC.SavesReflex",
+            "value": 1
+          },
+          "wil": {
+            "label": "DCC.SavesWill",
+            "value": 1
+          }
+        },
+        "currency": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "0",
+          "sp": "0",
+          "cp": "0"
+        },
+        "config": {
+          "attackBonusMode": "flat",
+          "actionDice": "1d20",
+          "capLevel": false,
+          "maxLevel": 0,
+          "rollAttackBonus": false,
+          "computeAC": false,
+          "baseACAbility": "agl",
+          "computeSpeed": false,
+          "computeCheckPenalty": false,
+          "sortInventory": true,
+          "removeEmptyItems": true,
+          "showSpells": false,
+          "showSkills": false,
+          "showMaxAbilities": true,
+          "showBackstab": false,
+          "showMaxAttributes": false
+        },
+        "class": {
+          "spellCheck": 1,
+          "spellCheckAbility": "int"
+        }
+      },
+      "prototypeToken": {
+        "flags": {},
+        "name": "Nothan the Younger, Master of the Watch",
+        "displayName": 20,
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "actorLink": true,
+        "disposition": 0,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "attributes.hp"
+        },
+        "bar2": {
+          "attribute": "abilities.lck.value"
+        },
+        "randomImg": false,
+        "alpha": 1,
+        "light": {
+          "alpha": 1,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          },
+          "color": null,
+          "attenuation": 0.5
+        },
+        "texture": {
+          "src": "modules/dcc-doom-of-the-savage-kings/assets/tokens/nothan.webp",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": []
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1677677323451,
+        "modifiedTime": 1684781401697,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "t1Mag7wyENEAG9sN"
+    },
+    {
+      "name": "Oleen le lutin",
+      "type": "NPC",
+      "img": "systems/dcc/styles/images/actor.webp",
+      "system": {
+        "abilities": {
+          "str": {
+            "label": "DCC.AbilityStr",
+            "value": 10,
+            "max": 10
+          },
+          "agl": {
+            "label": "DCC.AbilityAgl",
+            "value": 10,
+            "max": 10
+          },
+          "sta": {
+            "label": "DCC.AbilitySta",
+            "value": 10,
+            "max": 10
+          },
+          "per": {
+            "label": "DCC.AbilityPer",
+            "value": 10,
+            "max": 10
+          },
+          "int": {
+            "label": "DCC.AbilityInt",
+            "value": 10,
+            "max": 10
+          },
+          "lck": {
+            "label": "DCC.AbilityLck",
+            "value": 10,
+            "max": 10
+          }
+        },
+        "attributes": {
+          "ac": {
+            "value": 10,
+            "checkPenalty": 0,
+            "speedPenalty": 0
+          },
+          "actionDice": {
+            "value": "1d20",
+            "options": [
+              "1d20"
+            ]
+          },
+          "critical": {
+            "die": "1d4",
+            "table": "M"
+          },
+          "fumble": {
+            "die": "1d4"
+          },
+          "hitDice": {
+            "value": "1d6"
+          },
+          "hp": {
+            "value": 10,
+            "min": 0,
+            "max": 10,
+            "temp": 0,
+            "tempmax": 0
+          },
+          "init": {
+            "die": "1d20",
+            "value": 0
+          },
+          "speed": {
+            "value": "30'",
+            "base": 30,
+            "special": "",
+            "other": ""
+          },
+          "special": {
+            "value": ""
+          }
+        },
+        "details": {
+          "level": {
+            "value": 0
+          },
+          "alignment": "l",
+          "attackBonus": "+0",
+          "languages": "",
+          "occupation": "",
+          "title": "",
+          "notes": ""
+        },
+        "saves": {
+          "frt": {
+            "label": "DCC.SavesFortitude",
+            "value": 0
+          },
+          "ref": {
+            "label": "DCC.SavesReflex",
+            "value": 0
+          },
+          "wil": {
+            "label": "DCC.SavesWill",
+            "value": 0
+          }
+        },
+        "currency": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "0",
+          "sp": "0",
+          "cp": "0"
+        },
+        "config": {
+          "attackBonusMode": "flat",
+          "actionDice": "1d20",
+          "capLevel": false,
+          "maxLevel": 10,
+          "rollAttackBonus": false,
+          "computeAC": false,
+          "baseACAbility": "agl",
+          "computeSpeed": false,
+          "computeCheckPenalty": false,
+          "sortInventory": true,
+          "removeEmptyItems": true,
+          "showSpells": false,
+          "showSkills": false,
+          "showMaxAbilities": true,
+          "showBackstab": false
+        },
+        "class": {
+          "spellCheck": 1,
+          "spellCheckAbility": "int"
+        }
+      },
+      "prototypeToken": {
+        "name": "Oleen le lutin",
+        "displayName": 0,
+        "actorLink": false,
+        "texture": {
+          "src": "systems/dcc/styles/images/actor.webp",
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0,
+          "tint": null
+        },
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": "attributes.hp"
+        },
+        "bar2": {
+          "attribute": "abilities.lck.value"
+        },
+        "light": {
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": null,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [],
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683447040768,
+        "modifiedTime": 1684781401698,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "zjPLuTqCPDb819lN"
+    },
+    {
+      "name": "Serpent Goule",
+      "type": "NPC",
+      "img": "modules/dcc-doom-of-the-savage-kings/assets/tokens/ghoulserpent.webp",
+      "items": [
+        {
+          "_id": "jsNp5VxPUoVSEqCF",
+          "name": "bite",
+          "type": "weapon",
+          "sort": 100000,
+          "flags": {},
+          "effects": [],
+          "img": "icons/svg/item-bag.svg",
+          "folder": null,
+          "system": {
+            "description": {
+              "value": "+ necrosis",
+              "chat": "",
+              "unidentified": "",
+              "summary": ""
+            },
+            "source": "",
+            "quantity": 1,
+            "weight": 0,
+            "equipped": true,
+            "identified": true,
+            "value": {
+              "pp": 0,
+              "ep": 0,
+              "gp": 0,
+              "sp": 0,
+              "cp": 0
+            },
+            "config": {
+              "inheritActionDie": true,
+              "inheritCritRange": true
+            },
+            "actionDie": "1d20",
+            "toHit": "+4",
+            "damage": "1d6",
+            "range": "",
+            "twoHanded": false,
+            "melee": true,
+            "shortRangeStrength": 0,
+            "subdual": 0,
+            "backstab": false,
+            "backstabDamage": null,
+            "doubleIfMounted": 0,
+            "critRange": 20,
+            "trained": true
+          },
+          "ownership": {
+            "default": 0
+          },
+          "_stats": {
+            "systemId": null,
+            "systemVersion": null,
+            "coreVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        }
+      ],
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-monsters.LBg0eACsJu1LVKnt"
+        }
+      },
+      "system": {
+        "abilities": {
+          "str": {
+            "label": "DCC.AbilityStr",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "agl": {
+            "label": "DCC.AbilityAgl",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "sta": {
+            "label": "DCC.AbilitySta",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "per": {
+            "label": "DCC.AbilityPer",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "int": {
+            "label": "DCC.AbilityInt",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "lck": {
+            "label": "DCC.AbilityLck",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          }
+        },
+        "attributes": {
+          "ac": {
+            "value": 14,
+            "checkPenalty": 0,
+            "speedPenalty": 0,
+            "fumbleDie": "1d4"
+          },
+          "actionDice": {
+            "value": "1d20",
+            "options": [
+              "1d20",
+              "1d20"
+            ]
+          },
+          "critical": {
+            "die": "1d8",
+            "table": "U"
+          },
+          "fumble": {
+            "die": "1d4"
+          },
+          "hitDice": {
+            "value": "3d6"
+          },
+          "hp": {
+            "value": 10,
+            "min": 0,
+            "max": 10,
+            "temp": 0,
+            "tempmax": 0
+          },
+          "init": {
+            "die": "1d20",
+            "value": 3
+          },
+          "speed": {
+            "value": "45'",
+            "base": 30,
+            "special": "",
+            "other": ""
+          },
+          "special": {
+            "value": "Traits de mort-vivant, vision dans le noir 30 m"
+          }
+        },
+        "details": {
+          "level": {
+            "value": 0
+          },
+          "alignment": "c",
+          "attackBonus": "+0",
+          "languages": "",
+          "occupation": "",
+          "title": "",
+          "notes": {
+            "value": "Ghoul Serpents (1/ghoul): Init +3; Atk bite +4 melee (1d6 + necrosis); AC 14; HD 3d6; hp 10; MV 45’; Act 2d20; SP un-dead traits, darkvision 100’; SV Fort +1, Ref +1, Will +1; AL C."
+          }
+        },
+        "saves": {
+          "frt": {
+            "label": "DCC.SavesFortitude",
+            "value": 1
+          },
+          "ref": {
+            "label": "DCC.SavesReflex",
+            "value": 1
+          },
+          "wil": {
+            "label": "DCC.SavesWill",
+            "value": 1
+          }
+        },
+        "currency": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "0",
+          "sp": "0",
+          "cp": "0"
+        },
+        "config": {
+          "attackBonusMode": "flat",
+          "actionDice": "2d20",
+          "capLevel": false,
+          "maxLevel": 0,
+          "rollAttackBonus": false,
+          "computeAC": false,
+          "baseACAbility": "agl",
+          "computeSpeed": false,
+          "computeCheckPenalty": false,
+          "sortInventory": true,
+          "removeEmptyItems": true,
+          "showSpells": false,
+          "showSkills": false,
+          "showMaxAbilities": true,
+          "showBackstab": false,
+          "showMaxAttributes": false
+        },
+        "class": {
+          "spellCheck": 1,
+          "spellCheckAbility": "int"
+        }
+      },
+      "prototypeToken": {
+        "flags": {},
+        "name": "Ghoul Serpent",
+        "displayName": 20,
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "actorLink": false,
+        "disposition": -1,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "attributes.hp"
+        },
+        "bar2": {
+          "attribute": "abilities.lck.value"
+        },
+        "randomImg": false,
+        "alpha": 1,
+        "light": {
+          "alpha": 1,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          },
+          "color": null,
+          "attenuation": 0.5
+        },
+        "texture": {
+          "src": "modules/dcc-doom-of-the-savage-kings/assets/tokens/ghoulserpent.webp",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": []
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1677677323445,
+        "modifiedTime": 1684781401699,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "kRP4A1BREZz95RHm"
+    },
+    {
+      "name": "Sylle Ru, Devin",
+      "type": "NPC",
+      "img": "modules/dcc-doom-of-the-savage-kings/assets/tokens/sylleru.webp",
+      "items": [
+        {
+          "_id": "eD7I5glw8uiWukdr",
+          "name": "dagger",
+          "type": "weapon",
+          "sort": 100000,
+          "flags": {},
+          "effects": [],
+          "img": "icons/svg/item-bag.svg",
+          "folder": null,
+          "system": {
+            "description": {
+              "value": "",
+              "chat": "",
+              "unidentified": "",
+              "summary": ""
+            },
+            "source": "",
+            "quantity": 1,
+            "weight": 0,
+            "equipped": true,
+            "identified": true,
+            "value": {
+              "pp": 0,
+              "ep": 0,
+              "gp": 0,
+              "sp": 0,
+              "cp": 0
+            },
+            "config": {
+              "inheritActionDie": true,
+              "inheritCritRange": true
+            },
+            "actionDie": "1d20",
+            "toHit": "-1",
+            "damage": "1d4-1",
+            "range": "",
+            "twoHanded": false,
+            "melee": true,
+            "shortRangeStrength": 0,
+            "subdual": 0,
+            "backstab": false,
+            "backstabDamage": null,
+            "doubleIfMounted": 0,
+            "critRange": 20,
+            "trained": true
+          },
+          "ownership": {
+            "default": 0
+          },
+          "_stats": {
+            "systemId": null,
+            "systemVersion": null,
+            "coreVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        }
+      ],
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-monsters.3pegUs7ccXQYgLfg"
+        }
+      },
+      "system": {
+        "abilities": {
+          "str": {
+            "label": "DCC.AbilityStr",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "agl": {
+            "label": "DCC.AbilityAgl",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "sta": {
+            "label": "DCC.AbilitySta",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "per": {
+            "label": "DCC.AbilityPer",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "int": {
+            "label": "DCC.AbilityInt",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "lck": {
+            "label": "DCC.AbilityLck",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          }
+        },
+        "attributes": {
+          "ac": {
+            "value": 10,
+            "checkPenalty": 0,
+            "speedPenalty": 0,
+            "fumbleDie": "1d4"
+          },
+          "actionDice": {
+            "value": "1d20",
+            "options": [
+              "1d20"
+            ]
+          },
+          "critical": {
+            "die": "1d8",
+            "table": "III"
+          },
+          "fumble": {
+            "die": "1d4"
+          },
+          "hitDice": {
+            "value": "3d4"
+          },
+          "hp": {
+            "value": 6,
+            "min": 0,
+            "max": 6,
+            "temp": 0,
+            "tempmax": 0
+          },
+          "init": {
+            "die": "1d20",
+            "value": 0
+          },
+          "speed": {
+            "value": "30'",
+            "base": 30,
+            "special": "",
+            "other": ""
+          },
+          "special": {
+            "value": "prestidigitation (DC 12 Will save or target sees his weapon disappear for 1d6+1 rounds), harmful spell 3/day"
+          }
+        },
+        "details": {
+          "level": {
+            "value": 0
+          },
+          "alignment": "c",
+          "attackBonus": "+0",
+          "languages": "",
+          "occupation": "",
+          "title": "",
+          "notes": {
+            "value": "Sylle Ru, Seer: Init +0; Atk dagger -1 melee (1d4-1) or harmful spell (2d4, range 50’, no save, up to 3 times per day); AC 10; HD 3d4; hp 6; MV 30’; Act 1d20; SP prestidigitation (DC 12 Will save or target sees his weapon disappear for 1d6+1 rounds), harmful spell 3/day; SV Fort +1, Ref +1, Will +4; AL C."
+          }
+        },
+        "saves": {
+          "frt": {
+            "label": "DCC.SavesFortitude",
+            "value": 1
+          },
+          "ref": {
+            "label": "DCC.SavesReflex",
+            "value": 1
+          },
+          "wil": {
+            "label": "DCC.SavesWill",
+            "value": 4
+          }
+        },
+        "currency": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "0",
+          "sp": "0",
+          "cp": "0"
+        },
+        "config": {
+          "attackBonusMode": "flat",
+          "actionDice": "1d20",
+          "capLevel": false,
+          "maxLevel": 0,
+          "rollAttackBonus": false,
+          "computeAC": false,
+          "baseACAbility": "agl",
+          "computeSpeed": false,
+          "computeCheckPenalty": false,
+          "sortInventory": true,
+          "removeEmptyItems": true,
+          "showSpells": false,
+          "showSkills": false,
+          "showMaxAbilities": true,
+          "showBackstab": false,
+          "showMaxAttributes": false
+        },
+        "class": {
+          "spellCheck": 1,
+          "spellCheckAbility": "int"
+        }
+      },
+      "prototypeToken": {
+        "flags": {},
+        "name": "Sylle Ru, Seer",
+        "displayName": 20,
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "actorLink": false,
+        "disposition": -1,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "attributes.hp"
+        },
+        "bar2": {
+          "attribute": "abilities.lck.value"
+        },
+        "randomImg": false,
+        "alpha": 1,
+        "light": {
+          "alpha": 1,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          },
+          "color": null,
+          "attenuation": 0.5
+        },
+        "texture": {
+          "src": "modules/dcc-doom-of-the-savage-kings/assets/tokens/sylleru.webp",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": []
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1677677323437,
+        "modifiedTime": 1684781401700,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "1eVxkCIWxIwR6Oir"
+    },
+    {
+      "name": "Thegn",
+      "type": "NPC",
+      "img": "modules/dcc-doom-of-the-savage-kings/assets/tokens/thegn.webp",
+      "items": [
+        {
+          "_id": "txAdnJ14DQZDFSQ4",
+          "name": "longsword",
+          "type": "weapon",
+          "sort": 100000,
+          "flags": {},
+          "effects": [],
+          "img": "icons/svg/item-bag.svg",
+          "folder": null,
+          "system": {
+            "description": {
+              "value": "",
+              "chat": "",
+              "unidentified": "",
+              "summary": ""
+            },
+            "source": "",
+            "quantity": 1,
+            "weight": 0,
+            "equipped": true,
+            "identified": true,
+            "value": {
+              "pp": 0,
+              "ep": 0,
+              "gp": 0,
+              "sp": 0,
+              "cp": 0
+            },
+            "config": {
+              "inheritActionDie": true,
+              "inheritCritRange": true
+            },
+            "actionDie": "1d20",
+            "toHit": "+3",
+            "damage": "1d8",
+            "range": "",
+            "twoHanded": false,
+            "melee": true,
+            "shortRangeStrength": 0,
+            "subdual": 0,
+            "backstab": false,
+            "backstabDamage": null,
+            "doubleIfMounted": 0,
+            "critRange": 20,
+            "trained": true
+          },
+          "ownership": {
+            "default": 0
+          },
+          "_stats": {
+            "systemId": null,
+            "systemVersion": null,
+            "coreVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        },
+        {
+          "_id": "JHRbKLfqHQ0goXfQ",
+          "name": "bow",
+          "type": "weapon",
+          "sort": 200000,
+          "flags": {},
+          "effects": [],
+          "img": "icons/svg/item-bag.svg",
+          "folder": null,
+          "system": {
+            "description": {
+              "value": "",
+              "chat": "",
+              "unidentified": "",
+              "summary": ""
+            },
+            "source": "",
+            "quantity": 1,
+            "weight": 0,
+            "equipped": true,
+            "identified": true,
+            "value": {
+              "pp": 0,
+              "ep": 0,
+              "gp": 0,
+              "sp": 0,
+              "cp": 0
+            },
+            "config": {
+              "inheritActionDie": true,
+              "inheritCritRange": true
+            },
+            "actionDie": "1d20",
+            "toHit": "+3",
+            "damage": "1d6",
+            "range": "",
+            "twoHanded": false,
+            "melee": false,
+            "shortRangeStrength": 0,
+            "subdual": 0,
+            "backstab": false,
+            "backstabDamage": null,
+            "doubleIfMounted": 0,
+            "critRange": 20,
+            "trained": true
+          },
+          "ownership": {
+            "default": 0
+          },
+          "_stats": {
+            "systemId": null,
+            "systemVersion": null,
+            "coreVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        }
+      ],
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-monsters.ERbgKq1a7rFXABip"
+        }
+      },
+      "system": {
+        "abilities": {
+          "str": {
+            "label": "DCC.AbilityStr",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "agl": {
+            "label": "DCC.AbilityAgl",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "sta": {
+            "label": "DCC.AbilitySta",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "per": {
+            "label": "DCC.AbilityPer",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "int": {
+            "label": "DCC.AbilityInt",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          },
+          "lck": {
+            "label": "DCC.AbilityLck",
+            "value": 10,
+            "max": 10,
+            "mod": 0
+          }
+        },
+        "attributes": {
+          "ac": {
+            "value": 16,
+            "checkPenalty": 0,
+            "speedPenalty": 0,
+            "fumbleDie": "1d4"
+          },
+          "actionDice": {
+            "value": "1d20",
+            "options": [
+              "1d20"
+            ]
+          },
+          "critical": {
+            "die": "1d6",
+            "table": "III"
+          },
+          "fumble": {
+            "die": "1d4"
+          },
+          "hitDice": {
+            "value": "2d8"
+          },
+          "hp": {
+            "value": 12,
+            "min": 0,
+            "max": 12,
+            "temp": 0,
+            "tempmax": 0
+          },
+          "init": {
+            "die": "1d20",
+            "value": 1
+          },
+          "speed": {
+            "value": "20'",
+            "base": 30,
+            "special": "",
+            "other": ""
+          },
+          "special": {
+            "value": ""
+          }
+        },
+        "details": {
+          "level": {
+            "value": 0
+          },
+          "alignment": "l",
+          "attackBonus": "+0",
+          "languages": "",
+          "occupation": "",
+          "title": "",
+          "notes": {
+            "value": "Thegns (7): Init +1; Atk longsword +3 melee (1d8) or bow +3 missile fire (1d6); AC 16; HD 2d8; hp 12; MV 20’; Act 1d20; SV Fort +2, Ref +1, Will +1; AL L."
+          }
+        },
+        "saves": {
+          "frt": {
+            "label": "DCC.SavesFortitude",
+            "value": 2
+          },
+          "ref": {
+            "label": "DCC.SavesReflex",
+            "value": 1
+          },
+          "wil": {
+            "label": "DCC.SavesWill",
+            "value": 1
+          }
+        },
+        "currency": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "0",
+          "sp": "0",
+          "cp": "0"
+        },
+        "config": {
+          "attackBonusMode": "flat",
+          "actionDice": "1d20",
+          "capLevel": false,
+          "maxLevel": 0,
+          "rollAttackBonus": false,
+          "computeAC": false,
+          "baseACAbility": "agl",
+          "computeSpeed": false,
+          "computeCheckPenalty": false,
+          "sortInventory": true,
+          "removeEmptyItems": true,
+          "showSpells": false,
+          "showSkills": false,
+          "showMaxAbilities": true,
+          "showBackstab": false,
+          "showMaxAttributes": false
+        },
+        "class": {
+          "spellCheck": 1,
+          "spellCheckAbility": "int"
+        }
+      },
+      "prototypeToken": {
+        "flags": {},
+        "name": "Thegns",
+        "displayName": 20,
+        "width": 1,
+        "height": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "actorLink": false,
+        "disposition": 0,
+        "displayBars": 30,
+        "bar1": {
+          "attribute": "attributes.hp"
+        },
+        "bar2": {
+          "attribute": "abilities.lck.value"
+        },
+        "randomImg": false,
+        "alpha": 1,
+        "light": {
+          "alpha": 1,
+          "angle": 360,
+          "bright": 0,
+          "coloration": 1,
+          "dim": 0,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          },
+          "color": null,
+          "attenuation": 0.5
+        },
+        "texture": {
+          "src": "modules/dcc-doom-of-the-savage-kings/assets/tokens/thegn.webp",
+          "tint": null,
+          "scaleX": 1,
+          "scaleY": 1,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0
+        },
+        "sight": {
+          "angle": 360,
+          "enabled": false,
+          "range": 0,
+          "brightness": 1,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": []
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1677677323442,
+        "modifiedTime": 1684781401701,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "g5Tlu5YieFxSOIwR"
+    }
+  ],
+  "source": {
+    "world": "dcc-le-fleau-des-rois-barbares",
+    "system": "dcc",
+    "version": {
+      "core": "10.291",
+      "system": "0.35.1"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "package": "world.fr-le-fleau-des-rois-barbares-macros",
+  "metadata": {
+    "name": "fr-le-fleau-des-rois-barbares-macros",
+    "label": "FR Le fléau des rois barbares Macros",
+    "path": "worlds/dcc-le-fleau-des-rois-barbares/packs/fr-le-fleau-des-rois-barbares-macros.db",
+    "private": false,
+    "type": "Macro",
+    "system": "dcc",
+    "flags": {},
+    "packageType": "world",
+    "packageName": "dcc-le-fleau-des-rois-barbares",
+    "id": "world.fr-le-fleau-des-rois-barbares-macros"
+  },
+  "type": "Macro",
+  "items": [
+    {
+      "name": "Rumeurs, Légendes, & Superstitions",
+      "type": "script",
+      "author": "xbI3xUfPhWLkJZtp",
+      "img": "modules/dcc-core-book/assets/webp/dcc-core-icons/dcc_rpg_logo.webp",
+      "scope": "global",
+      "command": "(async ()=>{\nconst contents = await game.packs.get(\"world.fr-le-fleau-des-rois-barbares-tables\").getDocuments();\n  const table = contents.find(i=> i.name === `Rumeurs, Légendes, & Superstitions`);\ntable.draw({ roll: null, results: [], displayChat: true, rollMode: \"gmroll\"});;\n})();",
+      "flags": {
+        "core": {
+          "sourceId": "Macro.Jw5umqmwwR6imA8i"
+        }
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683363654194,
+        "modifiedTime": 1683367240379,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "cBe5QzqbocUHuOB9"
+    },
+    {
+      "name": "Sunken Fens Encounter Table",
+      "type": "script",
+      "author": "00iEpdnhIZjROYgO",
+      "img": "modules/dcc-core-book/assets/webp/dcc-core-icons/dcc_rpg_logo.webp",
+      "scope": "global",
+      "command": "(async ()=>{\nconst contents = await game.packs.get(\"dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-tables\").getDocuments();\n  const table = contents.find(i=> i.name === `Sunken Fens Encounter Table`);\ntable.draw({ roll: null, results: [], displayChat: true, rollMode: \"gmroll\"});;\n})();",
+      "flags": {
+        "core": {
+          "sourceId": "Macro.Jw5umqmwwR6imA8i"
+        }
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "DWnoiHTpS3Ra49UC"
+    }
+  ],
+  "source": {
+    "world": "dcc-le-fleau-des-rois-barbares",
+    "system": "dcc",
+    "version": {
+      "core": "10.291",
+      "system": "0.35.1"
+    }
+  }
+}

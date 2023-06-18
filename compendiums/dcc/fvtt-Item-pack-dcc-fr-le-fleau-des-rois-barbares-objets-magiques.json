@@ -1,0 +1,893 @@
+{
+  "package": "world.fr-le-fleau-des-rois-barbares-objets-magiques",
+  "metadata": {
+    "label": "FR Le fléau des rois barbares Objets magiques",
+    "type": "Item",
+    "name": "fr-le-fleau-des-rois-barbares-objets-magiques",
+    "path": "packs/fr-le-fleau-des-rois-barbares-objets-magiques.db",
+    "system": "dcc",
+    "private": false,
+    "flags": {},
+    "package": "world",
+    "id": "world.fr-le-fleau-des-rois-barbares-objets-magiques",
+    "packageType": "world",
+    "packageName": "dcc-le-fleau-des-rois-barbares"
+  },
+  "type": "Item",
+  "items": [
+    {
+      "name": "+1 gold chainmail",
+      "type": "armor",
+      "img": "modules/dcc-doom-of-the-savage-kings/assets/icons/chain-mail.webp",
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-magic-items.qSxvKeB4QhS68He2"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>+2 to saves against cold</p>",
+          "chat": "",
+          "unidentified": "",
+          "summary": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 0,
+        "equipped": true,
+        "identified": true,
+        "value": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "0",
+          "sp": "0",
+          "cp": "0"
+        },
+        "acBonus": 1,
+        "checkPenalty": 0,
+        "speed": "0'",
+        "fumbleDie": "1d4"
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683559166138,
+        "modifiedTime": 1684862135017,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "71JHdFkQEvSb22TF"
+    },
+    {
+      "name": "+2 Lion Shield",
+      "type": "armor",
+      "img": "modules/dcc-doom-of-the-savage-kings/assets/icons/shield.webp",
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-magic-items.QjksKOjiLQ0U1Q0m"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p><span class=\"fontstyle0\">A hammered bronze shield. The shield is embossed with the stylized image of a lion&rsquo;s head. The </span><span class=\"fontstyle2\">+2 lion shield </span><span class=\"fontstyle0\">grants the bearer +2 to Will saves, while imposing a -2 penalty to morale checks made by foes of 5 HD or less. If the bearer is struck by a critical hit, he can opt to sacrifice the shield in order to take no damage from the attack.&nbsp;</span> </p>",
+          "chat": "",
+          "unidentified": "",
+          "summary": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 0,
+        "equipped": true,
+        "identified": true,
+        "value": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "0",
+          "sp": "0",
+          "cp": "0"
+        },
+        "acBonus": 3,
+        "checkPenalty": -1,
+        "speed": "0'",
+        "fumbleDie": "1d8"
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683559170570,
+        "modifiedTime": 1684862135018,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "kdrUhXGktdHniQez"
+    },
+    {
+      "name": "+2 Warhammer",
+      "type": "weapon",
+      "img": "modules/dcc-core-book/assets/svg/game-icons-net/flat-hammer.svg",
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-magic-items.TmauAj5xQ9AYGYje"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>+3 damage to demons, +1 to saving throws</p>",
+          "chat": "",
+          "unidentified": "",
+          "summary": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 0,
+        "equipped": false,
+        "identified": true,
+        "value": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "5",
+          "sp": "0",
+          "cp": "0"
+        },
+        "config": {
+          "inheritActionDie": true,
+          "inheritCritRange": true
+        },
+        "actionDie": "",
+        "toHit": "+2",
+        "damage": "1d8+2",
+        "range": "-",
+        "twoHanded": false,
+        "melee": true,
+        "shortRangeStrength": false,
+        "subdual": false,
+        "backstab": false,
+        "backstabDamage": null,
+        "doubleIfMounted": false,
+        "critRange": 20,
+        "trained": true
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683559173270,
+        "modifiedTime": 1684862135018,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "VTQb1HACXscpwBzG"
+    },
+    {
+      "name": "1d100 morceaux de bijoux en or ou en argent",
+      "type": "treasure",
+      "img": "systems/dcc/styles/images/coins.webp",
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-magic-items.gbMRG36RUNpanp4P"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": "",
+          "summary": ""
+        },
+        "source": "",
+        "value": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "1d5",
+          "sp": "0",
+          "cp": "0"
+        },
+        "isCoins": false,
+        "weight": null
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683559175574,
+        "modifiedTime": 1684862135018,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "UCqURD9Psjmotodt"
+    },
+    {
+      "name": "A drinking horn, chased with silver and platinum",
+      "type": "treasure",
+      "img": "modules/dcc-doom-of-the-savage-kings/assets/icons/beer-horn.webp",
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-magic-items.3s9oxna8ekCwDwfk"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": "",
+          "summary": ""
+        },
+        "source": "",
+        "value": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "30",
+          "sp": "0",
+          "cp": "0"
+        },
+        "isCoins": false,
+        "weight": null
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683559177544,
+        "modifiedTime": 1684862135019,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "jFXCPfksIYlcAIpG"
+    },
+    {
+      "name": "A hammered silver torque",
+      "type": "treasure",
+      "img": "systems/dcc/styles/images/item.webp",
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-magic-items.Z93QC9D3db6T4b4d"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": "",
+          "summary": ""
+        },
+        "source": "",
+        "value": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "10",
+          "sp": "0",
+          "cp": "0"
+        },
+        "isCoins": false,
+        "weight": null
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683559186072,
+        "modifiedTime": 1684862135019,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "iUXxm62UZodNCkzF"
+    },
+    {
+      "name": "Black orb",
+      "type": "equipment",
+      "img": "modules/dcc-doom-of-the-savage-kings/assets/icons/smoking-orb.webp",
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-magic-items.12lBEu8xQfRdyWmJ"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p><span class=\"fontstyle0\">At the caster&rsquo;s command, the orb shrinks to the size of a marble or grows as large as a crystal ball. Only one </span><span class=\"fontstyle2\">black orb </span><span class=\"fontstyle0\">can exist at any given time. Employing the </span><span class=\"fontstyle2\">black orb </span><span class=\"fontstyle0\">during spellcasting grants the caster +1 to all spell checks.</span></p>",
+          "chat": "",
+          "unidentified": "",
+          "summary": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 0,
+        "equipped": true,
+        "identified": true,
+        "value": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "0",
+          "sp": "0",
+          "cp": "0"
+        }
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683559190552,
+        "modifiedTime": 1684862135019,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "w1JsMjorXClkXZRK"
+    },
+    {
+      "name": "Coins",
+      "type": "treasure",
+      "img": "systems/dcc/styles/images/coins.webp",
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-magic-items.6fFCRk4VEuBROJKN"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": "",
+          "summary": ""
+        },
+        "source": "",
+        "value": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "3d100",
+          "sp": "5d100",
+          "cp": "2d20"
+        },
+        "isCoins": false,
+        "weight": null
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683559205760,
+        "modifiedTime": 1684862135020,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "XlV5IMgoRMwUe1H1"
+    },
+    {
+      "name": "Hide of the Cave Bear",
+      "type": "armor",
+      "img": "modules/dcc-doom-of-the-savage-kings/assets/icons/bear-face.webp",
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-magic-items.o7XSIYsE2Fr74Pwe"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p><span class=\"fontstyle0\">When donned by a warrior or dwarf, the hide permits the wearer to fly into a berserker rage 1/day per level. In a rage, the wearer temporarily gains a +2 to attack and damage rolls, +2 hp per level, and a +2 bonus to Fort saves, but takes a -2 penalty to AC. The rage lasts for a number of rounds equal to 1d5 + the character&rsquo;s level, though the warrior may prematurely end the rage. At the end of the rage, the warrior loses all modifiers and becomes fatigued (temporarily reduced to half current hp, cannot run or charge) for a number of rounds equal to the length of the rage.</span></p>",
+          "chat": "",
+          "unidentified": "",
+          "summary": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 0,
+        "equipped": true,
+        "identified": true,
+        "value": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "0",
+          "sp": "0",
+          "cp": "0"
+        },
+        "acBonus": 0,
+        "checkPenalty": 0,
+        "speed": "0'",
+        "fumbleDie": "0"
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683559208070,
+        "modifiedTime": 1684862135020,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "vAwvDnFUTv7bJA4g"
+    },
+    {
+      "name": "Horn of Kings",
+      "type": "equipment",
+      "img": "modules/dcc-doom-of-the-savage-kings/assets/icons/beer-horn.webp",
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-magic-items.3C3mPCQYnetlxCLA"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p><span class=\"fontstyle0\">Anyone drinking from the </span><span class=\"fontstyle2\">Horn of Kings </span><span class=\"fontstyle0\">immediately ascertains its powers. The horn glows faintly in the presence of poisoned meat or drink. Thrice per week, drinking from the horn grants +4 to a Fort save against poisons; thrice per month, drinking from the horn heals the drinker [[/roll (@cl)d12]]{1d12} hp/level; once, and only once, drinking from the horn grants the imbiber a DC 10 Fort save to return from death. When this final power is used, the horn shatters, losing all its powers forever.</span></p>",
+          "chat": "",
+          "unidentified": "",
+          "summary": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 0,
+        "equipped": true,
+        "identified": true,
+        "value": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "0",
+          "sp": "0",
+          "cp": "0"
+        }
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683559210353,
+        "modifiedTime": 1684862135020,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "QzuSc3Yyks4Zn4L7"
+    },
+    {
+      "name": "La lance Tue-Loup de l’Ulfheonar",
+      "type": "weapon",
+      "img": "modules/dcc-doom-of-the-savage-kings/assets/icons/spear-hook.webp",
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-magic-items.HMXg6Vxu55PVib0X"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p><span class=\"fontstyle0\">a magical weapon with a +1 bonus to hit and damage. The weapon also grants its bearer a +1 to initiative rolls. On a successful hit the wielder can use the cross bars mounted below the spearhead to pin a creature, reducing the target&rsquo;s AC by the wielder&rsquo;s Strength bonus. By sacrificing his actions in a given round, the wielder can maintain the pin on the target with a successful contested Strength check. With the spear, heroes can even pin magical creatures, preventing them from&nbsp; assuming gaseous form, teleporting, stepping to another plane, and so on. This last ability is crucial in defeating the Hound of Hirot (see the hound&rsquo;s description in the introduction, above).</span></p>",
+          "chat": "",
+          "unidentified": "",
+          "summary": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 0,
+        "equipped": true,
+        "identified": true,
+        "value": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "0",
+          "sp": "0",
+          "cp": "0"
+        },
+        "config": {
+          "inheritActionDie": true,
+          "inheritCritRange": true
+        },
+        "actionDie": "1d20",
+        "toHit": "+1",
+        "damage": "1d8+1",
+        "range": "",
+        "twoHanded": false,
+        "melee": true,
+        "shortRangeStrength": 0,
+        "subdual": 0,
+        "backstab": false,
+        "backstabDamage": null,
+        "doubleIfMounted": 0,
+        "critRange": 20,
+        "trained": true
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1677677323512,
+        "modifiedTime": 1684862135020,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "7ZWIZAnMmmwG8HG1"
+    },
+    {
+      "name": "Several casks of fine mead",
+      "type": "treasure",
+      "img": "modules/dcc-doom-of-the-savage-kings/assets/icons/barrel.webp",
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-magic-items.8QhhuvgYSqUbK0PH"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": "",
+          "summary": ""
+        },
+        "source": "",
+        "value": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "30",
+          "sp": "0",
+          "cp": "0"
+        },
+        "isCoins": false,
+        "weight": null
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683559214569,
+        "modifiedTime": 1684862135020,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "zA3ZImrlCwlgmU4o"
+    },
+    {
+      "name": "Silver wolf pelt",
+      "type": "treasure",
+      "img": "modules/dcc-doom-of-the-savage-kings/assets/icons/wolf-head.webp",
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-magic-items.oBqC3sFzRi5Fu1qA"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p><span class=\"fontstyle0\">Worthy of a king, the pelt has somehow resisted rot despite the passage of centuries and will fetch up to 250 gp if sold in a large city.</span> </p>",
+          "chat": "",
+          "unidentified": "",
+          "summary": ""
+        },
+        "source": "",
+        "value": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "250",
+          "sp": "0",
+          "cp": "0"
+        },
+        "isCoins": false,
+        "weight": null
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683559227991,
+        "modifiedTime": 1684862135021,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "G8L5HqjXSDNnipzQ"
+    },
+    {
+      "name": "The hides of several bears",
+      "type": "treasure",
+      "img": "modules/dcc-doom-of-the-savage-kings/assets/icons/bear-face.webp",
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-magic-items.3V9bEeQx0EYgXswQ"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": "",
+          "summary": ""
+        },
+        "source": "",
+        "value": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "15",
+          "sp": "0",
+          "cp": "0"
+        },
+        "isCoins": false,
+        "weight": null
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683559233188,
+        "modifiedTime": 1684862135021,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "JTiuNw8KA5dMF2SC"
+    },
+    {
+      "name": "Two dozen large gold hoops",
+      "type": "treasure",
+      "img": "systems/dcc/styles/images/coins.webp",
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-magic-items.Q3j4MaXLbC82rPTw"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": "",
+          "summary": ""
+        },
+        "source": "",
+        "value": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "5",
+          "sp": "0",
+          "cp": "0"
+        },
+        "isCoins": false,
+        "weight": null
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683559236945,
+        "modifiedTime": 1684862135021,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "EBzUvRLzz7VUFdz0"
+    },
+    {
+      "name": "Two-handed sword, set with jewels",
+      "type": "weapon",
+      "img": "modules/dcc-doom-of-the-savage-kings/assets/icons/relic-blade.webp",
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-magic-items.RP23y8Kq61bnxIQB"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": "",
+          "summary": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 0,
+        "equipped": true,
+        "identified": true,
+        "value": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "50",
+          "sp": "0",
+          "cp": "0"
+        },
+        "config": {
+          "inheritActionDie": true,
+          "inheritCritRange": true
+        },
+        "actionDie": "1d20",
+        "toHit": "+0",
+        "damage": "1d10",
+        "range": "",
+        "twoHanded": true,
+        "melee": true,
+        "shortRangeStrength": 0,
+        "subdual": 0,
+        "backstab": false,
+        "backstabDamage": null,
+        "doubleIfMounted": 0,
+        "critRange": 20,
+        "trained": true
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683559239263,
+        "modifiedTime": 1684862135021,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "OpsD45XGQwDba47m"
+    },
+    {
+      "name": "Un grand heaume sculpté en forme de dragon",
+      "type": "equipment",
+      "img": "modules/dcc-doom-of-the-savage-kings/assets/icons/viking-helmet.webp",
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-magic-items.ouqVqOJNIas3ojEp"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p><span class=\"fontstyle0\">Once the helm of a savage warlord, the helm imposes a -1 penalty on the morale check of foes of 3 HD or less.</span> </p>",
+          "chat": "",
+          "unidentified": "",
+          "summary": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 0,
+        "equipped": true,
+        "identified": true,
+        "value": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "0",
+          "sp": "0",
+          "cp": "0"
+        }
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683559183978,
+        "modifiedTime": 1684862135022,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "tNRMIiwB6XSgv7oL"
+    },
+    {
+      "name": "Un grand torque de bronze décoré de fils d’or",
+      "type": "treasure",
+      "img": "systems/dcc/styles/images/item.webp",
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-magic-items.f0vzUcrUfN9wpPYM"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": "",
+          "summary": ""
+        },
+        "source": "",
+        "value": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "35",
+          "sp": "0",
+          "cp": "0"
+        },
+        "isCoins": false,
+        "weight": null
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683559180784,
+        "modifiedTime": 1684862135022,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "sqYOAWr41HY1G8UG"
+    },
+    {
+      "name": "Une lame de cérémonie serpentine incrustée d’argent",
+      "type": "weapon",
+      "img": "modules/dcc-doom-of-the-savage-kings/assets/icons/relic-blade.webp",
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-magic-items.yvZFlwvI6y88khyQ"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": "",
+          "summary": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 0,
+        "equipped": true,
+        "identified": true,
+        "value": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "15",
+          "sp": "0",
+          "cp": "0"
+        },
+        "config": {
+          "inheritActionDie": true,
+          "inheritCritRange": true
+        },
+        "actionDie": "1d20",
+        "toHit": "+0",
+        "damage": "1d5",
+        "range": "",
+        "twoHanded": false,
+        "melee": true,
+        "shortRangeStrength": 0,
+        "subdual": 0,
+        "backstab": true,
+        "backstabDamage": "1d10",
+        "doubleIfMounted": 0,
+        "critRange": 20,
+        "trained": true
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683559188336,
+        "modifiedTime": 1684862135022,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "SJltWMFYHQJ1R4vH"
+    },
+    {
+      "name": "Une petite targe en bronze",
+      "type": "armor",
+      "img": "modules/dcc-doom-of-the-savage-kings/assets/icons/round-shield.webp",
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-magic-items.LoZiIMYxhQAyPWB9"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p><span class=\"fontstyle0\">A small bronze buckler; if polished it regains its status as a </span><span class=\"fontstyle2\">+1 shield</span><span class=\"fontstyle0\">, and its small size permits the wielder to dual wield.</span> </p>",
+          "chat": "",
+          "unidentified": "",
+          "summary": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 0,
+        "equipped": true,
+        "identified": true,
+        "value": {
+          "pp": "0",
+          "ep": "0",
+          "gp": "0",
+          "sp": "0",
+          "cp": "0"
+        },
+        "acBonus": 2,
+        "checkPenalty": -1,
+        "speed": "0'",
+        "fumbleDie": "1d8"
+      },
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683559229836,
+        "modifiedTime": 1684862135022,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "5FpT3k6JAiwHjwKX"
+    }
+  ],
+  "source": {
+    "world": "dcc-le-fleau-des-rois-barbares",
+    "system": "dcc",
+    "version": {
+      "core": "10.291",
+      "system": "0.35.1"
+    }
+  }
+}

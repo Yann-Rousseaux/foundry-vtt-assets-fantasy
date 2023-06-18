@@ -1,0 +1,2321 @@
+{
+  "package": "world.fr-le-fleau-des-rois-barbares-texte",
+  "metadata": {
+    "label": "FR Le fléau des rois barbares Texte",
+    "type": "JournalEntry",
+    "name": "fr-le-fleau-des-rois-barbares-texte",
+    "path": "packs/fr-le-fleau-des-rois-barbares-texte.db",
+    "system": "dcc",
+    "private": false,
+    "flags": {},
+    "package": "world",
+    "id": "world.fr-le-fleau-des-rois-barbares-texte",
+    "packageType": "world",
+    "packageName": "dcc-le-fleau-des-rois-barbares"
+  },
+  "type": "JournalEntry",
+  "items": [
+    {
+      "name": "Zone C – Le tertre du serpent",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.AOeQeBStdQa5wpHR"
+        }
+      },
+      "pages": [
+        {
+          "name": "Zone C – Le tertre du serpent",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<blockquote><p>La forêt s’interrompt en bordure d’une pente escarpée, révélant une étroite vallée en contrebas. Au milieu de la vallée se trouve un tumulus de terre recouvert d’herbes hautes ayant la forme d’un serpent.</p></blockquote><p style=\"margin-bottom:0in;line-height:100%\"> </p><section class=\"secret\" id=\"secret-4JQIdSFEbEdpafrn\"><p>Les tribus sauvages du Nord inhumaient leurs chefs dans une tombe située au niveau de la tête du serpent. Le dernier et le plus grand d’entre eux était le puissant seigneur de guerre connu sous le nom de l’Ulfheonar.</p><p>En descendant dans la vallée, les PJ tombent sur de minces cours d’eau argentés s’écoulant de part et d’autre du tertre. Une inspection attentive du lit du cours d’eau situé à l’est révèle un endroit où le courant a érodé la berge, créant une étroite fissure dans les pierres. Il s’agit de l’entrée utilisée par les voleurs Ilham, Kej et Stein. En inspectant avec attention la fissure, on peut découvrir un lambeau de toile grossière coincée. Grimper dans la fente conduit les PJ à la zone C-6.</p><p>Les cours d’eau jumeaux se rejoignent au niveau de la tête du tumulus du serpent, zone C-1.</p></section>",
+            "markdown": ""
+          },
+          "_id": "Onulue6GXVn7XCKi",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        },
+        {
+          "name": "Zone C-1 – La mare et le serpent",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<blockquote><p>Deux cours d’eau argentés dévalent de chaque côté de la butte serpentine, se rejoignant pour former une mare scintillante et peu profonde au niveau de la tête de l’énorme tumulus. De l’autre côté de la mare, enchâssée dans le monticule de terre, se trouve une grande pierre circulaire décorée de spirales serpentines usées par le temps.</p></blockquote><section class=\"secret\" id=\"secret-rJdSar3oerslfn25\"><p>La mare fait à peine 30 cm de profondeur, avec un lit de sable blanc tacheté de mica qui fait scintiller et briller l’eau. Traverser la mare est une tâche simple, mais les PJ qui agitent le fond de la mare découvrent des paquets emballés de cuir dissimulés juste sous le sable. Ces paquets sont ficelés par des lanières de cuir pourries; chaque paquet détrempé contient une épée de bronze ébréchée et piquée, une poignée de pièces de bronze et d’étain et un crâne humanoïde fendu. Il y a quatre paquets en tout qui sont autant d’offrandes pour l’esprit du serpent qui réside dans la mare.</p><p>Pour pouvoir entrer dans la tombe, les PJ doivent faire rouler la pierre sur le côté ; une tâche herculéenne nécessitant un test de Force DD 25 (un maximum de 5 PJ peuvent ajouter leurs modificateurs de Force au total).</p><p>Toutefois, si les PJ parviennent à faire rouler la pierre sur le côté sans avoir déposé d’abord une offrande d’une valeur d’au moins 10 po dans la mare, l’esprit protecteur de la mare s’éveille. Les eaux argentées se rejoignent pour former la tête et le cou d’un serpent gigantesque. L’esprit serpent se rue sur les PJ fautifs, tentant de les « avaler» dans son corps aqueux. Les PJ frappés par l’esprit serpent doivent réussir un jet de sauvegarde de Vigueur DD 20 ou être aspirés dans le nuage d’eau où ils commencent immédiatement à se noyer. Des PJ peuvent extraire leurs camarades de la forme liquide en réussissant un jet d’attaque à mains nues contre la CA du serpent, suivi d’un test de Force DD 14. Les PJ piégés peuvent sinon uniquement essayer de se libérer du serpent en nageant (test de Force DD 18).</p><p>Si les PJ battent en retraite dans la tombe, le serpent se déverse à leur suite. Piégés dans l’étroit corridor fermé, les PJ devront soit distancer la vague, soit réussir un jet de sauvegarde de Vigueur DD 15. Ceux qui échouent sont entraînés par les flots jusque dans le gouffre de la zone C-3.</p><p><strong>@UUID[Actor.8nTHFahqYuDkVoaU]{Esprit Serpent}</strong> : <strong>Init</strong> +3; <strong>Att coup</strong> +3 <strong>corps-à-corps</strong> (1d5); <strong>CA</strong> 14; <strong>DV</strong> 4d8; <strong>PV</strong> 24; <strong>Mvt</strong> 12 m; <strong>Act</strong> 1d20; <strong>AS</strong> engloutit et noie, vulnérable au feu et à la chaleur, traits élémentaires ; <strong>JS</strong> Vig +2, Réf +2, Vol +4; <strong>AL</strong> N.</p></section><p style=\"margin-bottom:0in;line-height:100%\"> </p><img src=\"modules/dcc-doom-of-the-savage-kings/assets/handouts/serpentspirit.webp\" width=\"694\" height=\"369\" />",
+            "markdown": ""
+          },
+          "_id": "dxz8p9Va7mpwEdv1",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.uTeTGQkyeJZ69Hu7.JournalEntryPage.dxz8p9Va7mpwEdv1"
+            }
+          }
+        },
+        {
+          "name": "Zone C-2 – Passage de pierre",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<blockquote><p>Cet étroit passage obscur est soutenu par des murs de dalles de pierre. Le plafond bas est constitué de dalles similaires, toutes gravées de spirales serrées. L’air est immobile et frais, et des flaques d’eau se sont accumulées sur le sol en terre battue.</p></blockquote><p style=\"margin-bottom:0in;line-height:100%\"> </p><section class=\"secret\" id=\"secret-kyUq1nEOM93SNxKU\"><p>Les juges doivent tenir compte du fait que la description de la zone sera radicalement différente si les PJ ont été emportés dans le couloir par la vague d’eau animée.</p><p>Un examen attentif du sol révèle des traces à peine visibles. Bizarrement, ces traces viennent de l’intérieur de la tombe. Si les PJ prennent soin de ne pas marcher dessus, des pisteurs pourront facilement déterminer que ce qui était enfermé à l’intérieur de la tombe a essayé d’en sortir en grattant le sol.</p></section>",
+            "markdown": ""
+          },
+          "_id": "vi0Hs0rlSH3v88VF",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.GUsR3ku2CMqkiYjl.JournalEntryPage.vi0Hs0rlSH3v88VF"
+            }
+          }
+        },
+        {
+          "name": "Zone C-3 – Salle de la fosse",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<blockquote><p>Le couloir débouche sur une pièce plus large au plafond bas. Le sol dallé de pierres descend en pente raide depuis les quatre murs jusqu’à une fosse obscure au centre de la pièce. L’air est frais, et les murs brillent de condensation.</p></blockquote><p style=\"margin-bottom:0in;line-height:100%\"> </p><section class=\"secret\" id=\"secret-rwwiwPI1q0otONu7\"><p>Cette pièce ne représente pas de danger pour des PJ prudents. Quant à ceux qui prendraient moins de précautions (ou qui tenteraient de distancer une vague animée), l’endroit pourrait s’avérer beaucoup plus dangereux.</p><p>Le sol très pentu de la pièce est glissant à cause de la vase créée par la condensation dégoulinant le long des murs. Les PJ tentant de se tenir debout sur le sol en pente doivent réussir un jet de sauvegarde de Réflexes DD 18 ou tomber et glisser jusqu’au bord de la fosse. Les héros ont alors une seule chance (jet de sauvegarde de Réflexes DD 15) de s’agripper au rebord de la fosse. Ceux qui ratent leur jet plongent dans l’obscurité, tombant dans la zone C-4. Même si un PJ réussit à stopper sa chute, les murs de la fosse sont très compliqués à escalader (DD 23).</p></section>",
+            "markdown": ""
+          },
+          "_id": "mjxavm9VJM2CqeXo",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.hivK2eGMMxOBU3jl.JournalEntryPage.mjxavm9VJM2CqeXo"
+            }
+          }
+        },
+        {
+          "name": "Zone C-4 – Les crocs de bronze",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<blockquote><p>Le sol de cette pièce circulaire est concave, formant ainsi une légère dépression. Le plafond, les murs et le sol de la pièce sont tous recouverts d’algues noires glissantes et de vase. Au-dessus, le plafond voûté est percé d’un trou. Des dizaines de lances en bronze sont enchâssées dans le sol directement sous celui-ci.</p></blockquote><p style=\"margin-bottom:0in;line-height:100%\"> </p><section class=\"secret\" id=\"secret-1tlLFTXDP7bXC5Uu\"><p>Les PJ tombant de la zone C-3 se blessent sur les lances dressées, subissant 1d12 points de dégâts. Le deuxième PJ qui tombe dans la fosse bénéficie d’un jet de sauvegarde de Réflexes DD 18 pour atterrir sur le corps de son camarade, évitant ainsi les dégâts, mais infligeant 1d6 dégâts supplémentaires à son compagnon empalé. Le DD du jet de sauvegarde Réflexes est diminué de 3 points pour chaque PJ supplémentaire empalé sur les lances.</p></section><p style=\"margin-bottom:0in;line-height:100%\"> </p><img style=\"display:block;margin-left:auto;margin-right:auto\" src=\"modules/dcc-doom-of-the-savage-kings/assets/handouts/spears.webp\" width=\"525\" height=\"225\" /><p style=\"margin-bottom:0in;line-height:100%\"> </p><section class=\"secret\" id=\"secret-4EgDufo6rJMNAwjz\"><p>Les lances sont entièrement faites de bronze, les rendant peu utiles au combat. Des PJ désespérés peuvent casser une lance pour la libérer (test de Force DD 15), mais l’arme est lourde et rudimentaire. Elle fait subir une pénalité de -2 aux tests d’initiative et de -1 aux dégâts.</p><p>Un examen attentif du sol révèle une flaque de sang suivie d’une piste conduisant à la zone C-5, jusqu’à deux dagues ensanglantées. Les trois apprentis pilleurs de tombes de Hirot (Ilham, Stein et Kej) se sont embrouillés sur le partage du butin avant même de le découvrir. Ils se sont blessés mortellement les uns les autres lors de la dispute qui s’ensuivit, rampant sur quelques mètres avant d’expirer. Tous trois sont revenus à la vie sous forme de goules des tombeaux, condamnées à défendre la tombe de l’Ulfheonar pour l’éternité.</p><p>Si un PJ subit des dégâts dans cette pièce, l’odeur de son sang attire les goules de la zone C-5 en 1d5+3 rounds.</p></section>",
+            "markdown": ""
+          },
+          "_id": "8sD9korccVzFz2Fk",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.1Ttm4DaAzn32rBUN.JournalEntryPage.8sD9korccVzFz2Fk"
+            }
+          }
+        },
+        {
+          "name": "Zone C-5 – Catacombe de l’Ours des Cavernes",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<blockquote><p>Les marches de pierre usées descendent dans une cave circulaire aux murs en dalles de pierre gravées de runes noires. Au centre de la pièce se trouve un assemblage de pierres surmontées d’une dalle ressemblant à une table ou un autel. Le crâne d’un ours énorme repose dessus.</p></blockquote><section class=\"secret\" id=\"secret-7JJ3hYHhGtVQvcBa\"><p>Cette pièce servait à inhumer les dépouilles des guerriers de l’Ours des Cavernes, des berserks ayant fait le serment de protéger leurs clans. Deux goules des tombeaux rôdent désormais ici.</p><p>Les runes sur les dalles murales sont sculptées en forme d’énormes ours des cavernes et de guerriers vêtus de crânes et de fourrures d’ours. Les ours et les guerriers-ours sont représentés en train de triompher de douzaines d’ennemis.</p><p>La table-autel au centre de la pièce est en réalité un coffre de pierre. En enlevant la dalle du dessus (test de Force DD 15), on découvre une douzaine de crânes humains déposés sur la peau et le crâne d’un énorme ours des cavernes. Des lanières de cuir sont cousues dans la peau afin de pouvoir la porter comme une cape, le crâne à crocs faisant office de heaume grossier.</p><p><strong>@UUID[Actor.HNavNHnQyAuAYIPA]{Goules des tombeaux}</strong> : Deux goules (autrefois les apprentis pilleurs de tombes Stein et Kej) rôdent tout au fond de la pièce, accrochées au plafond. Les goules à la peau grise vêtues de ternes haillons ne sont repérées que si toute la pièce est fouillée ou si les PJ examinent intentionnellement le fond de la pièce. Si elles ne sont pas détectées, les goules attendent leur heure et attaquent le groupe par-derrière ou frappent seulement si un ou deux PJ se retrouvent isolés.</p><p>Les @UUID[Actor.HNavNHnQyAuAYIPA]{goules des tombeaux} sont animées par l’esprit du tertre du serpent et ne peuvent pas quitter le lieu. Elles peuvent être repoussées, mais ne fuiront jamais les lieux. Si, par un revirement de situation improbable, une goule était extraite de force du tumulus du serpent, elle s’effondrerait et se décomposerait rapidement.</p><p>Les goules semblent flotter dans leur peau grise et sans vie. Elles ne ressemblent plus qu’à des enveloppes autrefois humaines. Chaque goule est en train de muer vers sa forme véritable. Blesser la goule accélère ce processus, déchirant sa peau au niveau des bras, des jambes, de la tête pour révéler un grand serpent à tête humanoïde dissimulé dans le ventre de la goule.</p><p>«Tuer» la @UUID[Actor.HNavNHnQyAuAYIPA]{goule} libère le @UUID[Actor.kRP4A1BREZz95RHm]{serpent} en mue. La chose serpentine surgit du ventre du cadavre pour frapper de ses longs crocs. Sa morsure immonde provoque une nécrose; la victime doit réussir un jet de sauvegarde de Vigueur DD 5 ou subir 1 PV de dégâts par heure alors que la chair morte pourrit rapidement. La nécrose se poursuit jusqu’à ce que la blessure d’origine soit guérie magiquement ou que la cible meure (pour se relever ensuite sous forme de goule des tombeaux lors de la tombée de la nuit suivante).</p><p><strong>Peau de l’ours des cavernes :</strong> Lorsqu’elle est portée par un guerrier ou un nain, la peau permet à son porteur de se laisser submerger par une furie guerrière 1/jour et par niveau. Lors de cette rage, le porteur bénéficie provisoirement d’un bonus de +2 aux jets d’attaques et de dégâts, +2 PV par niveau et +2 aux jets de sauvegarde de Vigueur, mais subit un malus de -2 à la CA. La rage dure un nombre de rounds égal à 1d5 + le niveau du personnage, bien que le guerrier puisse l’interrompre prématurément. À la fin de la rage, le guerrier perd tous ces modificateurs et est frappé de fatigue (PV actuels réduit temporairement de moitié, ne peut plus courir ou charger) pour un nombre de rounds égal à la durée de la rage.</p><p><strong>@UUID[Actor.HNavNHnQyAuAYIPA]{Goules des tombeaux}</strong> (2) : <strong>Init</strong> +1; <strong>Att griffe</strong> +1 <strong>corps-à-corps</strong> (1d5) ; <strong>CA</strong> 8; <strong>DV</strong> 3d6; <strong>PV</strong> 10, 13; <strong>Mvt</strong> 7,5 m, escalade 7,5 m ; <strong>Act</strong> 2d20; <strong>AS</strong> traits de mort-vivant, vision dans le noir 30 m; <strong>JS</strong> Vig +1, Réf +0, Vol +0 ; <strong>AL</strong> C.</p><p><strong>@UUID[Actor.kRP4A1BREZz95RHm]{Serpents-goules}</strong> (1/goule): <strong>Init</strong> +3 ; <strong>Att morsure</strong> +4 <strong>corps-à-corps</strong> (1d6 + nécrose); <strong>CA</strong> 14 ; <strong>DV</strong> 3d6 ; <strong>PV</strong> 10 ; <strong>Mvt</strong> 13,5 m ; <strong>Act</strong> 2d20; <strong>AS</strong> traits de mort-vivant, vision dans le noir 30 m; <strong>JS</strong> Vig +1, Réf +1, Vol +1; <strong>AL</strong> C.</p></section>",
+            "markdown": ""
+          },
+          "_id": "eA1U6EUoQTmuT9Gy",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.MXtmu7J8KxOIEjJT.JournalEntryPage.eA1U6EUoQTmuT9Gy"
+            }
+          }
+        },
+        {
+          "name": "Zone C-6 – Catacombe du Lion des Cavernes",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<blockquote><p>Cette pièce s’est partiellement effondrée : de grandes dalles de pierre qui supportaient autrefois le plafond sont désormais inclinées vers l’intérieur sous le poids de la terre située au-dessus, et des débris se sont empilés au centre de la pièce. Le sol s’est effondré dans le coin opposé, et on dirait que toute la pièce risque de s’écrouler à tout instant.</p></blockquote><p style=\"margin-bottom:0in;line-height:100%\"> </p><section class=\"secret\" id=\"secret-3ToclXe2yB9PVCjb\"><p>Les juges devront adapter le point de vue en conséquence si les PJ entrent par la fosse depuis la zone C.</p><p>Cette pièce héberge les dépouilles du culte guerrier du Lion des Cavernes, mais les reliques sont ensevelies sous plusieurs centaines de tonnes de roches. Si des PJ déterminés s’emploient à déblayer les décombres, ils découvrent un coffre composé de quatre dalles de pierre surmontées d’une cinquième.</p><p>À l’intérieur du coffre, une douzaine de crânes humains reposent sur un bouclier de bronze martelé. Une représentation stylisée d’une tête de lion est embossée sur le bouclier. Le bouclier du Lion +2 offre à son porteur un bonus de +2 aux jets de sauvegarde de Volonté tout en infligeant une pénalité de -2 aux tests de moral des ennemis de 5 DV ou moins. Si le porteur subit un coup critique, il peut décider de sacrifier le bouclier à sa place pour ne subir aucun dégât de l’attaque. Enfin, le molosse de Hirot doit réussir un jet de sauvegarde de Volonté DD 15 pour pouvoir attaquer le porteur du bouclier.</p></section>",
+            "markdown": ""
+          },
+          "_id": "c3ThxxxhKDrDUq7Q",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.8usx0sAMXlnefOep.JournalEntryPage.c3ThxxxhKDrDUq7Q"
+            }
+          }
+        },
+        {
+          "name": "Zone C-7 – Antichambre du roi barbare",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<blockquote><p>De grandes dalles de pierre soutiennent un plafond assez haut. Trois longues marches descendent vers le sol de l’antichambre. Deux braseros de bronze martelé sont disposés devant une imposante porte de pierre au bout de la pièce. Des centaines de runes en spirale sont sculptées sur la porte et semblent tournoyer à l’infini. L’image d’un loup énorme terrassé par un serpent est gravée au-dessus du portail.</p></blockquote><p style=\"margin-bottom:0in;line-height:100%\"> </p><section class=\"secret\" id=\"secret-BRevoKaFszOQXz66\"><p>Le sol est couvert de ce qui semble être des milliers de fines bandelettes translucides de parchemin. Vous comprenez avec horreur que les bandelettes séchées et craquelées sont en réalité les peaux d’un nombre incalculable de serpents ! Même si elles peuvent être perturbantes, les peaux de serpents couvrant le sol ne présentent aucune menace pour les PJ. De la même manière, le portail n’est pas dangereux, sauf pour les explorateurs les plus violents et les plus impétueux.</p><p>Les nains, les maçons et les sages instruits dans les savoirs d’antiques bâtisseurs se douteront fort justement que le portail a été fixé dans le sol et ensuite lesté par en haut, condamnant le passage pour l’éternité. La dalle ne peut pas être déplacée par la force de simples mortels, mais si elle venait à être détruite d’une manière ou d’une autre, le plafond laisserait choir plusieurs tonnes de pierre et de terre (jet de sauvegarde de Réflexes DD 20, pour ne pas subir 5d20 de dégâts).</p><p>Une brève inspection du sol de la pièce met au jour une poignée de brindilles et de branchages à la jonction du sol et du mur sud. Elles sont toutes très anciennes et tombent en poussière dès qu’on les touche. Les PJ étudiant le mur sud découvrent de petits trous percés dans celui-ci (des fixations pour une échelle) qui ont été remplis de mortier d’argile par les bâtisseurs d’origine. Un espace étroit de 60 cm peut être vu au-dessus de l’entrée de la pièce.</p><p>Le mur en pierre rugueuse peut être facilement escaladé (escalade DD 5). Là, les PJ découvrent un étroit conduit caché au-dessus du linteau de pierre surmontant l’entrée. Si les aventuriers allument de l’huile ou du charbon dans les braseros (peut-être dans l’espoir de déplacer le portail de pierre par quelque rituel oublié), effectuez un test de Chance en secret (DD 15) pour chaque PJ dans la pièce. Sur un jet réussi, un PJ remarque que la fumée du feu ne s’accumule pas dans la pièce, mais s’échappe par le conduit caché situé au-dessus de l’entrée de la pièce.</p></section>",
+            "markdown": ""
+          },
+          "_id": "wNdJo6YVCknxIsXs",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.my0yMgscKnRMySCA.JournalEntryPage.wNdJo6YVCknxIsXs"
+            }
+          }
+        },
+        {
+          "name": "Zone C-8 – Conduit",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<blockquote><p>L’étroit conduit serpente dans l’obscurité. Le petit passage fait seulement 60 cm de haut et de large avec un sol de pierre rugueuse et un plafond fait de branches et de racines.</p></blockquote><section class=\"secret\" id=\"secret-sgJDuY59Vf9QeOkd\"><p>Le passage dissimulé n’offre qu’un espace très réduit aux PJ pour s’y déplacer. D’ailleurs, les humains de grande taille devront se délester de leurs lourdes armures de métal avant de pouvoir s’avancer dans le passage. Les sacs à dos et les grands sacs devront être poussés devant les PJ ou tirés derrière eux, ce qui rend la traversée du conduit fort pénible.</p><p>Ainsi distraits, les PJ ont peu de chance de remarquer un second passage au-dessus du conduit, grossièrement dissimulé sous la même couche de branches et de racines qui forment le plafond du passage. Ce passage (une cheminée se déployant sur 1,8 m jusqu’à la zone C-10) est facilement détecté si les PJ sondent le tapis de branchages au-dessus d’eux. La troisième goule, Ilham, attend en haut dans la cheminée, s’abattant sur les PJ s’ils découvrent le passage secret. Les armes plus longues qu’une épée courte sont inutiles dans le conduit, mais la goule hargneuse, armée de crocs et de griffes couvertes de terre, ne subit aucune pénalité.</p><p>Autrement, la goule attend que les PJ passent avant d’écarter les branches et de se glisser silencieusement derrière les PJ pour les attaquer à revers. Contrairement aux goules de la zone C-5, cette goule a pratiquement fini sa mue. La gueule crochue du serpent surgit du ventre de la goule dès le début du combat. Le serpent reste dans l’enveloppe pourrissante de la goule jusqu’à ce qu’elle soit tuée, bénéficiant ainsi d’un bonus de +3 à la CA grâce à son armure «goulesque».</p><p><strong>@UUID[Actor.HNavNHnQyAuAYIPA]{Goule des tombeaux} :</strong> <strong>Init</strong> +1 ; <strong>Att griffe</strong> +1 <strong>corps-à-corps</strong> (1d5) ; <strong>CA</strong> 8 ; <strong>DV</strong> 3d6; <strong>PV</strong> 13 ; <strong>Mvt</strong> 7,5 m, escalade 7,5 m; <strong>Act</strong> 2d20; <strong>AS</strong> traits de mort-vivant, vision dans le noir 30 m; <strong>JS</strong> Vig +1, Réf +0, Vol +0; <strong>AL</strong> C.</p><p><strong>@UUID[Actor.kRP4A1BREZz95RHm]{Serpents-goules} :</strong> <strong>Init</strong> +3; <strong>Att morsure</strong> +4 corps-à-corps (1d6 + nécrose); <strong>CA</strong> 17 (au lieu de 14); <strong>DV</strong> 3d6; <strong>PV</strong> 10; <strong>Mvt</strong> 13,5 m; <strong>Act</strong> 2d20; <strong>AS</strong> traits de mort-vivant, vision dans le noir 30 m; <strong>JS</strong> Vig +1, Réf +1, Vol +1 ; <strong>AL</strong> C.</p></section><p> </p><img style=\"display:block;margin-left:auto;margin-right:auto\" src=\"modules/dcc-doom-of-the-savage-kings/assets/handouts/spearpillar.webp\" width=\"545\" height=\"509\" />",
+            "markdown": ""
+          },
+          "_id": "IvvolxYAXmGkNvej",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.hl3sJfqcLyVTeBqp.JournalEntryPage.IvvolxYAXmGkNvej"
+            }
+          }
+        },
+        {
+          "name": "Zone C-9 – Fausse tombe",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<blockquote><p>L’étroit conduit débouche sur une pièce au haut plafond voûté faisant penser à l’intérieur d’une grande galerie. Au centre de la pièce se dresse une colonne, s’élevant jusqu’au plafond. La colonne est décorée de dizaines de gravures stylisées représentant des loups mis à mort. La colonne elle-même semble être composée de sections alternées de bois et de pierre. Suspendus à la colonne tels des trophées, à environ 6 m du sol, se trouvent une longue lance et un bouclier de bronze.</p></blockquote><section class=\"secret\" id=\"secret-K5UChmAEAMpa38vc\"><p>Cette pièce a été conçue pour tromper tous les apprentis pilleurs de tombes. Ilham, Stein et Kej ont péri à cause de leurs querelles et de la malédiction du tertre bien avant de découvrir la fausse tombe; ce qui fait que cette dernière est quasiment intacte.</p><p>La colonne est le déclencheur d’un piège d’une ampleur effrayante. Une rapide inspection de la colonne révèle que les sections de bois et de pierre sont disposées comme les pièces d’un puzzle complexe, chacune reposant sur l’autre. La pression constante du sommet a ralenti mais pas stoppé la pourriture du bois.</p><p>Toucher la colonne ou la lance et le bouclier provoque l’effondrement de la colonne, les pièces de bois et de pierre volant en éclats et s’écrasant au sol, déclenchant une série d’effets en cascade. Demandez un jet d’initiative, appliquez les effets suivants par rang d’initiative décroissant, jusqu’à ce que tous les PJ soient morts ou aient réussi à s’enfuir de la pièce.</p><table style=\"width:99.1453%\" border=\"1\"><tbody><tr><th><strong>Décompte d’initiative</strong></th><th><strong>effets du piège</strong></th></tr><tr><td style=\"width:20.6422%\"><strong>20</strong></td><td style=\"width:78.6395%\">Des morceaux de pierre et de bois pleuvent du haut; jet de sauvegarde de Réflexes DD 10 pour ne pas subir [[/roll 1d6]] points de dégâts.</td></tr><tr><td style=\"width:20.6422%\"><strong>15</strong></td><td style=\"width:78.6395%\">Une énorme dalle tombe du plafond; jet de sauvegarde de Réflexes DD 5 pour ne pas subir [[/roll 2d6]] points de dégâts.</td></tr><tr><td style=\"width:20.6422%\"><strong>10</strong></td><td style=\"width:78.6395%\">Des débris tombent du haut, touchant toutes les personnes dans la pièce pour [[/roll 1d4]] points de dégâts. Les PJ doivent réussir un jet de sauvegarde de Vigueur DD 10 ou perdre [[/roll 1d7]] rang(s) d’initiative.</td></tr><tr><td style=\"width:20.6422%\"><strong>5</strong></td><td style=\"width:78.6395%\">Une dalle de pierre tombe du plafond, condamnant la pièce. (Les personnages pouvant encore agir peuvent essayer de soulever quelques instants la pierre massive avec un test de Force DD 20.)</td></tr><tr><td style=\"width:20.6422%\"><strong>1</strong></td><td style=\"width:78.6395%\">Plusieurs tonnes de pierre et de terre s’effondrent dans la pièce, remplissant la fausse tombe de débris et tuant toutes les personnes restantes.</td></tr></tbody></table><p>La lance et l’épée, même si elles ne sont pas magiques, sont des antiquités de maître. Elles peuvent soit être vendues dans une grande cité pour 150 po ou servir de support à des enchantements par des sorciers suffisamment puissants.</p></section>",
+            "markdown": ""
+          },
+          "_id": "QHXQrAEYwXnvAY8y",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.eDWdkDM0sza4XVdN.JournalEntryPage.QHXQrAEYwXnvAY8y"
+            }
+          }
+        },
+        {
+          "name": "Zone C-10 – La tombe de l’Ulfheonar",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<blockquote><p>Soutenus par vos compagnons, vous grimpez dans la cheminée jusqu’à une petite pièce voûtée. Un squelette, vêtu de peaux désagrégées et d’un haubert de mailles rouillé, est assis sur un trône en pierre. Une longue lance repose sur une peau sur les genoux du squelette, scintillant légèrement dans l’ombre, et une corne à boire polie est accrochée à l’accoudoir du trône.</p></blockquote><p style=\"margin-bottom:0in;line-height:100%\"> </p><section class=\"secret\" id=\"secret-8Gv0BrPCgsrNPp2C\"><p>Cette humble pièce est le lieu de repos du seigneur de guerre barbare que la légende connaît sous le nom d’Ulfheonar. Les aventuriers qui sont parvenus jusqu’ici n’ont plus rien à craindre. La tombe n’est ni piégée ni maudite, l’esprit du seigneur de guerre reposant depuis longtemps en paix.</p><p><strong>La lance Tue-Loup de l’Ulfheonar</strong>, connue plus simplement sous le nom de son propriétaire, est une arme magique avec un bonus de +1 à l’attaque et aux dégâts. L’arme confère également à son porteur un bonus de +1 à l’initiative. Sur un jet réussi, le porteur peut se servir de la garde montée à la base de la tête de la lance pour immobiliser une créature, réduisant la CA de la cible d’autant que le bonus de Force du porteur. En sacrifiant ses actions du round, le porteur peut maintenir la cible immobilisée en réussissant un test de Force opposé. Avec la lance, les héros peuvent également immobiliser des créatures magiques, les empêchant de prendre une forme gazeuse, de se téléporter, de passer dans un autre plan, et ainsi de suite. Cette dernière capacité est cruciale pour vaincre le molosse de Hirot (voir la description du molosse dans l’introduction plus haut).</p><p>La lance Tue-Loup repose sur la peau d’un gigantesque loup argenté. Digne d’un roi, la peau a réussi à ne pas pourrir malgré le passage des siècles et peut rapporter jusqu’à 250 po si elle est vendue dans une grande ville.</p><p>Quiconque buvant à la Corne des Rois perçoit immédiatement ses pouvoirs. La corne brille faiblement en présence de nourriture ou de boisson empoisonnées. Trois fois par semaine, boire à la corne confère un bonus de +4 à un jet de sauvegarde de Vigueur contre les poisons; trois fois par mois, boire à la corne permet de soigner 1d12 PV/niveau ; une fois et une seule fois, boire à la corne confère au buveur un jet de sauvegarde de Vigueur DD 10 permettant de ressusciter. Quand ce pouvoir final est utilisé, la corne se brise, perdant ses pouvoirs pour toujours.</p></section>",
+            "markdown": ""
+          },
+          "_id": "t1jJRm6dagTuEDUA",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.CCTEgPe29Aoretc2.JournalEntryPage.t1jJRm6dagTuEDUA"
+            }
+          }
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683451652511,
+        "modifiedTime": 1684781478784,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "0F1hsFLFSkM3bIpO"
+    },
+    {
+      "name": "Zone C-04 – Les crocs de bronze",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.lKeJpxZnZy3jiWHd"
+        }
+      },
+      "pages": [
+        {
+          "name": "Zone C-4 – Les crocs de bronze",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<blockquote><p>Le sol de cette pièce circulaire est concave, formant ainsi une légère dépression. Le plafond, les murs et le sol de la pièce sont tous recouverts d’algues noires glissantes et de vase. Au-dessus, le plafond voûté est percé d’un trou. Des dizaines de lances en bronze sont enchâssées dans le sol directement sous celui-ci.</p></blockquote><p style=\"margin-bottom:0in;line-height:100%\"> </p><section class=\"secret\" id=\"secret-1tlLFTXDP7bXC5Uu\"><p>Les PJ tombant de la zone C-3 se blessent sur les lances dressées, subissant 1d12 points de dégâts. Le deuxième PJ qui tombe dans la fosse bénéficie d’un jet de sauvegarde de Réflexes DD 18 pour atterrir sur le corps de son camarade, évitant ainsi les dégâts, mais infligeant 1d6 dégâts supplémentaires à son compagnon empalé. Le DD du jet de sauvegarde Réflexes est diminué de 3 points pour chaque PJ supplémentaire empalé sur les lances.</p></section><p style=\"margin-bottom:0in;line-height:100%\"> </p><img style=\"display:block;margin-left:auto;margin-right:auto\" src=\"modules/dcc-doom-of-the-savage-kings/assets/handouts/spears.webp\" width=\"525\" height=\"225\" /><p style=\"margin-bottom:0in;line-height:100%\"> </p><section class=\"secret\" id=\"secret-4EgDufo6rJMNAwjz\"><p>Les lances sont entièrement faites de bronze, les rendant peu utiles au combat. Des PJ désespérés peuvent casser une lance pour la libérer (test de Force DD 15), mais l’arme est lourde et rudimentaire. Elle fait subir une pénalité de -2 aux tests d’initiative et de -1 aux dégâts.</p><p>Un examen attentif du sol révèle une flaque de sang suivie d’une piste conduisant à la zone C-5, jusqu’à deux dagues ensanglantées. Les trois apprentis pilleurs de tombes de Hirot (Ilham, Stein et Kej) se sont embrouillés sur le partage du butin avant même de le découvrir. Ils se sont blessés mortellement les uns les autres lors de la dispute qui s’ensuivit, rampant sur quelques mètres avant d’expirer. Tous trois sont revenus à la vie sous forme de goules des tombeaux, condamnées à défendre la tombe de l’Ulfheonar pour l’éternité.</p><p>Si un PJ subit des dégâts dans cette pièce, l’odeur de son sang attire les goules de la zone C-5 en 1d5+3 rounds.</p></section>",
+            "markdown": ""
+          },
+          "_id": "8sD9korccVzFz2Fk",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683453978121,
+        "modifiedTime": 1684781478785,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "1Ttm4DaAzn32rBUN"
+    },
+    {
+      "name": "Zone A-07 – Fermes",
+      "flags": {
+        "core": {
+          "sourceId": "JournalEntry.NnvUEFyYYrM5N0XT"
+        }
+      },
+      "pages": [
+        {
+          "name": "Zones A-7 – Fermes",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<section class=\"secret\" id=\"secret-JpDWsQU1ySEaOYU4\"><p>Ces humbles demeures hébergent l’une des nombreuses familles qui cultivent les terres situées autour de Hirot. Il y a 30 % de chances que la famille partage son logis avec 1d4 poulets ou 1d2 cochons. À part le bétail et des outils agricoles basiques, il n’y a rien de valeur dans la maison.</p></section>",
+            "markdown": ""
+          },
+          "_id": "4XBETdwrGjEMziKi",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683448164626,
+        "modifiedTime": 1684781478786,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "4gGuxbjLfEPMGm5l"
+    },
+    {
+      "name": "Zone C-06 – Catacombe du Lion des Cavernes",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.bDzDxa7P1y0GE4yW"
+        }
+      },
+      "pages": [
+        {
+          "name": "Zone C-6 – Catacombe du Lion des Cavernes",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<blockquote><p>Cette pièce s’est partiellement effondrée : de grandes dalles de pierre qui supportaient autrefois le plafond sont désormais inclinées vers l’intérieur sous le poids de la terre située au-dessus, et des débris se sont empilés au centre de la pièce. Le sol s’est effondré dans le coin opposé, et on dirait que toute la pièce risque de s’écrouler à tout instant.</p></blockquote><p style=\"margin-bottom:0in;line-height:100%\"> </p><section class=\"secret\" id=\"secret-3ToclXe2yB9PVCjb\"><p>Les juges devront adapter le point de vue en conséquence si les PJ entrent par la fosse depuis la zone C.</p><p>Cette pièce héberge les dépouilles du culte guerrier du Lion des Cavernes, mais les reliques sont ensevelies sous plusieurs centaines de tonnes de roches. Si des PJ déterminés s’emploient à déblayer les décombres, ils découvrent un coffre composé de quatre dalles de pierre surmontées d’une cinquième.</p><p>À l’intérieur du coffre, une douzaine de crânes humains reposent sur un bouclier de bronze martelé. Une représentation stylisée d’une tête de lion est embossée sur le bouclier. Le bouclier du Lion +2 offre à son porteur un bonus de +2 aux jets de sauvegarde de Volonté tout en infligeant une pénalité de -2 aux tests de moral des ennemis de 5 DV ou moins. Si le porteur subit un coup critique, il peut décider de sacrifier le bouclier à sa place pour ne subir aucun dégât de l’attaque. Enfin, le molosse de Hirot doit réussir un jet de sauvegarde de Volonté DD 15 pour pouvoir attaquer le porteur du bouclier.</p></section>",
+            "markdown": ""
+          },
+          "_id": "c3ThxxxhKDrDUq7Q",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683456592487,
+        "modifiedTime": 1684781478786,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "8usx0sAMXlnefOep"
+    },
+    {
+      "name": "01 Contexte",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.x7mgAvPldB9ITT5g"
+        }
+      },
+      "pages": [
+        {
+          "name": "Contexte",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p>Au-dessus de la lande balayée par les vents et les forêts lugubres, le village de Hirot est en état de siège. Chaque soir, quand le soleil se couche derrière les montagne de l’ouest et que les chandelles brûlent faiblement, un molosse maléfique arpente les rues du village, déchaînant sa furie sauvage sur les habitants. Qu’il soit seigneur de guerre ou miséreux, vieillard ou nourrisson, nul n’est à l’abri. Même le jarl, le maître de Hirot, et ses fidèles guerriers thegns sont impuissants à stopper la bête.</p><p>Sur les conseils de Sylle Ru, le devin sournois du jarl, la population a choisi de sacrifier l’un des villageois tous les trois jours. Au cours d’un rituel sinistre, toute la communauté procède à un tirage au sort ; le perdant est mené aux anciennes pierres dressées pour y attendre son funeste destin. Cette macabre pratique a ralenti les prédations du molosse, mais ce n’est qu’une question de temps avant que Hirot ne soit condamné, que ce soit sous les crocs du molosse ou à cause de l’incompétence de ses propres chefs.</p><p>L’aventure se déroule normalement en trois actes, même si les PJ sont libres d’explorer, de revisiter d’anciens lieux à la recherche de nouveaux indices, ou pour questionner des PNJ sur des pistes et étudier des rumeurs comme bon leur semble.</p><p><strong>Acte I: Le village de Hirot</strong>, où le mystère débute. C’est là que les PJ peuvent entendre des rumeurs sur le molosse légendaire autour d’une chope de bière, qu’ils peuvent rencontrer des PNJ importants et chercher des indices sur d’anciennes reliques pouvant être utilisées pour vaincre la bête.</p><p><strong>Acte II: La tombe de l’Ulfheonar,</strong> où, armés du savoir glané à Hirot, les PJ pénètrent dans les catacombes sous le tertre hanté du serpent pour ressortir avec des armes de légende et d’antiques armures.</p><p><strong>Acte III: Les tourbières basses</strong>, où les PJ vont livrer combat contre le molosse, le défiant dans son antre pour le tuer avant que la mare noirâtre ne le régénère à nouveau.</p>",
+            "markdown": ""
+          },
+          "_id": "O4m5z4kWsZ97qtAs",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683360216334,
+        "modifiedTime": 1684781478787,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "A70HKaKlrTMRcPhA"
+    },
+    {
+      "name": "Zone B – Les menhirs",
+      "flags": {
+        "core": {
+          "sourceId": "JournalEntry.fUW3Cj0DzfwmHoBN"
+        }
+      },
+      "pages": [
+        {
+          "name": "Zone B – Les menhirs",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<blockquote><p>Les pierres dressées reposent sur un promontoire rocheux peu élevé. Un bloc de pierre massif est disposé au centre des pierres. Trois corbeaux se sont posés sur la pierre moussue et picorent des restes de chair. Quatre trous ont été percés dans la pierre, et d’épaisses cordes y sont glissées pour faire office de liens rudimentaires.</p></blockquote><section class=\"secret\" id=\"secret-DjI5AZIC9t8SqqIE\"><p>Les pierres de l’autel sont les vestiges de traditions druidiques autrefois pratiqués sur les hautes landes. À l’instigation du sorcier Sylle Ru, les habitants de Hirot ont sacrifié l’un des leurs toutes les trois nuits, dans l’espoir de conjurer le molosse.</p><p>Si un sacrifice n’a pas lieu toutes les trois nuits, le molosse fond sur Hirot, tuant 1d6+1 citoyens avant que sa rage ne soit apaisée.</p><p>Le molosse apparaît peu après le crépuscule. S’attendant à trouver un paysan quasiment sans défense, la bête est facilement surprise. Mais après avoir été pris en embuscade une fois en ces lieux, le molosse ne se fera plus avoir. Si, après avoir été vaincu une première fois au milieu des pierres, le molosse découvrait une deuxième embuscade, il quitterait immédiatement les lieux pour déchaîner sa fureur sur les habitants de Hirot.</p><p>@UUID[Actor.nfvA92sLiErlIW1m]{Le molosse de Hirot} : <strong>Init</strong> +2; <strong>Att morsure</strong> +3 <strong>corps-à-corps</strong> (1d8) ou <strong>griffe</strong> +3 <strong>corps-à-corps</strong> (1d4) ; <strong>CA</strong> 15; <strong>DV</strong> 4d12; <strong>PV</strong> 20; <strong>Mvt</strong> 9 m ou vol 9 m; <strong>Act</strong> 3d20 ; <strong>AS</strong> forme gazeuse, immunité aux charmes, immortel ; <strong>JS</strong> Vig +4, Réf +4, Vol +0; <strong>AL</strong> C.</p></section>",
+            "markdown": ""
+          },
+          "_id": "AtTWnMZ6CraIucxJ",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683450431840,
+        "modifiedTime": 1684781478787,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "B2fGQqinOQiae9oM"
+    },
+    {
+      "name": "04 Le village de Hirot",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.YQonDmYNrpEAUp97"
+        }
+      },
+      "pages": [
+        {
+          "name": "Le village de Hirot",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p>Le village comptait autrefois environ trois cents âmes, mais suite aux déprédations du molosse, la population est tombée à près de deux cents. Les survivants vivent dans une peur permanente, retranchés dans leurs maisons au coucher du soleil, émergeant uniquement à l’aube pour y constater le carnage de la nuit.</p><p>La majorité des bâtiments de Hirot sont des constructions de bois et de torchis. Une grande partie des maisons les plus petites ne sont que de sordides masures où les familles et le bétail partagent l’espace en terre battue. Par contraste, les maisons des marchands les plus importants comportent deux ou trois niveaux, avec le commerce au rez-de-chaussée, la famille vivant au premier étage, et les serviteurs et les apprentis logeant dans les combles. Les familles élargies vivent souvent ensemble, avec dix membres ou plus partageant le même foyer.</p><p>De nombreux bâtiments sont abandonnés, leurs habitants ayant été occis par le molosse de Hirot. Ces structures sont en train de se délabrer : leurs toits de chaume se sont effondrés, et leur mobilier a été dévasté par les intempéries. Certains des bâtiments abandonnés portent encore les stigmates de la violence du molosse : portes défoncées, taches de sang et murs scarifiés par d’énormes griffes.</p><p>Le facteur déterminant de l’identité de Hirot est son isolement. Pour la majorité de sa population, la connaissance du monde s’arrête à trente kilomètres des limites du village. Fuir le village et sa malédiction est impensable. Où est-ce qu’on irait ? Les marchands saisonniers de passage sont perçus comme des merveilles exotiques, et les PJ, venus des zones sauvages et parés pour la guerre, semblent être issus des légendes.</p><p>Contrairement aux récits habituels où les héros sont accueillis comme des sauveurs dans des lieux reculés cherchant désespérément de l’aide, le jarl refuse de s’abaisser à demander quoi que ce soit à des étrangers. Craignant une perte de prestige aux yeux de son peuple, le jarl considère dédaigneusement les PJ comme des fauteurs de trouble. Si les PJ insistent pour offrir leur aide, le jarl leur suggère que, s’ils veulent réellement aider les gens de Hirot, alors ils devraient prendre la place des villageois sur l’autel et s’offrir en sacrifice au molosse.</p><p>Les PJ reçoivent un accueil bien différent des habitants et des thegns de Hirot. Les thegns respectent les autres combattants qui s’opposent aux forces du Chaos, et les habitants vouent une admiration proche de la vénération aux PJ. Si les PJ se comportent avec gentillesse, honneur et générosité, ils sont rapidement récompensés par l’amour et l’admiration de Hirot, ce qui n’est pas sans profondément irriter le jarl.</p>",
+            "markdown": ""
+          },
+          "_id": "Q2iPmYILOdshSLRu",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683362854268,
+        "modifiedTime": 1684781478788,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "B4VuEyQEv3csmw3V"
+    },
+    {
+      "name": "Zone A-05 – Le Repaire des Trois Rats",
+      "flags": {
+        "core": {
+          "sourceId": "JournalEntry.zx4VOb2ojwZAxwEC"
+        }
+      },
+      "pages": [
+        {
+          "name": "Zone A-5 – Le Repaire des Trois Rats (Bouge)",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<section class=\"secret\" id=\"secret-t52C673KSyLAfCGR\"><p>Ceux qui ne peuvent pas se payer La Lance Tue-Loup doivent se contenter des Trois Rats, un bouge de la pire espèce. Délabré et insalubre, les rats, poux et autres vermines dépassent largement en nombre les hôtes payants.</p><p>Le bâtiment à deux étages abrite également un gang officieux de voleurs et de bons à rien. Mené par @UUID[Actor.SxNBlBdywXvSsjas]{maître Jenks}, <strong>le groupe se composait autrefois de huit membres, mais la perte de Kej, Stein et Ilham dans la tombe de l’Ulfheonar a diminué à la fois le nombre de membres du gang et leur audace</strong>. Les membres restants, @UUID[Actor.zjPLuTqCPDb819lN]{Oleen le lutin}, @UUID[Actor.NomNnXFfK1AxrgHK]{Chatons}, @UUID[Actor.bNPZKpm3y4mEnoKS]{Mini Toc} et @UUID[Actor.0FdkV9zJjpncjO2y]{Loup}, passent leurs journées à boire du mauvais vin et à rêver de braquages.</p><p>S’ils se lient d’amitié avec un confrère, les voleurs peuvent indiquer la direction du tumulus du serpent, mais ils ne savent rien sur le sort de leurs anciens camarades. À eux tous, les voleurs connaissent toutes les fausses rumeurs tournant autour du molosse. Sinon, les voleurs sont impatients de tirer profit d’étrangers fortunés. Bien que trop peureux pour commettre un vol pur et simple, la bande informelle est tout à fait capable d’arnaquer les PJ ou d’échanger de fausses rumeurs contre l’argent durement gagné des PJ.</p></section>",
+            "markdown": ""
+          },
+          "_id": "vRSBu7pFKTwVcCo4",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683446731145,
+        "modifiedTime": 1684781478789,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "BoxAO0OYFH4FM9LU"
+    },
+    {
+      "name": "Zone C-10 – La tombe de l’Ulfheonar",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.gkLIdbXs9xnl8ry4"
+        }
+      },
+      "pages": [
+        {
+          "name": "Zone C-10 – La tombe de l’Ulfheonar",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<blockquote><p>Soutenus par vos compagnons, vous grimpez dans la cheminée jusqu’à une petite pièce voûtée. Un squelette, vêtu de peaux désagrégées et d’un haubert de mailles rouillé, est assis sur un trône en pierre. Une longue lance repose sur une peau sur les genoux du squelette, scintillant légèrement dans l’ombre, et une corne à boire polie est accrochée à l’accoudoir du trône.</p></blockquote><p style=\"margin-bottom:0in;line-height:100%\"> </p><section class=\"secret\" id=\"secret-8Gv0BrPCgsrNPp2C\"><p>Cette humble pièce est le lieu de repos du seigneur de guerre barbare que la légende connaît sous le nom d’Ulfheonar. Les aventuriers qui sont parvenus jusqu’ici n’ont plus rien à craindre. La tombe n’est ni piégée ni maudite, l’esprit du seigneur de guerre reposant depuis longtemps en paix.</p><p><strong>La lance Tue-Loup de l’Ulfheonar</strong>, connue plus simplement sous le nom de son propriétaire, est une arme magique avec un bonus de +1 à l’attaque et aux dégâts. L’arme confère également à son porteur un bonus de +1 à l’initiative. Sur un jet réussi, le porteur peut se servir de la garde montée à la base de la tête de la lance pour immobiliser une créature, réduisant la CA de la cible d’autant que le bonus de Force du porteur. En sacrifiant ses actions du round, le porteur peut maintenir la cible immobilisée en réussissant un test de Force opposé. Avec la lance, les héros peuvent également immobiliser des créatures magiques, les empêchant de prendre une forme gazeuse, de se téléporter, de passer dans un autre plan, et ainsi de suite. Cette dernière capacité est cruciale pour vaincre le molosse de Hirot (voir la description du molosse dans l’introduction plus haut).</p><p>La lance Tue-Loup repose sur la peau d’un gigantesque loup argenté. Digne d’un roi, la peau a réussi à ne pas pourrir malgré le passage des siècles et peut rapporter jusqu’à 250 po si elle est vendue dans une grande ville.</p><p>Quiconque buvant à la Corne des Rois perçoit immédiatement ses pouvoirs. La corne brille faiblement en présence de nourriture ou de boisson empoisonnées. Trois fois par semaine, boire à la corne confère un bonus de +4 à un jet de sauvegarde de Vigueur contre les poisons; trois fois par mois, boire à la corne permet de soigner 1d12 PV/niveau ; une fois et une seule fois, boire à la corne confère au buveur un jet de sauvegarde de Vigueur DD 10 permettant de ressusciter. Quand ce pouvoir final est utilisé, la corne se brise, perdant ses pouvoirs pour toujours.</p></section>",
+            "markdown": ""
+          },
+          "_id": "t1jJRm6dagTuEDUA",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683466441583,
+        "modifiedTime": 1684781478790,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "CCTEgPe29Aoretc2"
+    },
+    {
+      "name": "Zone C-02 – Passage de pierre",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.fyBCZEbTZQFRcLcI"
+        }
+      },
+      "pages": [
+        {
+          "name": "Zone C-2 – Passage de pierre",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<blockquote><p>Cet étroit passage obscur est soutenu par des murs de dalles de pierre. Le plafond bas est constitué de dalles similaires, toutes gravées de spirales serrées. L’air est immobile et frais, et des flaques d’eau se sont accumulées sur le sol en terre battue.</p></blockquote><p style=\"margin-bottom:0in;line-height:100%\"> </p><section class=\"secret\" id=\"secret-kyUq1nEOM93SNxKU\"><p>Les juges doivent tenir compte du fait que la description de la zone sera radicalement différente si les PJ ont été emportés dans le couloir par la vague d’eau animée.</p><p>Un examen attentif du sol révèle des traces à peine visibles. Bizarrement, ces traces viennent de l’intérieur de la tombe. Si les PJ prennent soin de ne pas marcher dessus, des pisteurs pourront facilement déterminer que ce qui était enfermé à l’intérieur de la tombe a essayé d’en sortir en grattant le sol.</p></section>",
+            "markdown": ""
+          },
+          "_id": "vi0Hs0rlSH3v88VF",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683453712658,
+        "modifiedTime": 1684781478791,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "GUsR3ku2CMqkiYjl"
+    },
+    {
+      "name": "Zone A-11 – Cercueils celestes",
+      "flags": {
+        "core": {
+          "sourceId": "JournalEntry.iuUqJBl4yG0MQUx7"
+        }
+      },
+      "pages": [
+        {
+          "name": "Zone A-11 – Cercueils célestes",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<section class=\"secret\" id=\"secret-4zp4Z6hCUDtu6c70\"><p>Comme les longs et rudes hivers laissent le sol gelé pendant la majeure partie de l’année, la population de Hirot a pris l’habitude d’incinérer leurs morts en haut de la crête qui surplombe le village. Il se passe désormais peu de jours sans qu’un nuage de fumée noire ne s’élève de celle-ci, signalant un nouveau décès de citoyen de Hirot.</p><p>Les corps sont surveillés jour et nuit par un trio de gardes. Facilement effrayés, ils doivent effectuer un test de moral au début du combat ou abandonner les cercueils. Les gardes réveillent le jarl et ses thegns, revenant avec des renforts après 1d5+4 rounds.</p><p>@UUID[Actor.TYpqPVa2uVapO2KJ]{Garde des cercueils} (3) : <strong>Init</strong> +0 ; <strong>Att lance</strong> +1 <strong>corps-à-corps</strong> (1d6); <strong>CA</strong> 14 ; <strong>DV</strong> 1d8; <strong>PV</strong> 4 ; <strong>Mvt</strong> 7,5 m ; <strong>Act</strong> 1d20; <strong>JS</strong> Vig +1, Réf +1, Vol +0; <strong>AL</strong> L.</p></section>",
+            "markdown": ""
+          },
+          "_id": "WRwqiaQePeJrN8Pg",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683449852597,
+        "modifiedTime": 1684781478791,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "KkVkNNOmeZWOESYU"
+    },
+    {
+      "name": "Zone C-05 – Catacombe de l’Ours des Cavernes",
+      "flags": {
+        "core": {
+          "sourceId": "JournalEntry.uZSzpVHg6fNw5tLx"
+        }
+      },
+      "pages": [
+        {
+          "name": "Zone C-5 – Catacombe de l’Ours des Cavernes",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<blockquote><p>Les marches de pierre usées descendent dans une cave circulaire aux murs en dalles de pierre gravées de runes noires. Au centre de la pièce se trouve un assemblage de pierres surmontées d’une dalle ressemblant à une table ou un autel. Le crâne d’un ours énorme repose dessus.</p></blockquote><section class=\"secret\" id=\"secret-7JJ3hYHhGtVQvcBa\"><p>Cette pièce servait à inhumer les dépouilles des guerriers de l’Ours des Cavernes, des berserks ayant fait le serment de protéger leurs clans. Deux goules des tombeaux rôdent désormais ici.</p><p>Les runes sur les dalles murales sont sculptées en forme d’énormes ours des cavernes et de guerriers vêtus de crânes et de fourrures d’ours. Les ours et les guerriers-ours sont représentés en train de triompher de douzaines d’ennemis.</p><p>La table-autel au centre de la pièce est en réalité un coffre de pierre. En enlevant la dalle du dessus (test de Force DD 15), on découvre une douzaine de crânes humains déposés sur la peau et le crâne d’un énorme ours des cavernes. Des lanières de cuir sont cousues dans la peau afin de pouvoir la porter comme une cape, le crâne à crocs faisant office de heaume grossier.</p><p><strong>@UUID[Actor.HNavNHnQyAuAYIPA]{Goules des tombeaux}</strong> : Deux goules (autrefois les apprentis pilleurs de tombes Stein et Kej) rôdent tout au fond de la pièce, accrochées au plafond. Les goules à la peau grise vêtues de ternes haillons ne sont repérées que si toute la pièce est fouillée ou si les PJ examinent intentionnellement le fond de la pièce. Si elles ne sont pas détectées, les goules attendent leur heure et attaquent le groupe par-derrière ou frappent seulement si un ou deux PJ se retrouvent isolés.</p><p>Les @UUID[Actor.HNavNHnQyAuAYIPA]{goules des tombeaux} sont animées par l’esprit du tertre du serpent et ne peuvent pas quitter le lieu. Elles peuvent être repoussées, mais ne fuiront jamais les lieux. Si, par un revirement de situation improbable, une goule était extraite de force du tumulus du serpent, elle s’effondrerait et se décomposerait rapidement.</p><p>Les goules semblent flotter dans leur peau grise et sans vie. Elles ne ressemblent plus qu’à des enveloppes autrefois humaines. Chaque goule est en train de muer vers sa forme véritable. Blesser la goule accélère ce processus, déchirant sa peau au niveau des bras, des jambes, de la tête pour révéler un grand serpent à tête humanoïde dissimulé dans le ventre de la goule.</p><p>«Tuer» la @UUID[Actor.HNavNHnQyAuAYIPA]{goule} libère le @UUID[Actor.kRP4A1BREZz95RHm]{serpent} en mue. La chose serpentine surgit du ventre du cadavre pour frapper de ses longs crocs. Sa morsure immonde provoque une nécrose; la victime doit réussir un jet de sauvegarde de Vigueur DD 5 ou subir 1 PV de dégâts par heure alors que la chair morte pourrit rapidement. La nécrose se poursuit jusqu’à ce que la blessure d’origine soit guérie magiquement ou que la cible meure (pour se relever ensuite sous forme de goule des tombeaux lors de la tombée de la nuit suivante).</p><p><strong>Peau de l’ours des cavernes :</strong> Lorsqu’elle est portée par un guerrier ou un nain, la peau permet à son porteur de se laisser submerger par une furie guerrière 1/jour et par niveau. Lors de cette rage, le porteur bénéficie provisoirement d’un bonus de +2 aux jets d’attaques et de dégâts, +2 PV par niveau et +2 aux jets de sauvegarde de Vigueur, mais subit un malus de -2 à la CA. La rage dure un nombre de rounds égal à 1d5 + le niveau du personnage, bien que le guerrier puisse l’interrompre prématurément. À la fin de la rage, le guerrier perd tous ces modificateurs et est frappé de fatigue (PV actuels réduit temporairement de moitié, ne peut plus courir ou charger) pour un nombre de rounds égal à la durée de la rage.</p><p><strong>@UUID[Actor.HNavNHnQyAuAYIPA]{Goules des tombeaux}</strong> (2) : <strong>Init</strong> +1; <strong>Att griffe</strong> +1 <strong>corps-à-corps</strong> (1d5) ; <strong>CA</strong> 8; <strong>DV</strong> 3d6; <strong>PV</strong> 10, 13; <strong>Mvt</strong> 7,5 m, escalade 7,5 m ; <strong>Act</strong> 2d20; <strong>AS</strong> traits de mort-vivant, vision dans le noir 30 m; <strong>JS</strong> Vig +1, Réf +0, Vol +0 ; <strong>AL</strong> C.</p><p><strong>@UUID[Actor.kRP4A1BREZz95RHm]{Serpents-goules}</strong> (1/goule): <strong>Init</strong> +3 ; <strong>Att morsure</strong> +4 <strong>corps-à-corps</strong> (1d6 + nécrose); <strong>CA</strong> 14 ; <strong>DV</strong> 3d6 ; <strong>PV</strong> 10 ; <strong>Mvt</strong> 13,5 m ; <strong>Act</strong> 2d20; <strong>AS</strong> traits de mort-vivant, vision dans le noir 30 m; <strong>JS</strong> Vig +1, Réf +1, Vol +1; <strong>AL</strong> C.</p></section>",
+            "markdown": ""
+          },
+          "_id": "eA1U6EUoQTmuT9Gy",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683454254800,
+        "modifiedTime": 1684781478793,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "MXtmu7J8KxOIEjJT"
+    },
+    {
+      "name": "03 Le molosse de Hirot",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.bI7sCp9FQuPSpjwz"
+        }
+      },
+      "pages": [
+        {
+          "name": "Le molosse de Hirot",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p>Vestige d’un ancien esprit du Chaos autrefois vénéré par les tribus sauvages des montagnes de la Dent du Troll, la bête prend la forme d’un énorme molosse démoniaque Jusqu’à il y a six mois, le molosse était confiné dans la tombe de l’Ulfheonar, le dernier des rois barbares. Mais lorsqu’un trio de voleurs entra par effraction dans la tombe, il fut involontairement libéré. Avide de sacrifices sanglants comme à l’époque de sa gloire, le molosse jeta son dévolu sur le village de Hirot. Désormais, chaque nuit, une brume sombre émerge de son puits (zone D-1), reconstituant la forme du molosse traquant ses proies sur la lande et les vallées isolées. Contrairement aux prédateurs, le molosse ne dévore pas ses victimes. Cette créature infernale se repaît surtout du carnage et laisse dans son sillage des corps atrocement mutilés.</p><p>Le molosse poursuit ses attaques sur Hirot tout au long de l’aventure. Celles-ci ont d’abord lieu tous les trois jours. Si un sacrifice est offert sur l’autel de pierres, le molosse accepte l’offrande. Toutefois, si les PJ parviennent à priver le molosse de son sacrifice, la fréquence des prédations augmente, et elles surviennent chaque nuit. (Le lâche jarl s’en sert contre les PJ, déclarant qu’ils apportent le malheur sur Hirot.)</p><p>Contrairement aux croyances du jarl et de ses thegns, le molosse peut être blessé (mais pas tué) par des armes normales. Si le molosse tombe à 0 PV, il se dissout en une brume noire et huileuse avant de retourner dans son antre, réémergeant la nuit suivante avec tous ses PV. Pour tuer le molosse, il faut d’abord l’immobiliser puis le faire tomber à 0 PV (ou moins). Il y a trois façons principales d’immobiliser le molosse, même si les PJ vont sûrement en imaginer d’autres. Les juges sont libres d’évaluer les solutions proposées comme bon leur semble, tant que cela nourrit la tension dramatique.</p><ul><li><strong>@UUID[Item.7ZWIZAnMmmwG8HG1]{La lance Tue-Loup de l’Ulfheonar} :</strong> Cachée dans la zone C-10, la légendaire lance Tue-Loup peut être utilisée pour immobiliser le molosse avant de lui délivrer le coup de grâce.</li><li><strong>Les liens de la Veuve Folle :</strong> Tressés avec la chevelure de sept cadavres, les liens d’Ymae, la Veuve Folle, peuvent entraver n’importe quelle créature surnaturelle. Obtenir les cheveux et nouer les liens n’en reste pas moins une tâche héroïque.</li><li><strong>La force mortelle :</strong> Dans la pure tradition de Beowulf, des PJ extraordinaires peuvent lutter avec le molosse, effectuant des tests de Force opposés contre la créature pour la maintenir en place. (Le molosse a un bonus de +4 aux jets.) Des liens courants (cordes, menottes et autres) ne suffisent pas à accomplir la tâche; un PJ doit physiquement contraindre le molosse.</li></ul><p><strong>@UUID[Actor.nfvA92sLiErlIW1m]{Le molosse de Hirot}</strong> Init +2; Att morsure +3 corps-à-corps (1d8) ou griffe +3 corps-à-corps (1d4) ; CA 15; DV 4d12; PV 20; Mvt 9 m ou vol 9 m ; Act 3d20 (griffe, griffe, morsure); AS forme gazeuse, immunisé aux charmes, immortel; JS Vig +4, Réf +4, Vol +0 ; AL C.</p><p style=\"margin-bottom:0in;line-height:100%\"> </p><img style=\"display:block;margin-left:auto;margin-right:auto\" src=\"modules/dcc-doom-of-the-savage-kings/assets/handouts/hound.webp\" width=\"381\" height=\"271\" />",
+            "markdown": ""
+          },
+          "_id": "CQo9nFsSv59Kc0nG",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683361082349,
+        "modifiedTime": 1684781478794,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "Pw1kq55tmnRlSu8N"
+    },
+    {
+      "name": "08 Introduction des joueurs",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.Ol0Ihr2ofZ3t386L"
+        }
+      },
+      "pages": [
+        {
+          "name": "Introduction des joueurs",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<img style=\"display:block;margin-left:auto;margin-right:auto\" src=\"modules/dcc-doom-of-the-savage-kings/assets/handouts/morgan.webp\" width=\"536\" height=\"476\" /><blockquote><p>Vous voyagez depuis des jours à travers les forêts sombres et la lande déserte balayée par les vents. Vous êtes enveloppés de gris, que ce soit celui des brouillards froids qui s’accrochent au sol de la vallée ou des nuages sombres qui s’amoncellent sur les pics nus et escarpés. Votre destination : Hirot, village isolé situé au pied des montagnes de la Dent du Troll, qui vous promet un chaud foyer et une bonne compagnie. En attendant, vos seuls compagnons sont les corbeaux qui tournent en cercle au-dessus de vos têtes et les hurlements de loups dans la nuit. Votre rêverie est interrompue par des cris étouffés et la vision de formes entremêlées au milieu du brouillard devant vous !</p></blockquote><p>Laissez les joueurs déclarer des actions, préparer leurs armes, leurs sorts et autres. Au début, les PJ ne parviennent pas à distinguer les créatures, mais ensuite :</p><blockquote><p>Des paysans sinistres aux visages couverts de saleté et empreints de peur émergent de l’obscurité. Tous portent des armes de fortune (haches de bûcheron, bâtons, fourches et longs couteaux). La foule pousse devant elle une femme aux cheveux de jais ; bâillonnée et attachée avec d’épaisses cordes, elle se débat et lutte à chaque pas. À l’arrière de la foule, on peut voir des silhouettes solennelles montant des chevaux de guerre, dont l’éclat des armures perce sous les capes en peaux de loups.</p></blockquote><p>Les paysans conduisent l’une des leurs, Morgane Haverson, à l’autel en pierres dressées (zone B) où elle doit être déposée comme offrande au molosse de Hirot. Quand ils aperçoivent les PJ, le jarl et ses sept thegns éperonnent leurs montures pour aller de l’avant. Ils n’ont pas d’animosité envers les héros, mais considèrent les étrangers avec une distance prudente.</p><p>Le jarl est une montagne, endurci et marqué par près de cinquante ans passés dans les hautes landes. Il est également indécis et condescendant, percevant immédiatement les PJ comme des rivaux potentiels. Ses thegns sont également des guerriers endurcis, ayant juré fidélité à leur chef et féroces au combat.</p><p>Si les PJ n’interfèrent pas, la foule passe devant eux pour se diriger vers les pierres dressées et attache la fille sur l’autel en attendant le molosse. Leur sinistre tâche accomplie, les villageois retournent en toute hâte à Hirot avant la tombée de la nuit.</p><p>Si les PJ essaient de s’opposer aux villageois, le jarl intervient avec vigueur, exigeant que la fille soit sacrifiée pour le bien de tous. Ni le jarl, ni ses thegns, ni aucun des villageois ne souhaitent sacrifier la jeune fille, mais tous sont bien trop terrifiés pour s’opposer au molosse. Les PJ peuvent convaincre la foule de stopper le sacrifice, mais seulement à la condition qu’ils prennent la place de la fille (ou s’ils inventent une autre solution qui garantisse la sécurité du village pour une nuit).</p><p>Si les PJ font mine d’user de violence, la foule se disperse rapidement. Le jarl et ses thegns font une démonstration de force, mais battent en retraite après 1d5+2 rounds, pour «couvrir» la fuite de leurs administrés.</p><p>Enfin, des PJ malins peuvent laisser la foule attacher la fille sur les pierres d’autel pour pouvoir la libérer avant que le molosse n’arrive pour réclamer son sacrifice.</p><p>C’est un moment central de l’aventure qui peut déterminer si les PJ seront perçus comme des alliés de Hirot ou des ennemis. Des «héros » sanguinaires risquent de faire dérailler toute l’aventure avant même qu’elle ne commence ; tuer le jarl ou n’importe lequel de ses administrés est un moyen sûr de s’attirer l’inimitié de tout le village. Le juge ne doit pas interférer en faveur des PJ : des choix brutaux et violents entraîneront les conséquences logiques.</p><p>Si les PJ réussissent à sauver la fille, ils gagnent la reconnaissance de son père, Broegan Haverson, tenancier de La lance Tue-Loup (voir zone A-3) et source de rumeurs de premier ordre.</p><p><strong>Jarl :</strong> Init +2; Att épée longue +4 corps-à-corps (1d8) ou arc +4 distance (1d6) ; CA 18; DV 2d8; PV 16; Mvt 6 m; Act 1d20; JS Vig +1, Réf +2, Vol +2; AL L.</p><p><strong>Thegns (7) :</strong> Init +1; Att épée longue +3 corps-à-corps (1d8) ou arc +3 distance (1d6); CA 16; DV 2d8; PV 12 ; Mvt 6 m; Act 1d20; JS Vig +2, Réf +1, Vol +1; AL L.</p><p><strong>Roturiers (35) :</strong> Init -2; Att arme de fortune -1 corps-à-corps (1d4-1); CA 9 ; DV 1d4; PV 2; Mvt 9 m; Act 1d20; JS Vig -1, Réf -2, Vol -1; AL N.</p><p style=\"margin-bottom:0in;line-height:100%\"> </p><img style=\"display:block;margin-left:auto;margin-right:auto\" src=\"modules/dcc-doom-of-the-savage-kings/assets/handouts/village.webp\" width=\"525\" height=\"263\" />",
+            "markdown": ""
+          },
+          "_id": "F82u1clH43wCLbxH",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683389688750,
+        "modifiedTime": 1684781478795,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "WdhwB5riqfJTuOdp"
+    },
+    {
+      "name": "Zone A-06 – Masure de la Veuve Folle",
+      "flags": {
+        "core": {
+          "sourceId": "JournalEntry.7JIMuvzUO8Uj3jp1"
+        }
+      },
+      "pages": [
+        {
+          "name": "Zone A-6 – Masure de la Veuve Folle",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<section class=\"secret\" id=\"secret-HovQ86X1nG91nZel\"><p>Recroquevillée dans l’ombre du Grand Hall du jarl, la maison d’Ymae, la Veuve Folle, semble située dans un monde différent de celui de Hirot. Personne ne vient visiter ce taudis misérable, à part quelques jeunes garçons mettant leur courage à l’épreuve la nuit sous la lumière de la lune. Il est de notoriété publique que la veuve Ymae est une sorcière et qu’elle infligera une malédiction à tous ceux qui lui causeront du tort.</p><p>En vérité, la veuve est bel et bien une sorcière, ou plutôt, une magicienne. Se satisfaisant de sa solitude, la veuve méprise la compagnie des villageois, préférant passer ses nuits à discuter avec des choses situées au-delà du voile. La veuve Ymae est la seule dans tout le village de Hirot à ne pas vivre dans la peur du molosse.</p><p>Bien qu’elle n’ait guère de patience pour les imbéciles, la veuve accueille volontiers les PJ chez elle, percevant qu’ils sont faits d’une autre étoffe que le peuple de Hirot. Mais s’ils font montre de manières grossières, elle ne mettra pas longtemps à les renvoyer.</p><p>L’intérieur de la masure semble étrangement plus grand que son extérieur ne semblait indiquer. Un feu vivace brûle dans un foyer à même le sol et un chat tacheté dort sur une étagère chargée de morceaux d’animaux séchés. La veuve est assise, quenouille et fuseau en main, filant les flammes du feu en fils dorés.</p><p>Si on l’interroge sur le molosse, la veuve partage son secret : des centaines de minces fils pressés et mélangés dans le pisé de sa masure. Tissés avec la chevelure des morts, les fils enchantés forment une barrière infranchissable pour le molosse. Les mêmes fils, explique la veuve, peuvent être employés pour immobiliser le molosse afin de pouvoir le tuer.</p><p>La veuve est disposée à aider les PJ à condition que l’un d’entre eux l’épouse quand le molosse sera mort. Si les PJ récupèrent les cheveux d’un cadavre, elle file la chevelure et tisse des liens pouvant entraver le molosse.</p><p>Si un PJ brise la promesse envers la vieille, le conjoint potentiel est frappé par la Mort Noire. Des pustules suintantes recouvrent le corps du PJ, réduisant sa Force, Endurance et Agilité de 1 point chaque jour. Dès que l’une de ces 3 caractéristiques tombe à 0, le PJ meurt. Une fois infligée, la malédiction ne peut être levée que par une puissance divine (la sorcière elle-même n’en a pas le pouvoir).</p><p>Si toutefois le PJ honore sa promesse, il est confronté à une surprise. La veuve, désormais jeune, belle et couverte de fleurs, attend à la porte de sa cahute, son mari mort à ses côtés. Celuici, formé d’une silhouette diabolique constituée de flammes et d’obscurité, invite jalousement le PJ à s’en aller. La veuve embrasse avec mélancolie le PJ et lui offre un cadeau d’adieu : une chemise de mailles dorée, tissée des fils de flammes. Suffisamment légère pour être portée sous des vêtements normaux (mais pas sous une armure), la chemise fait office de cotte de mailles +1 et confère au PJ un bonus de +2 aux jets de sauvegarde contre le froid.</p></section><p style=\"margin-bottom:0in;line-height:100%\"> </p><img style=\"display:block;margin-left:auto;margin-right:auto\" src=\"modules/dcc-doom-of-the-savage-kings/assets/handouts/widow.webp\" width=\"557\" height=\"468\" />",
+            "markdown": ""
+          },
+          "_id": "JEy7r56sNdxkSQ2z",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683447891810,
+        "modifiedTime": 1684781478796,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "cjvAhiPOalAvWiFa"
+    },
+    {
+      "name": "Zone C-09 – Fausse tombe",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.KGufTPIlZzexk5ne"
+        }
+      },
+      "pages": [
+        {
+          "name": "Zone C-9 – Fausse tombe",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<blockquote><p>L’étroit conduit débouche sur une pièce au haut plafond voûté faisant penser à l’intérieur d’une grande galerie. Au centre de la pièce se dresse une colonne, s’élevant jusqu’au plafond. La colonne est décorée de dizaines de gravures stylisées représentant des loups mis à mort. La colonne elle-même semble être composée de sections alternées de bois et de pierre. Suspendus à la colonne tels des trophées, à environ 6 m du sol, se trouvent une longue lance et un bouclier de bronze.</p></blockquote><section class=\"secret\" id=\"secret-K5UChmAEAMpa38vc\"><p>Cette pièce a été conçue pour tromper tous les apprentis pilleurs de tombes. Ilham, Stein et Kej ont péri à cause de leurs querelles et de la malédiction du tertre bien avant de découvrir la fausse tombe; ce qui fait que cette dernière est quasiment intacte.</p><p>La colonne est le déclencheur d’un piège d’une ampleur effrayante. Une rapide inspection de la colonne révèle que les sections de bois et de pierre sont disposées comme les pièces d’un puzzle complexe, chacune reposant sur l’autre. La pression constante du sommet a ralenti mais pas stoppé la pourriture du bois.</p><p>Toucher la colonne ou la lance et le bouclier provoque l’effondrement de la colonne, les pièces de bois et de pierre volant en éclats et s’écrasant au sol, déclenchant une série d’effets en cascade. Demandez un jet d’initiative, appliquez les effets suivants par rang d’initiative décroissant, jusqu’à ce que tous les PJ soient morts ou aient réussi à s’enfuir de la pièce.</p><table style=\"width:99.1453%\" border=\"1\"><tbody><tr><th><strong>Décompte d’initiative</strong></th><th><strong>effets du piège</strong></th></tr><tr><td style=\"width:20.6422%\"><strong>20</strong></td><td style=\"width:78.6395%\">Des morceaux de pierre et de bois pleuvent du haut; jet de sauvegarde de Réflexes DD 10 pour ne pas subir [[/roll 1d6]] points de dégâts.</td></tr><tr><td style=\"width:20.6422%\"><strong>15</strong></td><td style=\"width:78.6395%\">Une énorme dalle tombe du plafond; jet de sauvegarde de Réflexes DD 5 pour ne pas subir [[/roll 2d6]] points de dégâts.</td></tr><tr><td style=\"width:20.6422%\"><strong>10</strong></td><td style=\"width:78.6395%\">Des débris tombent du haut, touchant toutes les personnes dans la pièce pour [[/roll 1d4]] points de dégâts. Les PJ doivent réussir un jet de sauvegarde de Vigueur DD 10 ou perdre [[/roll 1d7]] rang(s) d’initiative.</td></tr><tr><td style=\"width:20.6422%\"><strong>5</strong></td><td style=\"width:78.6395%\">Une dalle de pierre tombe du plafond, condamnant la pièce. (Les personnages pouvant encore agir peuvent essayer de soulever quelques instants la pierre massive avec un test de Force DD 20.)</td></tr><tr><td style=\"width:20.6422%\"><strong>1</strong></td><td style=\"width:78.6395%\">Plusieurs tonnes de pierre et de terre s’effondrent dans la pièce, remplissant la fausse tombe de débris et tuant toutes les personnes restantes.</td></tr></tbody></table><p>La lance et l’épée, même si elles ne sont pas magiques, sont des antiquités de maître. Elles peuvent soit être vendues dans une grande cité pour 150 po ou servir de support à des enchantements par des sorciers suffisamment puissants.</p></section>",
+            "markdown": ""
+          },
+          "_id": "QHXQrAEYwXnvAY8y",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683465825069,
+        "modifiedTime": 1684781478797,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "eDWdkDM0sza4XVdN"
+    },
+    {
+      "name": "00 Sommaire",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.1gahSqzuytevDG91"
+        }
+      },
+      "pages": [
+        {
+          "name": "Sommaire",
+          "type": "text",
+          "title": {
+            "show": false,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p>@Compendium[dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.49Z5dbx1gVrWpb7T]{Cover}</p><p>@Compendium[dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.ZsFYj1OfXU5Agxxa]{Inside Cover}</p><p>@Compendium[dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.8a27wANIGeDUDLqc]{Introduction}</p><p>@Compendium[dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.x7mgAvPldB9ITT5g]{Adventure Background}</p><p>@Compendium[dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.bI7sCp9FQuPSpjwz]{The Hound of Hirot}</p><p>@Compendium[dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.6Ru1PdMke2fopc6X]{Hound Mural}</p><p>@Compendium[dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.YQonDmYNrpEAUp97]{The Village of Hirot}</p><p>@Compendium[dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.qarxbbJFlTQ7GaVy]{Rumors, Legends, &amp; Superstitions}</p><p>@Compendium[dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.X0NgKRroavtGaomP]{Roleplaying the Non-Player Characters}</p><p>@Compendium[dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.GvzyKFJnX9hznMxU]{Hound Small}</p><p>@Compendium[dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.dLlZ2hR1PcvE2J53]{Encounter Table}</p><p>@Compendium[dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.rKJHtXVEPgFfHWlO]{Morgan}</p><p>@Compendium[dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.Ol0Ihr2ofZ3t386L]{Player Start}</p><p>@Compendium[dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.QLFe0jTHT2sVezaY]{Hirot}</p><p>@Compendium[dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.OxtMM64Lzp41P8Iy]{Encounter Areas}</p><p>@Compendium[dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.LEdOKvCDv64ZU0Qd]{Lockbox}</p><p>@Compendium[dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.1FkHCAIq5RQ1vlY6]{Mad Widow of Ymae}</p><p>@Compendium[dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.P6c2MhU9d2n8K9kL]{Serpent Spirit}</p><p>@Compendium[dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.MI6ViKD5VCtfxVHK]{Tomb of the Ulfehonar}</p><p>@Compendium[dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.AKbG5hfvds132FOZ]{Spears}</p><p>@Compendium[dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.ksTFZueSO7QY8VAg]{Pillar}</p><p>@Compendium[dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.qCMsWjOBKXrIAGTc]{Interlude: Exiting the Serpent Mound}</p>"
+          },
+          "_id": "JCD7MW9AhxIGwGbO",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683560275991,
+        "modifiedTime": 1684781478799,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "gHv5dhvdibiuNwRe"
+    },
+    {
+      "name": "Zone A – Village de Hirot",
+      "flags": {
+        "core": {
+          "sourceId": "JournalEntry.0onZ0pM5HxrToAgK"
+        }
+      },
+      "pages": [
+        {
+          "name": "Zone A – Village de Hirot",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<blockquote><p>Les landes boisées laissent place à des champs recouverts de brume. Devant vous, au bout du chemin étroit, se dresse le village de Hirot. Ce dernier est défendu par un remblai de terre surmonté d’une palissade de bois. Derrière le village, une chaussée monte en direction d’un grand bâtiment juché sur une corniche rocailleuse. Des fumées de cheminées noires planent tristement au-dessus du village, comme si elles craignaient de se risquer en dehors de ses murs.</p><p>Des silhouettes solitaires laissent échapper un cri, et le long son morne d’un cor retentit, faisant écho dans la vallée et annonçant à tous votre approche.</p></blockquote><section id=\"secret-ozJeYgFKEltK3EwI\" class=\"secret\"><p>La palissade de 4,5 m tient à distance les bêtes et la plupart des pillards, mais peut être facilement franchie par des grimpeurs chevronnés (test d’escalade, DD 15)</p><p>Un chemin de ronde fait le tour de la palissade et, depuis l’incursion du molosse, la milice de la ville allume des brasiers au crépuscule et arpente le mur toute la nuit. La garde de nuit n’a pas servi à grand-chose pour éviter les attaques. D’ailleurs, elle a perdu 4 de ses volontaires sous les griffes du molosse.</p><p>La garde de nuit est dirigée par @UUID[Actor.t1Mag7wyENEAG9sN]{Nothan le Jeune}, un homme sévère et belliqueux, portant une longue moustache et au regard féroce. Ayant presque atteint les cinquante printemps, Nothan nourrit une suspicion grandissante envers le jarl et son sorcier favori, mais il garde son avis pour lui. Il a combattu le molosse et l’a vu se transformer en brume noire.</p><p>La garde de nuit sonne l’alarme au moindre signe de danger. Il y a une chance sur cinq qu’un membre de la garde de nuit soit à proximité lorsque les PJ tentent d’escalader le mur.</p><p>@UUID[Actor.t1Mag7wyENEAG9sN]{Nothan le Jeune, maître de la garde} : Init +1; Att épée longue +1 corps-à-corps (1d8) ; CA 15 ; DV 2d8; PV 10; Mvt 6 m; Act 1d20; JS Vig +2, Réf +1, Vol +1; AL L.</p><p>@UUID[Actor.6kL8d5O1yu4VPMrE]{Garde de nuit } (6) : Init +0 ; Att lance +1 corps-à-corps (1d6); CA 14; DV 1d8; PV 4 ; Mvt 7,5 m ; Act 1d20; JS Vig +1, Réf +1, Vol +0; AL L.</p></section>",
+            "markdown": ""
+          },
+          "_id": "7zFg9iIBtTABsa29",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        },
+        {
+          "name": "Zone A-1 - Portes du sud",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<section id=\"secret-rGeHINWijSpzuQh7\" class=\"secret\"><p>Les robustes portes sont ouvertes aux premières lueurs et condamnées à la tombée de la nuit. Pendant la nuit, les portes ne sont ouvertes que sur ordre direct du jarl lui-même. Une plateforme de guet basique s’élève au dessus du mur, à environ 7,5 m de haut.</p><p>Deux hommes de la milice, @UUID[Actor.3en1HtBqU58YvY4t]{Mocle} et @UUID[Actor.FuvIX1Gf0L9hfgJy]{Naven}, se tiennent sur la plateforme pendant la journée, se réchauffant devant un brasero en métal. Armé de lances et de boucliers de bois, ce vigilant duo fait sonner un cor dès qu’ils aperçoivent des étrangers. Avides de nouvelles du monde extérieur, ils descendent de la plateforme pour souhaiter la bienvenue aux nouveaux venus à Hirot..</p><p>@UUID[Actor.3en1HtBqU58YvY4t]{Mocle} et @UUID[Actor.FuvIX1Gf0L9hfgJy]{Naven} : Init +0; Att lance +1 corps-à-corps (1d6) ou arbalète +0 distance (1d6); CA 10; DV 1d8; PV 4; Mvt 7,5 m; Act 1d20; JS Vig +1, Réf +1, Vol +0 ; AL L.</p></section>",
+            "markdown": ""
+          },
+          "_id": "ZoI6B8FonRGrVdTz",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.itJ8aJCzGz6CTZDM.JournalEntryPage.ZoI6B8FonRGrVdTz"
+            }
+          }
+        },
+        {
+          "name": "Zone A-2 – Place du village",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<blockquote><p>La place du village est pratiquement déserte, à l’exception de quelques cabots pouilleux qui se frayent un chemin au milieu des étals abandonnés. Une cassette fermée d’un cadenas est posée sur un court poteau de bois au milieu de la place. Une bannière en lambeaux représentant un loup noir rampant pend tristement au dessus du coffre.</p></blockquote><section class=\"secret\" id=\"secret-1QYu3C7Nm6aIHtea\"><p>La plupart du temps, le père Beacom et ses deux acolytes silencieux (voir zone A-4) se trouvent ici, déclamant à qui veut l’entendre (et aussi à tous ceux qui préféreraient ne pas entendre) que le molosse de Hirot annonce la fin des temps et que le châtiment est sur eux. La population de Hirot se réunit sur la place tous les trois jours, et on tire au sort celui ou celle qui sera sacrifié au molosse. Le scribe du village note le nom de chaque habitant sur une bandelette de parchemin qui est ensuite glissée dans la fente du coffre. Avec un bandeau sur les yeux, le jarl déverrouille le coffre et tire une bandelette qui est alors lue par le scribe et confirmée par le prêtre, le père Beacom.</p></section><p style=\"margin-bottom:0in;line-height:100%\"> </p><img style=\"display:block;margin-left:auto;margin-right:auto\" src=\"modules/dcc-doom-of-the-savage-kings/assets/handouts/-007-005.webp\" width=\"433\" height=\"381\" /><p style=\"margin-bottom:0in;line-height:100%\"> </p><section class=\"secret\" id=\"secret-bcG41nPoHgDYE5lD\"><p>Le coffre est verrouillé par un simple cadenas (DD 10 pour le crocheter), mais si un citoyen surprend quelqu’un en train de trafiquer le coffre, il crie pour donner l’alerte. L’ouverture du coffre révèle que la loterie est une arnaque : un second coffre est caché dans le premier. La veille du tirage au sort, le jarl et Sylle Ru choisissent qui sera sacrifié et placent une fausse bandelette dans le petit coffre pour la choisir pendant le tirage au sort.</p><p>Si les PJ restent à Hirot plus de deux jours, ils devront participer au tirage au sort. Le jarl profite de cette opportunité pour se débarrasser de ses rivaux en s’assurant que le nom d’un des PJ soit tiré au sort. Si des voleurs malins étudient les bandelettes (test de falsification DD 10), ils se doutent (à cause d’incohérences dans la qualité du parchemin et de l’encre) que la bandelette a été écrite par quelqu’un d’autre que le scribe du village. De l’encre et du parchemin similaires à ceux de la bandelette falsifiée peuvent être trouvés parmi les possessions de Sylle Ru.</p></section>",
+            "markdown": ""
+          },
+          "_id": "BIn3MEZPwnnX4xyJ",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.iPCvP8CTmL2RErMq.JournalEntryPage.BIn3MEZPwnnX4xyJ"
+            }
+          }
+        },
+        {
+          "name": "Zone A-3 – Enseigne de la lance Tue-Loup (Auberge)",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<section class=\"secret\" id=\"secret-jLji0nQFEdYiEgKE\"><p>Située tout près de la place du village, l’unique auberge de Hirot accueille les voyageurs fourbus jour et nuit. Caravansérail isolé longtemps avant que Hirot ne devienne un village, l’auberge conserve encore des traces de ses rudes origines : des meurtrières sont taillées dans les volets, une lourde barre de fer peut servir à condamner la porte si besoin, et des créneaux sont visibles sur les rebords de la toiture.</p><p>Le rez-de-chaussée abrite une salle commune où l’on sert à boire et à manger. Une grande lance est suspendue au-dessus du bar (une réplique de la lance légendaire de l’Ulfheonar). Bien que la lance semble réelle, une inspection plus poussée fait apparaître que la lame est en réalité faite de bois peint en bleu argenté. Le bar est généralement tenu par <strong>Broegan Haverson, dit «Le Taureau»</strong>, et sa fille <strong>Morgane</strong> (la dernière offrande destinée au molosse). Si les PJ ont réussi à empêcher le sacrifice de Morgane, ils ont la gratitude éternelle de Broegan et n’auront plus besoin de payer le gîte et le couvert pour le temps qu’ils passeront à l’auberge. Si, par contre, ils n’ont pas pu ou pas voulu sauver la jeune fille, le géant autrefois cordial est écrasé par le chagrin.</p><p>Le deuxième étage de l’auberge est occupé par les chambres privées des clients alors qu’un petit troisième étage est réservé à la famille de <strong>Broegan</strong>. Depuis le début des attaques, toutefois, <strong>Broegan</strong> a pris l’habitude de dormir au rez-de-chaussée pour pouvoir mieux défendre ses hôtes en cas d’attaque du molosse.</p><p>La capacité de <strong>La Lance Tue-Loup</strong> à se défendre n’a pas échappé aux habitants de Hirot, et beaucoup d’entre eux ont pris l’habitude de passer leurs soirées à l’auberge et de dormir dans la salle commune. Chaque soir, il y a 2d12 autochtones qui passent la soirée à jouer aux dés et boire, pour tenter d’oublier la bête qui rôde à leurs portes.</p><p>La plupart des soirs, <strong>Lloré</strong>, le seul barde et raconteur de Hirot, est présent pour distraire la foule. Le jeune barde charismatique aspire à devenir aventurier, mais son amour secret pour <strong>Morgane</strong> le pousse à revenir nuit après nuit à <strong>La Lance Tue-Loup</strong>. <strong>Lloré</strong> connaît pratiquement chaque rumeur et légende se rapportant au molosse et est ravi de les partager avec de nouveaux auditeurs.</p></section>",
+            "markdown": ""
+          },
+          "_id": "1KEmQuFNxWa8azzH",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.w3HWQDmsBfwzqHUR.JournalEntryPage.1KEmQuFNxWa8azzH"
+            }
+          }
+        },
+        {
+          "name": "Zone A-4 – Chapelle de Justicia",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<section class=\"secret\" id=\"secret-zwiYNReFg4dvpa1L\"><p>Cette modeste chapelle est le seul bâtiment de Hirot construit entièrement en pierre. Conçu pour servir à la fois de lieu de culte et de défense, le sanctuaire saint est l’un des lieux les plus sûrs de Hirot, juste après le grand hall du jarl. Malgré ça, l’église est vide la plupart du temps.</p><p>L’explication de cet abandon se trouve dans le comportement du grand prêtre, @UUID[Actor.d2YMUDB23MapYypk]{le père Beacom}. Homme mince, au visage de faucon, le Père est convaincu que le molosse est un châtiment pour les péchés du village. Il se poste sur la place centrale de l’aube au crépuscule, à hurler que la fin du monde est proche et que les villageois ne peuvent s’en prendre qu’à eux-mêmes. Le seul salut du pécheur, déclare-t-il, est de renoncer au monde matériel pour Justicia.</p><p>@UUID[Actor.d2YMUDB23MapYypk]{Le père Beacom} est assisté de deux acolytes, @UUID[Actor.hcpsn7w7RVy9MhXs]{frère Aker} et @UUID[Actor.NERDEWb1uP9FaaOV]{ frère Haams}. Tous deux ont fait vœu de silence et suivent le Père quand il arpente les rues, se fouettant pour expier leurs péchés.</p><p>Le Père ne supporte guère les prêtres vénérant d’autres dieux, mais il accueille avec ardeur les fidèles de Justicia, leur offrant asile ainsi qu’à leurs alliés.</p><p>Même si @UUID[Actor.d2YMUDB23MapYypk]{le père Beacom} rechigne à l’admettre, l’église renferme un secret qui peut aider les PJ dans leur combat contre le molosse de Hirot. Le vitrail en rosace surplombant la nef de l’église dépeint Justicia en train d’affronter un molosse-démon avec un grand marteau de guerre. La tête à pointes de ce même marteau de guerre repose sur l’autel de l’église, dissimulée sous une tenture de velours.</p><p>@UUID[Actor.d2YMUDB23MapYypk]{Le père Beacom} refuse que cette sainte relique quitte le sanctuaire de l’église, et seuls les fidèles peuvent poser le regard sur le marteau de guerre. Mais si la tête est accrochée sur un robuste manche et à nouveau consacrée au service de la Loi, elle recouvre son enchantement de +1 contre les démons/diables. Quand l’arme est portée par un clerc de Justicia, elle est considérée comme un marteau de guerre +2. De plus, le marteau confère un bonus de +1 aux jets de sauvegarde contre les effets maléfiques, les créatures maléfiques, les morts-vivants et les démons et leur inflige 3 points de dégâts supplémentaires.</p></section>",
+            "markdown": ""
+          },
+          "_id": "ClPyZzj7xCQo2RCe",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.vCExO7eWHYtYvImt.JournalEntryPage.ClPyZzj7xCQo2RCe"
+            }
+          }
+        },
+        {
+          "name": "Zone A-5 – Le Repaire des Trois Rats (Bouge)",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<section class=\"secret\" id=\"secret-t52C673KSyLAfCGR\"><p>Ceux qui ne peuvent pas se payer La Lance Tue-Loup doivent se contenter des Trois Rats, un bouge de la pire espèce. Délabré et insalubre, les rats, poux et autres vermines dépassent largement en nombre les hôtes payants.</p><p>Le bâtiment à deux étages abrite également un gang officieux de voleurs et de bons à rien. Mené par @UUID[Actor.SxNBlBdywXvSsjas]{maître Jenks}, <strong>le groupe se composait autrefois de huit membres, mais la perte de Kej, Stein et Ilham dans la tombe de l’Ulfheonar a diminué à la fois le nombre de membres du gang et leur audace</strong>. Les membres restants, @UUID[Actor.zjPLuTqCPDb819lN]{Oleen le lutin}, @UUID[Actor.NomNnXFfK1AxrgHK]{Chatons}, @UUID[Actor.bNPZKpm3y4mEnoKS]{Mini Toc} et @UUID[Actor.0FdkV9zJjpncjO2y]{Loup}, passent leurs journées à boire du mauvais vin et à rêver de braquages.</p><p>S’ils se lient d’amitié avec un confrère, les voleurs peuvent indiquer la direction du tumulus du serpent, mais ils ne savent rien sur le sort de leurs anciens camarades. À eux tous, les voleurs connaissent toutes les fausses rumeurs tournant autour du molosse. Sinon, les voleurs sont impatients de tirer profit d’étrangers fortunés. Bien que trop peureux pour commettre un vol pur et simple, la bande informelle est tout à fait capable d’arnaquer les PJ ou d’échanger de fausses rumeurs contre l’argent durement gagné des PJ.</p></section>",
+            "markdown": ""
+          },
+          "_id": "vRSBu7pFKTwVcCo4",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.BoxAO0OYFH4FM9LU.JournalEntryPage.vRSBu7pFKTwVcCo4"
+            }
+          }
+        },
+        {
+          "name": "Zone A-6 – Masure de la Veuve Folle",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<section class=\"secret\" id=\"secret-HovQ86X1nG91nZel\"><p>Recroquevillée dans l’ombre du Grand Hall du jarl, la maison d’Ymae, la Veuve Folle, semble située dans un monde différent de celui de Hirot. Personne ne vient visiter ce taudis misérable, à part quelques jeunes garçons mettant leur courage à l’épreuve la nuit sous la lumière de la lune. Il est de notoriété publique que la veuve Ymae est une sorcière et qu’elle infligera une malédiction à tous ceux qui lui causeront du tort.</p><p>En vérité, la veuve est bel et bien une sorcière, ou plutôt, une magicienne. Se satisfaisant de sa solitude, la veuve méprise la compagnie des villageois, préférant passer ses nuits à discuter avec des choses situées au-delà du voile. La veuve Ymae est la seule dans tout le village de Hirot à ne pas vivre dans la peur du molosse.</p><p>Bien qu’elle n’ait guère de patience pour les imbéciles, la veuve accueille volontiers les PJ chez elle, percevant qu’ils sont faits d’une autre étoffe que le peuple de Hirot. Mais s’ils font montre de manières grossières, elle ne mettra pas longtemps à les renvoyer.</p><p>L’intérieur de la masure semble étrangement plus grand que son extérieur ne semblait indiquer. Un feu vivace brûle dans un foyer à même le sol et un chat tacheté dort sur une étagère chargée de morceaux d’animaux séchés. La veuve est assise, quenouille et fuseau en main, filant les flammes du feu en fils dorés.</p><p>Si on l’interroge sur le molosse, la veuve partage son secret : des centaines de minces fils pressés et mélangés dans le pisé de sa masure. Tissés avec la chevelure des morts, les fils enchantés forment une barrière infranchissable pour le molosse. Les mêmes fils, explique la veuve, peuvent être employés pour immobiliser le molosse afin de pouvoir le tuer.</p><p>La veuve est disposée à aider les PJ à condition que l’un d’entre eux l’épouse quand le molosse sera mort. Si les PJ récupèrent les cheveux d’un cadavre, elle file la chevelure et tisse des liens pouvant entraver le molosse.</p><p>Si un PJ brise la promesse envers la vieille, le conjoint potentiel est frappé par la Mort Noire. Des pustules suintantes recouvrent le corps du PJ, réduisant sa Force, Endurance et Agilité de 1 point chaque jour. Dès que l’une de ces 3 caractéristiques tombe à 0, le PJ meurt. Une fois infligée, la malédiction ne peut être levée que par une puissance divine (la sorcière elle-même n’en a pas le pouvoir).</p><p>Si toutefois le PJ honore sa promesse, il est confronté à une surprise. La veuve, désormais jeune, belle et couverte de fleurs, attend à la porte de sa cahute, son mari mort à ses côtés. Celuici, formé d’une silhouette diabolique constituée de flammes et d’obscurité, invite jalousement le PJ à s’en aller. La veuve embrasse avec mélancolie le PJ et lui offre un cadeau d’adieu : une chemise de mailles dorée, tissée des fils de flammes. Suffisamment légère pour être portée sous des vêtements normaux (mais pas sous une armure), la chemise fait office de cotte de mailles +1 et confère au PJ un bonus de +2 aux jets de sauvegarde contre le froid.</p></section><p style=\"margin-bottom:0in;line-height:100%\"> </p><img style=\"display:block;margin-left:auto;margin-right:auto\" src=\"modules/dcc-doom-of-the-savage-kings/assets/handouts/widow.webp\" width=\"557\" height=\"468\" />",
+            "markdown": ""
+          },
+          "_id": "JEy7r56sNdxkSQ2z",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.cjvAhiPOalAvWiFa.JournalEntryPage.JEy7r56sNdxkSQ2z"
+            }
+          }
+        },
+        {
+          "name": "Zones A-7 – Fermes",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<section class=\"secret\" id=\"secret-JpDWsQU1ySEaOYU4\"><p>Ces humbles demeures hébergent l’une des nombreuses familles qui cultivent les terres situées autour de Hirot. Il y a 30 % de chances que la famille partage son logis avec 1d4 poulets ou 1d2 cochons. À part le bétail et des outils agricoles basiques, il n’y a rien de valeur dans la maison.</p></section>",
+            "markdown": ""
+          },
+          "_id": "4XBETdwrGjEMziKi",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.4gGuxbjLfEPMGm5l.JournalEntryPage.4XBETdwrGjEMziKi"
+            }
+          }
+        },
+        {
+          "name": "Zones A-8 – Ateliers",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<section class=\"secret\" id=\"secret-SjVj6UpWIOZdTNSv\"><p>Ces bâtiments servent de maison et de boutique à l’une des familles d’artisans qui réside à Hirot. Parmi ces artisans, on compte :</p><ul><li><p><strong>Mareras le verrier</strong></p></li><li><p><strong>Gil le Chauve</strong>, brasseur</p></li><li><p><strong>Niel le meunier</strong></p></li><li><p><strong>Will-O-Scein</strong>, apprenti maroquinier</p></li><li><p><strong>Hael la Cigogne</strong>, maître forgeron</p></li><li><p><strong>Ansich</strong>, boulanger</p></li><li><p><strong>Chatham le Calme</strong>, sculpteur d’os et de bois de cerf</p></li><li><p><strong>Oyd Tallson</strong>, charpentier</p></li><li><p><strong>Moeroj le tanneur</strong></p></li></ul></section>",
+            "markdown": ""
+          },
+          "_id": "gAogcgIlVHxVyLQm",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.p582xFEmR8CEsPuP.JournalEntryPage.gAogcgIlVHxVyLQm"
+            }
+          }
+        },
+        {
+          "name": "Zones A-9 – Étables",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<section class=\"secret\" id=\"secret-kxIO13S0cXc4cMRF\"><p>L’essentiel du bétail du village est parqué dans de simples étables construites contre la palissade du village. Chacune héberge une douzaine de vaches, bœufs et moutons ainsi que les chevaux de guerre des thegns. Remplies de paille, les étables sont hautement inflammables; tout incendie provoque la panique des animaux. Les étables sont surveillées par les jeunes garçons et jeunes filles du village.</p><p>Ces enfants ont pour instruction de donner un coup de sifflet au moindre signe de danger, ce qui provoque alors l’arrivée de la garde en 1d5+1 rounds.</p></section>",
+            "markdown": ""
+          },
+          "_id": "shF4lizBHA7tPMlb",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.ho0gE7sUKb7icYy0.JournalEntryPage.shF4lizBHA7tPMlb"
+            }
+          }
+        },
+        {
+          "name": "Zone A-10 – Le Grand Hall",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<section class=\"secret\" id=\"secret-eYUMUWLKVxOvBzSJ\"><p>Dressé tout en haut d’un rocher surplombant Hirot, le Grand Hall, également appelé salle des festins, est le siège du pouvoir du jarl. Le Grand Hall est bâti avec d’énormes poutres recouvertes d’un toit de chaume doré et où sont accrochés les trophées célébrant les victoires du @UUID[Actor.ZrwRdSsVPLRBrvrt]{jarl}. Le loup rampant, symbole du @UUID[Actor.ZrwRdSsVPLRBrvrt]{jarl}, orne le hall.</p><p>Le @UUID[Actor.ZrwRdSsVPLRBrvrt]{jarl}, ses @UUID[Actor.g5Tlu5YieFxSOIwR]{thegns} et @UUID[Actor.1eVxkCIWxIwR6Oir]{Sylle Ru} y ont élu domicile, dormant dans la salle commune, armes à portée de main. Le jarl sait que ce n’est qu’une question de temps avant que le molosse ne s’attaque à lui. C’est pourquoi il s’assure personnellement que des sacrifices réguliers sont offerts au molosse, ce qui lui fait gagner du temps. Bien que le jarl place ses espérances dans les savoirs occultes de @UUID[Actor.1eVxkCIWxIwR6Oir]{Sylle Ru}, il craint secrètement qu’au final, rien ne puisse le protéger de la fureur du molosse.</p><p>Les sept thegns du jarl sont <strong>Ofenloch, Kreig, Orioc, Utherl, Haedrick, Clohn le Chauve et Haelf Halfson</strong>. Tous sont des combattants expérimentés et lui sont loyaux jusqu’à la mort. Mais même si le jarl méprise les PJ, les thegns sont heureux d’accueillir des frères d’armes.</p><p><strong>Trésor</strong> : Il y a peu de valeurs dans ce village isolé, même dans le Grand Hall du jarl. Une fouille (impossible tant que le jarl est en vie) met à jour :</p><ul><li><p>Une épée à 2 mains incrustée de joyaux (valeur 50 po)</p></li><li><p>Les peaux de plusieurs ours (valeur 15 po au total)</p></li><li><p>Une corne à boire, ciselée d’argent et de platine (valeur 30 po)</p></li><li><p>Plusieurs fûts de bière de qualité (valeur totale de 30 po)</p></li><li><p>Deux douzaines de grandes boucles d’oreilles en or (valeur 5 po/pièce)</p></li><li><p>Un torque en argent martelé (valeur 10 po)</p></li><li><p>3d100 po, 5d100 pa et 2d20 pp</p></li></ul><p>@UUID[Actor.ZrwRdSsVPLRBrvrt]{Jarl } : <strong>Init</strong> +2; <strong>Att épée longue</strong> +4 <strong>corps-à-corps</strong> (1d8) ou <strong>arc</strong> +4 distance (1d6) ; <strong>CA</strong> 18; <strong>DV</strong> 2d8; <strong>PV</strong> 16; <strong>Mvt</strong> 6 m; <strong>Act</strong> 1d20; <strong>JS</strong> Vig +1, Réf +2, Vol +2; <strong>AL</strong> L.</p><p>@UUID[Actor.g5Tlu5YieFxSOIwR]{Thegns } (7) : <strong>Init</strong> +1; <strong>Att épée longue</strong> +3 <strong>corps-à-corps</strong> (1d8) ou <strong>arc</strong> +3 distance (1d6); <strong>CA</strong> 16; <strong>DV</strong> 2d8; <strong>PV</strong> 12 ; <strong>Mvt</strong> 6 m; <strong>Act</strong> 1d20; <strong>JS</strong> Vig +2, Réf +1, Vol +1; <strong>AL</strong> L.</p><p>@UUID[Actor.1eVxkCIWxIwR6Oir]{Sylle Ru, devin} : <strong>Init</strong> +0 ; <strong>Att dague</strong> -1 <strong>corps-à-corps</strong> (1d4-1) ou <strong>sort néfaste</strong> (2d4, portée 15 m, pas de JS, jusqu’à 3/jour) ; <strong>CA</strong> 10; <strong>DV</strong> 3d4; <strong>PV</strong> 6 ; <strong>Mvt</strong> 9 m; <strong>Act</strong> 1d20 ; <strong>AS</strong> prestidigitation (JS Vol DD 12 ou la cible voit ses armes disparaître pendant 1d6+1 rounds), sort néfaste 3/jour ; <strong>JS</strong> Vig +1, Réf +1, Vol +4; <strong>AL</strong> C.</p></section>",
+            "markdown": ""
+          },
+          "_id": "yBkrZQIA3qsZZrIb",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.j6w3FCnBfPuPegFv.JournalEntryPage.yBkrZQIA3qsZZrIb"
+            }
+          }
+        },
+        {
+          "name": "Zone A-11 – Cercueils célestes",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<section class=\"secret\" id=\"secret-4zp4Z6hCUDtu6c70\"><p>Comme les longs et rudes hivers laissent le sol gelé pendant la majeure partie de l’année, la population de Hirot a pris l’habitude d’incinérer leurs morts en haut de la crête qui surplombe le village. Il se passe désormais peu de jours sans qu’un nuage de fumée noire ne s’élève de celle-ci, signalant un nouveau décès de citoyen de Hirot.</p><p>Les corps sont surveillés jour et nuit par un trio de gardes. Facilement effrayés, ils doivent effectuer un test de moral au début du combat ou abandonner les cercueils. Les gardes réveillent le jarl et ses thegns, revenant avec des renforts après 1d5+4 rounds.</p><p>@UUID[Actor.TYpqPVa2uVapO2KJ]{Garde des cercueils} (3) : <strong>Init</strong> +0 ; <strong>Att lance</strong> +1 <strong>corps-à-corps</strong> (1d6); <strong>CA</strong> 14 ; <strong>DV</strong> 1d8; <strong>PV</strong> 4 ; <strong>Mvt</strong> 7,5 m ; <strong>Act</strong> 1d20; <strong>JS</strong> Vig +1, Réf +1, Vol +0; <strong>AL</strong> L.</p></section>",
+            "markdown": ""
+          },
+          "_id": "WRwqiaQePeJrN8Pg",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {
+            "core": {
+              "sourceId": "JournalEntry.KkVkNNOmeZWOESYU.JournalEntryPage.WRwqiaQePeJrN8Pg"
+            }
+          }
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683390524092,
+        "modifiedTime": 1684781478809,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "gTnTD8sC7AD67yEk"
+    },
+    {
+      "name": "Zone C-03 – Salle de la fosse",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.gWvXpy5E8GHLNM3y"
+        }
+      },
+      "pages": [
+        {
+          "name": "Zone C-3 – Salle de la fosse",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<blockquote><p>Le couloir débouche sur une pièce plus large au plafond bas. Le sol dallé de pierres descend en pente raide depuis les quatre murs jusqu’à une fosse obscure au centre de la pièce. L’air est frais, et les murs brillent de condensation.</p></blockquote><p style=\"margin-bottom:0in;line-height:100%\"> </p><section class=\"secret\" id=\"secret-rwwiwPI1q0otONu7\"><p>Cette pièce ne représente pas de danger pour des PJ prudents. Quant à ceux qui prendraient moins de précautions (ou qui tenteraient de distancer une vague animée), l’endroit pourrait s’avérer beaucoup plus dangereux.</p><p>Le sol très pentu de la pièce est glissant à cause de la vase créée par la condensation dégoulinant le long des murs. Les PJ tentant de se tenir debout sur le sol en pente doivent réussir un jet de sauvegarde de Réflexes DD 18 ou tomber et glisser jusqu’au bord de la fosse. Les héros ont alors une seule chance (jet de sauvegarde de Réflexes DD 15) de s’agripper au rebord de la fosse. Ceux qui ratent leur jet plongent dans l’obscurité, tombant dans la zone C-4. Même si un PJ réussit à stopper sa chute, les murs de la fosse sont très compliqués à escalader (DD 23).</p></section>",
+            "markdown": ""
+          },
+          "_id": "mjxavm9VJM2CqeXo",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683453817348,
+        "modifiedTime": 1684781478810,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "hivK2eGMMxOBU3jl"
+    },
+    {
+      "name": "Zone C-08 – Conduit",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.vEdtBapLpmeva3ex"
+        }
+      },
+      "pages": [
+        {
+          "name": "Zone C-8 – Conduit",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<blockquote><p>L’étroit conduit serpente dans l’obscurité. Le petit passage fait seulement 60 cm de haut et de large avec un sol de pierre rugueuse et un plafond fait de branches et de racines.</p></blockquote><section class=\"secret\" id=\"secret-sgJDuY59Vf9QeOkd\"><p>Le passage dissimulé n’offre qu’un espace très réduit aux PJ pour s’y déplacer. D’ailleurs, les humains de grande taille devront se délester de leurs lourdes armures de métal avant de pouvoir s’avancer dans le passage. Les sacs à dos et les grands sacs devront être poussés devant les PJ ou tirés derrière eux, ce qui rend la traversée du conduit fort pénible.</p><p>Ainsi distraits, les PJ ont peu de chance de remarquer un second passage au-dessus du conduit, grossièrement dissimulé sous la même couche de branches et de racines qui forment le plafond du passage. Ce passage (une cheminée se déployant sur 1,8 m jusqu’à la zone C-10) est facilement détecté si les PJ sondent le tapis de branchages au-dessus d’eux. La troisième goule, Ilham, attend en haut dans la cheminée, s’abattant sur les PJ s’ils découvrent le passage secret. Les armes plus longues qu’une épée courte sont inutiles dans le conduit, mais la goule hargneuse, armée de crocs et de griffes couvertes de terre, ne subit aucune pénalité.</p><p>Autrement, la goule attend que les PJ passent avant d’écarter les branches et de se glisser silencieusement derrière les PJ pour les attaquer à revers. Contrairement aux goules de la zone C-5, cette goule a pratiquement fini sa mue. La gueule crochue du serpent surgit du ventre de la goule dès le début du combat. Le serpent reste dans l’enveloppe pourrissante de la goule jusqu’à ce qu’elle soit tuée, bénéficiant ainsi d’un bonus de +3 à la CA grâce à son armure «goulesque».</p><p><strong>@UUID[Actor.HNavNHnQyAuAYIPA]{Goule des tombeaux} :</strong> <strong>Init</strong> +1 ; <strong>Att griffe</strong> +1 <strong>corps-à-corps</strong> (1d5) ; <strong>CA</strong> 8 ; <strong>DV</strong> 3d6; <strong>PV</strong> 13 ; <strong>Mvt</strong> 7,5 m, escalade 7,5 m; <strong>Act</strong> 2d20; <strong>AS</strong> traits de mort-vivant, vision dans le noir 30 m; <strong>JS</strong> Vig +1, Réf +0, Vol +0; <strong>AL</strong> C.</p><p><strong>@UUID[Actor.kRP4A1BREZz95RHm]{Serpents-goules} :</strong> <strong>Init</strong> +3; <strong>Att morsure</strong> +4 corps-à-corps (1d6 + nécrose); <strong>CA</strong> 17 (au lieu de 14); <strong>DV</strong> 3d6; <strong>PV</strong> 10; <strong>Mvt</strong> 13,5 m; <strong>Act</strong> 2d20; <strong>AS</strong> traits de mort-vivant, vision dans le noir 30 m; <strong>JS</strong> Vig +1, Réf +1, Vol +1 ; <strong>AL</strong> C.</p></section><p> </p><img style=\"display:block;margin-left:auto;margin-right:auto\" src=\"modules/dcc-doom-of-the-savage-kings/assets/handouts/spearpillar.webp\" width=\"545\" height=\"509\" />",
+            "markdown": ""
+          },
+          "_id": "IvvolxYAXmGkNvej",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683465373946,
+        "modifiedTime": 1684781478811,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "hl3sJfqcLyVTeBqp"
+    },
+    {
+      "name": "09 La tombe de l'Ulfehonar",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.MI6ViKD5VCtfxVHK"
+        }
+      },
+      "pages": [
+        {
+          "name": "La tombe de l'Ulfehonar",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p>La tombe du seigneur de guerre barbare connu sous le nom de l’Ulfheonar est enterrée sous un énorme tertre de terre en forme de serpent. Situé au nord de Hirot, ce tumulus est soigneusement évité par la plupart des chasseurs et des bûcherons qui le considèrent comme hanté ou abritant le Roi des Elfes. Les PJ qui tenteront de recruter des suivants pour les aider à explorer la tombe devront payer en or plutôt qu’en argent.</p><p>Sauf précision contraire, il n’y a aucune lumière naturelle à l’intérieur de la tombe. Les parois et plafonds sont composés de grandes dalles de pierre assemblées avant d’être recouvertes de terre; le sol est en terre battue. L’air est généralement frais avec des gouttes de condensation se formant sur les murs.</p><p>Tout humain trépassant à l’intérieur de la tombe est condamné à renaître sous forme de goule des tombeaux dans les 2d14 rounds suivants. Les goules des tombeaux ne peuvent pas quitter les limites de la zone C et sont contraintes de défendre l’Ulfheonar contre tous les pilleurs de tombes. <strong>Trois fils de Hirot, Ilham, Kej, et Stein, vulgaires voleurs et pickpockets, sont actuellement les goules de service dans la tombe</strong>.</p>",
+            "markdown": ""
+          },
+          "_id": "cB4xGfsankFW2zIm",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683450744434,
+        "modifiedTime": 1684781478811,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "hmGC8ih7EDyvPZkW"
+    },
+    {
+      "name": "Zone A-09 – Etables",
+      "flags": {
+        "core": {
+          "sourceId": "JournalEntry.yHoaim6u043l7POC"
+        }
+      },
+      "pages": [
+        {
+          "name": "Zones A-9 – Étables",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<section class=\"secret\" id=\"secret-kxIO13S0cXc4cMRF\"><p>L’essentiel du bétail du village est parqué dans de simples étables construites contre la palissade du village. Chacune héberge une douzaine de vaches, bœufs et moutons ainsi que les chevaux de guerre des thegns. Remplies de paille, les étables sont hautement inflammables; tout incendie provoque la panique des animaux. Les étables sont surveillées par les jeunes garçons et jeunes filles du village.</p><p>Ces enfants ont pour instruction de donner un coup de sifflet au moindre signe de danger, ce qui provoque alors l’arrivée de la garde en 1d5+1 rounds.</p></section>",
+            "markdown": ""
+          },
+          "_id": "shF4lizBHA7tPMlb",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683448411078,
+        "modifiedTime": 1684781478812,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "ho0gE7sUKb7icYy0"
+    },
+    {
+      "name": "Zone A-02 – Place du village",
+      "flags": {
+        "core": {
+          "sourceId": "JournalEntry.0Me1g7SrTb6yDi4K"
+        }
+      },
+      "pages": [
+        {
+          "name": "Zone A-2 – Place du village",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<blockquote><p>La place du village est pratiquement déserte, à l’exception de quelques cabots pouilleux qui se frayent un chemin au milieu des étals abandonnés. Une cassette fermée d’un cadenas est posée sur un court poteau de bois au milieu de la place. Une bannière en lambeaux représentant un loup noir rampant pend tristement au dessus du coffre.</p></blockquote><section class=\"secret\" id=\"secret-1QYu3C7Nm6aIHtea\"><p>La plupart du temps, le père Beacom et ses deux acolytes silencieux (voir zone A-4) se trouvent ici, déclamant à qui veut l’entendre (et aussi à tous ceux qui préféreraient ne pas entendre) que le molosse de Hirot annonce la fin des temps et que le châtiment est sur eux. La population de Hirot se réunit sur la place tous les trois jours, et on tire au sort celui ou celle qui sera sacrifié au molosse. Le scribe du village note le nom de chaque habitant sur une bandelette de parchemin qui est ensuite glissée dans la fente du coffre. Avec un bandeau sur les yeux, le jarl déverrouille le coffre et tire une bandelette qui est alors lue par le scribe et confirmée par le prêtre, le père Beacom.</p></section><p style=\"margin-bottom:0in;line-height:100%\"> </p><img style=\"display:block;margin-left:auto;margin-right:auto\" src=\"modules/dcc-doom-of-the-savage-kings/assets/handouts/-007-005.webp\" width=\"433\" height=\"381\" /><p style=\"margin-bottom:0in;line-height:100%\"> </p><section class=\"secret\" id=\"secret-bcG41nPoHgDYE5lD\"><p>Le coffre est verrouillé par un simple cadenas (DD 10 pour le crocheter), mais si un citoyen surprend quelqu’un en train de trafiquer le coffre, il crie pour donner l’alerte. L’ouverture du coffre révèle que la loterie est une arnaque : un second coffre est caché dans le premier. La veille du tirage au sort, le jarl et Sylle Ru choisissent qui sera sacrifié et placent une fausse bandelette dans le petit coffre pour la choisir pendant le tirage au sort.</p><p>Si les PJ restent à Hirot plus de deux jours, ils devront participer au tirage au sort. Le jarl profite de cette opportunité pour se débarrasser de ses rivaux en s’assurant que le nom d’un des PJ soit tiré au sort. Si des voleurs malins étudient les bandelettes (test de falsification DD 10), ils se doutent (à cause d’incohérences dans la qualité du parchemin et de l’encre) que la bandelette a été écrite par quelqu’un d’autre que le scribe du village. De l’encre et du parchemin similaires à ceux de la bandelette falsifiée peuvent être trouvés parmi les possessions de Sylle Ru.</p></section>",
+            "markdown": ""
+          },
+          "_id": "BIn3MEZPwnnX4xyJ",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683391326350,
+        "modifiedTime": 1684781478812,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "iPCvP8CTmL2RErMq"
+    },
+    {
+      "name": "Zone A-01 – Porte du sud",
+      "flags": {
+        "core": {
+          "sourceId": "JournalEntry.ncwrber8MAF5x2PO"
+        }
+      },
+      "pages": [
+        {
+          "name": "Zone A-1 - Portes du sud",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<section id=\"secret-rGeHINWijSpzuQh7\" class=\"secret\"><p>Les robustes portes sont ouvertes aux premières lueurs et condamnées à la tombée de la nuit. Pendant la nuit, les portes ne sont ouvertes que sur ordre direct du jarl lui-même. Une plateforme de guet basique s’élève au dessus du mur, à environ 7,5 m de haut.</p><p>Deux hommes de la milice, @UUID[Actor.3en1HtBqU58YvY4t]{Mocle} et @UUID[Actor.FuvIX1Gf0L9hfgJy]{Naven}, se tiennent sur la plateforme pendant la journée, se réchauffant devant un brasero en métal. Armé de lances et de boucliers de bois, ce vigilant duo fait sonner un cor dès qu’ils aperçoivent des étrangers. Avides de nouvelles du monde extérieur, ils descendent de la plateforme pour souhaiter la bienvenue aux nouveaux venus à Hirot..</p><p>@UUID[Actor.3en1HtBqU58YvY4t]{Mocle} et @UUID[Actor.FuvIX1Gf0L9hfgJy]{Naven} : Init +0; Att lance +1 corps-à-corps (1d6) ou arbalète +0 distance (1d6); CA 10; DV 1d8; PV 4; Mvt 7,5 m; Act 1d20; JS Vig +1, Réf +1, Vol +0 ; AL L.</p></section>",
+            "markdown": ""
+          },
+          "_id": "ZoI6B8FonRGrVdTz",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683391004894,
+        "modifiedTime": 1684781478813,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "itJ8aJCzGz6CTZDM"
+    },
+    {
+      "name": "Zone A-10 – Le Grand Hall",
+      "flags": {
+        "core": {
+          "sourceId": "JournalEntry.47P1NoksnXBTeiH5"
+        }
+      },
+      "pages": [
+        {
+          "name": "Zone A-10 – Le Grand Hall",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<section class=\"secret\" id=\"secret-eYUMUWLKVxOvBzSJ\"><p>Dressé tout en haut d’un rocher surplombant Hirot, le Grand Hall, également appelé salle des festins, est le siège du pouvoir du jarl. Le Grand Hall est bâti avec d’énormes poutres recouvertes d’un toit de chaume doré et où sont accrochés les trophées célébrant les victoires du @UUID[Actor.ZrwRdSsVPLRBrvrt]{jarl}. Le loup rampant, symbole du @UUID[Actor.ZrwRdSsVPLRBrvrt]{jarl}, orne le hall.</p><p>Le @UUID[Actor.ZrwRdSsVPLRBrvrt]{jarl}, ses @UUID[Actor.g5Tlu5YieFxSOIwR]{thegns} et @UUID[Actor.1eVxkCIWxIwR6Oir]{Sylle Ru} y ont élu domicile, dormant dans la salle commune, armes à portée de main. Le jarl sait que ce n’est qu’une question de temps avant que le molosse ne s’attaque à lui. C’est pourquoi il s’assure personnellement que des sacrifices réguliers sont offerts au molosse, ce qui lui fait gagner du temps. Bien que le jarl place ses espérances dans les savoirs occultes de @UUID[Actor.1eVxkCIWxIwR6Oir]{Sylle Ru}, il craint secrètement qu’au final, rien ne puisse le protéger de la fureur du molosse.</p><p>Les sept thegns du jarl sont <strong>Ofenloch, Kreig, Orioc, Utherl, Haedrick, Clohn le Chauve et Haelf Halfson</strong>. Tous sont des combattants expérimentés et lui sont loyaux jusqu’à la mort. Mais même si le jarl méprise les PJ, les thegns sont heureux d’accueillir des frères d’armes.</p><p><strong>Trésor</strong> : Il y a peu de valeurs dans ce village isolé, même dans le Grand Hall du jarl. Une fouille (impossible tant que le jarl est en vie) met à jour :</p><ul><li><p>Une épée à 2 mains incrustée de joyaux (valeur 50 po)</p></li><li><p>Les peaux de plusieurs ours (valeur 15 po au total)</p></li><li><p>Une corne à boire, ciselée d’argent et de platine (valeur 30 po)</p></li><li><p>Plusieurs fûts de bière de qualité (valeur totale de 30 po)</p></li><li><p>Deux douzaines de grandes boucles d’oreilles en or (valeur 5 po/pièce)</p></li><li><p>Un torque en argent martelé (valeur 10 po)</p></li><li><p>3d100 po, 5d100 pa et 2d20 pp</p></li></ul><p>@UUID[Actor.ZrwRdSsVPLRBrvrt]{Jarl } : <strong>Init</strong> +2; <strong>Att épée longue</strong> +4 <strong>corps-à-corps</strong> (1d8) ou <strong>arc</strong> +4 distance (1d6) ; <strong>CA</strong> 18; <strong>DV</strong> 2d8; <strong>PV</strong> 16; <strong>Mvt</strong> 6 m; <strong>Act</strong> 1d20; <strong>JS</strong> Vig +1, Réf +2, Vol +2; <strong>AL</strong> L.</p><p>@UUID[Actor.g5Tlu5YieFxSOIwR]{Thegns } (7) : <strong>Init</strong> +1; <strong>Att épée longue</strong> +3 <strong>corps-à-corps</strong> (1d8) ou <strong>arc</strong> +3 distance (1d6); <strong>CA</strong> 16; <strong>DV</strong> 2d8; <strong>PV</strong> 12 ; <strong>Mvt</strong> 6 m; <strong>Act</strong> 1d20; <strong>JS</strong> Vig +2, Réf +1, Vol +1; <strong>AL</strong> L.</p><p>@UUID[Actor.1eVxkCIWxIwR6Oir]{Sylle Ru, devin} : <strong>Init</strong> +0 ; <strong>Att dague</strong> -1 <strong>corps-à-corps</strong> (1d4-1) ou <strong>sort néfaste</strong> (2d4, portée 15 m, pas de JS, jusqu’à 3/jour) ; <strong>CA</strong> 10; <strong>DV</strong> 3d4; <strong>PV</strong> 6 ; <strong>Mvt</strong> 9 m; <strong>Act</strong> 1d20 ; <strong>AS</strong> prestidigitation (JS Vol DD 12 ou la cible voit ses armes disparaître pendant 1d6+1 rounds), sort néfaste 3/jour ; <strong>JS</strong> Vig +1, Réf +1, Vol +4; <strong>AL</strong> C.</p></section>",
+            "markdown": ""
+          },
+          "_id": "yBkrZQIA3qsZZrIb",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683448591446,
+        "modifiedTime": 1684781478814,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "j6w3FCnBfPuPegFv"
+    },
+    {
+      "name": "Zone C-07 – Antichambre du roi barbare",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.otsdyuwoCaW2hA1r"
+        }
+      },
+      "pages": [
+        {
+          "name": "Zone C-7 – Antichambre du roi barbare",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<blockquote><p>De grandes dalles de pierre soutiennent un plafond assez haut. Trois longues marches descendent vers le sol de l’antichambre. Deux braseros de bronze martelé sont disposés devant une imposante porte de pierre au bout de la pièce. Des centaines de runes en spirale sont sculptées sur la porte et semblent tournoyer à l’infini. L’image d’un loup énorme terrassé par un serpent est gravée au-dessus du portail.</p></blockquote><p style=\"margin-bottom:0in;line-height:100%\"> </p><section class=\"secret\" id=\"secret-BRevoKaFszOQXz66\"><p>Le sol est couvert de ce qui semble être des milliers de fines bandelettes translucides de parchemin. Vous comprenez avec horreur que les bandelettes séchées et craquelées sont en réalité les peaux d’un nombre incalculable de serpents ! Même si elles peuvent être perturbantes, les peaux de serpents couvrant le sol ne présentent aucune menace pour les PJ. De la même manière, le portail n’est pas dangereux, sauf pour les explorateurs les plus violents et les plus impétueux.</p><p>Les nains, les maçons et les sages instruits dans les savoirs d’antiques bâtisseurs se douteront fort justement que le portail a été fixé dans le sol et ensuite lesté par en haut, condamnant le passage pour l’éternité. La dalle ne peut pas être déplacée par la force de simples mortels, mais si elle venait à être détruite d’une manière ou d’une autre, le plafond laisserait choir plusieurs tonnes de pierre et de terre (jet de sauvegarde de Réflexes DD 20, pour ne pas subir 5d20 de dégâts).</p><p>Une brève inspection du sol de la pièce met au jour une poignée de brindilles et de branchages à la jonction du sol et du mur sud. Elles sont toutes très anciennes et tombent en poussière dès qu’on les touche. Les PJ étudiant le mur sud découvrent de petits trous percés dans celui-ci (des fixations pour une échelle) qui ont été remplis de mortier d’argile par les bâtisseurs d’origine. Un espace étroit de 60 cm peut être vu au-dessus de l’entrée de la pièce.</p><p>Le mur en pierre rugueuse peut être facilement escaladé (escalade DD 5). Là, les PJ découvrent un étroit conduit caché au-dessus du linteau de pierre surmontant l’entrée. Si les aventuriers allument de l’huile ou du charbon dans les braseros (peut-être dans l’espoir de déplacer le portail de pierre par quelque rituel oublié), effectuez un test de Chance en secret (DD 15) pour chaque PJ dans la pièce. Sur un jet réussi, un PJ remarque que la fumée du feu ne s’accumule pas dans la pièce, mais s’échappe par le conduit caché situé au-dessus de l’entrée de la pièce.</p></section>",
+            "markdown": ""
+          },
+          "_id": "wNdJo6YVCknxIsXs",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683456775042,
+        "modifiedTime": 1684781478815,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "my0yMgscKnRMySCA"
+    },
+    {
+      "name": "Zone D – Les tourbieres basses",
+      "flags": {
+        "core": {
+          "sourceId": "JournalEntry.9mWyMGYi8AIRhxCQ"
+        }
+      },
+      "pages": [
+        {
+          "name": "Zone D – Les tourbières basses",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<blockquote><p>Les hautes landes marécageuses s’effacent devant un paysage encaissé et étrange. Des enchevêtrements de ronces brunes et des chênes desséchés se substituent aux herbes marécageuses et aux grands pins. Vos bottes font un bruit de succion à chaque pas dans la boue noire et nauséabonde. L’air précédemment frais est ici plus chaud, comme le souffle d’une grande bête exhalant la pourriture sur le pays.</p></blockquote><p style=\"margin-bottom:0in;line-height:100%\"> </p><section class=\"secret\" id=\"secret-iM15hhZYDdwMjoau\"><p>L’esprit du molosse pèse lourdement sur les tourbières. Les seuls bruits perceptibles sont le crachotement de sources chaudes sulfureuses et le craquement des branches mortes dans le vent sinistre.</p><p>Les tourbières basses sont dangereuses pour les voyageurs. Il n’y a pas de chemin délimité ou de sentiers d’animaux, et un brouillard épais plane sur la région, jour et nuit, rendant toute orientation particulièrement difficile.</p><p>Peu de créatures trouvent refuge dans les tourbières, mais celles qui s’y trouvent sont de vraies menaces pour les PJ. Pour chaque heure passée à arpenter ces lieux, les personnages risquent de faire une rencontre aléatoire. Lancez 1d5; sur un résultat de 4 ou plus, les PJ font une rencontre.</p><p>Si une rencontre a lieu, choisissez un résultat ou lancez 1d7 sur la table ci-dessous. Les juges doivent se servir des rencontres aléatoires pour insister sur la nature étrange des tourbières, un rappel permanent que les PJ ne sont pas à leur place ici. Si elles menacent de ralentir le tempo de l’aventure, les juges devront ignorer les jets et passer directement à la suite.</p><p style=\"margin-bottom:0in;line-height:100%\">@UUID[Compendium.world.fr-le-fleau-des-rois-barbares-macros.cBe5QzqbocUHuOB9]{Rumeurs, Légendes, &amp; Superstitions}</p><p style=\"margin-bottom:0in;line-height:100%\">Table aléatoire : @UUID[RollTable.wK8Yf61PGPKqkxoC]{Table de rencontre des tourbières basses}</p><table style=\"width:99.1453%\" border=\"1\"><tbody><tr><td style=\"width:7.07032%\"><strong>1</strong></td><td style=\"width:92.2114%\"><p><strong>Perdus!</strong> Les PJ s’aperçoivent avec horreur qu’ils ont perdu tout repère dans les brumes grises. Heureusement pour eux, ils doivent juste trouver la tanière du molosse, au cœur de la zone marécageuse, et peuvent suivre pour cela les filets d’eau huileuse qui coulent dans cette direction. Le trajet du retour, par contre, peut s’avérer beaucoup plus compliqué, à l’appréciation du juge.</p></td></tr><tr><td style=\"width:7.07032%\"><strong>2</strong></td><td style=\"width:92.2114%\"><p><strong>Miasme étouffant</strong>. Le sol boueux vomit un nuage de gaz puant qui déferle sur les PJ. Tous les personnages pris dans le nuage doivent réussir un JS Vigueur DD 5 ou tomber à genoux, en suffoquant. Les PJ subissent une perte de 1d6 points d’Endurance par round et sombrent dans l’inconscience quand leur Endurance tombe à 0. Une fois inconscients, ils subissent 1d3 points de dégâts par round. Toute l’Endurance perdue est récupérée instantanément quand les personnages sont extraits du nuage. Les miasmes se dissipent en 1d5 rounds.</p></td></tr><tr><td style=\"width:7.07032%\"><strong>3</strong></td><td style=\"width:92.2114%\"><p><strong>Gouffre</strong>. Le sol s’ouvre sous les pieds du groupe ! Chaque personnage doit réussir un JS Réflexes DD 5 ou tomber dans l’obscurité gluante quelques 4,5 m plus bas. Les personnages ne disposent que de 1d5+2 rounds pour sauver ceux qui sont tombés dans le gouffre avant que la terre ne se referme sur eux, les engloutissant pour toujours.</p></td></tr><tr><td style=\"width:7.07032%\"><strong>4</strong></td><td style=\"width:92.2114%\"><p><strong>Lianes de Tindalos.</strong> 1d3 lianes semi-vivantes s’attaquent à quelques personnages au hasard, tentant de traîner leurs victimes sous les eaux troubles du marais. Un PJ peut se soustraire à la prise d’une liane avec un test de Force DD 15 ou en tranchant la liane (en infligeant 6 points de dégâts ou plus en une seule frappe)</p><p><strong>@UUID[Actor.M9rcwI7ncarV9ikx]{Lianes de Tindalos}</strong> (1d3) : <strong>Init</strong> +4; <strong>Att coup</strong> +3 <strong>corps-à-corps</strong> (1d4 + constriction) ; <strong>CA</strong> 10 ; <strong>DV</strong> 2d8; <strong>PV</strong> 12; <strong>Mvt</strong> 1,5 m; <strong>Act</strong> 1d20 ; <strong>AS</strong> 1d3 dégâts de constriction puis traîné sur 1,5 m; <strong>JS</strong> Vig +3, Réf -1, Vol +4; <strong>AL</strong> N.</p></td></tr><tr><td style=\"width:7.07032%\"><strong>5</strong></td><td style=\"width:92.2114%\"><p><strong>Sources boueuses.</strong> Des sources sifflantes éructent, éclaboussant les PJ de boue brûlante. Les PJ affectés doivent réussir un JS de Réflexes DD 10 ou subir 1d3 points de dégâts.</p></td></tr><tr><td style=\"width:7.07032%\"><strong>6</strong></td><td style=\"width:92.2114%\"><p><strong>Totems-crânes.</strong> Les PJ tombent sur une étrange collection de crânes humanoïdes, percés de pieux pointus en bois. Les pieux sont enfoncés dans le sol marécageux en d’étranges formations, réminiscences d’anciennes runes utilisées pour lier des démons.</p></td></tr><tr><td style=\"width:7.07032%\"><strong>7</strong></td><td style=\"width:92.2114%\"><p><strong>Chacals des marais.</strong> Une meute de chacals des marais suit les PJ à distance, leurs yeux sombres observant à travers le brouillard. Ces créatures bigarrées et dégoûtantes font montre d’une cruauté envers leurs proies qui laisse deviner une intelligence maléfique. Lâchement, les chacals pistent les PJ pendant des jours, attaquant seulement quand leurs proies montrent des signes de faiblesse.</p><p><strong>@UUID[Actor.78tivRxPhibaDJ85]{Chacals des marais}</strong> (3d7) : <strong>Init</strong> +2; <strong>Att morsure</strong> +2 <strong>corps-à- corps</strong> (1d4) ; <strong>CA</strong> 12; <strong>DV</strong> 1d8; <strong>PV</strong> 4 ; <strong>Mvt</strong> 12 m; <strong>Act</strong> 1d20; <strong>JS</strong> Vig +1, Réf +2, Vol +1 ; <strong>AL</strong> C.</p></td></tr></tbody></table></section>",
+            "markdown": ""
+          },
+          "_id": "v8NSr1DHht5fhb1B",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683547319311,
+        "modifiedTime": 1684781478817,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "nWMsEotEMSTAj8Wj"
+    },
+    {
+      "name": "Zone A-08 – Ateliers",
+      "flags": {
+        "core": {
+          "sourceId": "JournalEntry.AeOotpoQqGpq1G35"
+        }
+      },
+      "pages": [
+        {
+          "name": "Zones A-8 – Ateliers",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<section class=\"secret\" id=\"secret-SjVj6UpWIOZdTNSv\"><p>Ces bâtiments servent de maison et de boutique à l’une des familles d’artisans qui réside à Hirot. Parmi ces artisans, on compte :</p><ul><li><p><strong>Mareras le verrier</strong></p></li><li><p><strong>Gil le Chauve</strong>, brasseur</p></li><li><p><strong>Niel le meunier</strong></p></li><li><p><strong>Will-O-Scein</strong>, apprenti maroquinier</p></li><li><p><strong>Hael la Cigogne</strong>, maître forgeron</p></li><li><p><strong>Ansich</strong>, boulanger</p></li><li><p><strong>Chatham le Calme</strong>, sculpteur d’os et de bois de cerf</p></li><li><p><strong>Oyd Tallson</strong>, charpentier</p></li><li><p><strong>Moeroj le tanneur</strong></p></li></ul></section>",
+            "markdown": ""
+          },
+          "_id": "gAogcgIlVHxVyLQm",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683448224701,
+        "modifiedTime": 1684781478817,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "p582xFEmR8CEsPuP"
+    },
+    {
+      "name": "02 Introduction",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.8a27wANIGeDUDLqc"
+        }
+      },
+      "pages": [
+        {
+          "name": "Introduction",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p><span class=\"fontstyle0\">Vous vous rappelez le bon vieux temps, avec les aventures sous terre, des PNJ qui étaient là pour se faire trucider et un scénario qui se finissait systématiquement par un combat contre un dragon au 20e niveau ? Eh bien, ce temps-là est de retour! Dans les aventures de Dungeon Crawl Classics, on ne perd pas de temps à débiter de longs discours, à présenter un décor bizarre ou à vous imposer des PNJ destinés à autre chose qu’à vous tomber sur le râble. Chaque aventure est une expédition 100 % à l’ancienne, avec les monstres que vous connaissez, les pièges dont vous vous souvenez encore, et les portes secrètes qui doivent bien se cacher ici ou là.</span></p><p><span class=\"fontstyle0\">Cette aventure est conçue pour 6 à 12 personnages de niveau 1. Elle propose une variété de décors et de défis, laissant à chaque classe son occasion de briller. Pour autant, cette aventure ne doit pas être entreprise sans au moins un représentant de chacune des quatre classes humaines de base.</span></p><p><span class=\"fontstyle0\">Ce scénario peut également être proposé à des personnages de niveau 0, mais les joueurs doivent alors s’attendre à une aventure sinistre et mortelle. Les juges doivent envisager des moyens d’introduire de nouveaux personnages de niveau 0 en cas de besoin. Les PJ qui survivent aux passages clés devraient passer au niveau 1</span></p>",
+            "markdown": ""
+          },
+          "_id": "MjcOY3ooWeRxZ24v",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683360810720,
+        "modifiedTime": 1684781478818,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "pgzZlcCi4A5JW8ld"
+    },
+    {
+      "name": "06 Interpreter les personnages non-joueurs",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.X0NgKRroavtGaomP"
+        }
+      },
+      "pages": [
+        {
+          "name": "Interpréter les personnages non-joueurs",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p>Une grande partie de l’aventure se déroule dans le village de Hirot, et des juges débutants pourraient éprouver des difficultés à jongler avec autant de personnalités différentes. Pour aider les juges, les PNJ principaux de Hirot sont listés ci-dessous, avec des résumés de leurs motivations et de leurs objectifs.</p><p><strong>Le jarl et Sylle Ru (zone A-10; condescendants, manquent de confiance) :</strong> Le jarl tente de masquer l’indécision de sa gouvernance en maltraitant les nouveaux venus, refusant avec mépris toute offre d’assistance et assurant à tous ceux qui veulent bien l’écouter que les choses sont sous contrôle, même quand il est évident pour tout le monde que ce n’est pas le cas.</p><p>Ce géant barbu est toujours accompagné par Sylle Ru, son fidèle devin. Créature maigre et repoussante, Ru est souvent en train de murmurer sournoisement à l’oreille du jarl. Malgré ses rodomontades, le jarl déteste prendre une quelconque décision sans consulter son devin.</p><p><strong>Broegan « le Taureau » Haverson (zone A-3; amical, préoccupé) :</strong> Propriétaire et tenancier de La Lance Tue-Loup, Broegan est accueillant envers les étrangers et probablement le premier allié des PJ. Le souci principal de Broegan est la sécurité de ses concitoyens. Il n’a pas les moyens de les défendre contre le molosse, mais il se refuse à les sacrifier pour sa propre sécurité.</p><p><strong>Le père Beacom (zone A-4 ; suspicieux, fataliste) :</strong> Le guide spirituel de Hirot a pleinement accepté son propre destin tragique et attend avec impatience que sa prophétie se réalise. Encourageant sans cesse ses concitoyens à se repentir avant la fin, il croit fermement que les péchés de Hirot sont la cause de la venue du molosse. Irrationnel au dernier degré, le Père veut sauver les âmes de Hirot en punissant la chair.</p><p><strong>Maître Jenks et le gang des Trois Rats (zone A-5 ; amical; fourbe) :</strong> Le gang des Trois Rats cherche à profiter des PJ à moins qu’un confrère voleur ne se lie d’amitié avec eux (et même, dans ce cas-là, ils peuvent chercher à utiliser ce nouvel allié comme une taupe). Prompts à s’allier avec les PJ, ces voleurs avares de tout effort récompenseront la loyauté par la trahison, toujours à la recherche de l’arnaque sans risque.</p><p><strong>Ymae, la Veuve Folle (zone A-6; neutre, serviable) :</strong> L’étrange veuve de Hirot met du temps à se lier d’amitié avec les PJ. Mais une fois que les aventuriers ont gagné sa confiance, la veuve peut s’avérer être une vraie aubaine pour les héros. Bien que serviable, les préoccupations centrales de la veuve sont en rapport avec l’audelà, ce qui rend toute interaction avec elle étrange et compliquée.</p><p><strong>Le molosse de Hirot :</strong> Bien que n’étant pas un PNJ à proprement parler, l’ombre du molosse devrait planer sur toute interaction dans le village maudit de Hirot, où à chaque crépuscule, la mort risque de s’inviter. La présence oppressante peut se manifester sous plusieurs formes, comme une pluie incessante et glaciale, des corbeaux qui guettent, des loups qui hurlent à l’extérieur des murs du village, voire des murmures étouffés et inquiétants dans la nuit. Les juges sont encouragés à user de cette ambiance menaçante pour amplifier le cadre sombre et mélancolique. Si les PJ se lient d’amitié avec un PNJ, ce dernier se fera attaquer par le molosse pendant la nuit. Si les PJ partent explorer les zones sauvages, une nuée de corbeaux s’envolent des arbres. La nature elle-même semble devoir se rebeller contre les héros, et seule la défaite du molosse permettra le retour du soleil et de sa chaleur.</p><p> </p><img style=\"display:block;margin-left:auto;margin-right:auto\" src=\"modules/dcc-doom-of-the-savage-kings/assets/handouts/houndsmall.webp\" width=\"540\" height=\"155\" />",
+            "markdown": ""
+          },
+          "_id": "FkRNLxegKRYAzh7n",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683388176629,
+        "modifiedTime": 1684781478819,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "qxKfTCJRFkazdugh"
+    },
+    {
+      "name": "07 Table de rencontres",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.Hwiqnug4zg6xZFNC"
+        }
+      },
+      "pages": [
+        {
+          "name": "Table de rencontres",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p></p><table style=\"width:99.1549%\" border=\"1\"><tbody><tr><td style=\"width:18.6764%\"><strong>Zone</strong></td><td style=\"width:13.8029%\"><strong>Type</strong></td><td style=\"width:66.6683%\"><strong>Rencontre</strong></td></tr><tr><td style=\"width:18.6764%\">B</td><td style=\"width:13.8029%\">C</td><td>Molosse de Hirot</td></tr><tr><td style=\"width:18.6764%\">C-1</td><td style=\"width:13.8029%\">C/E</td><td style=\"width:66.6683%\">Esprit Serpent</td></tr><tr><td style=\"width:18.6764%\">C-4</td><td style=\"width:13.8029%\">P</td><td style=\"width:66.6683%\">Piège à pointes</td></tr><tr><td style=\"width:18.6764%\">C-5</td><td style=\"width:13.8029%\">C</td><td style=\"width:66.6683%\">2 goules des tombeaux</td></tr><tr><td style=\"width:18.6764%\">C-8</td><td style=\"width:13.8029%\">C</td><td style=\"width:66.6683%\">1 goule des tombeaux</td></tr><tr><td style=\"width:18.6764%\">C-9</td><td style=\"width:13.8029%\">P</td><td style=\"width:66.6683%\">Tombe piégée</td></tr><tr><td style=\"width:18.6764%\">Interlude</td><td style=\"width:13.8029%\">C</td><td style=\"width:66.6683%\">Iraco le maître chasseur et 5 chasseurs</td></tr><tr><td style=\"width:18.6764%\">D-1</td><td style=\"width:13.8029%\">C</td><td style=\"width:66.6683%\">Molosse de Hirot</td></tr></tbody></table><p>C=Combat P=Piège E=Énigme D=Danger</p>",
+            "markdown": ""
+          },
+          "_id": "ZVPlWgqhITpeNC2z",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683388904938,
+        "modifiedTime": 1684781478820,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "r0COIbifulddKy6M"
+    },
+    {
+      "name": "05 Rumeurs, Legendes, & Superstitions",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.qarxbbJFlTQ7GaVy"
+        }
+      },
+      "pages": [
+        {
+          "name": "Rumeurs, Légendes, & Superstitions",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p>Hirot deux rumeurs autour d’une pinte à basse, furtivement, craignant d’attirer l’attention de la bête s’ils en parlent ouvertement. Quand le cas se présente, faites un jet sur la table suivante ou choisissez une rumeur adaptée.</p><p>Pour finir, seuls les imbéciles croient toutes les rumeurs qu’ils entendent. Les fausses rumeurs abondent et sont signalées par un (F).</p><p>Macro : (Glisser dans la barre de lancement rapide) @UUID[Compendium.world.fr-le-fleau-des-rois-barbares-macros.cBe5QzqbocUHuOB9]{Rumeurs, Légendes, &amp; Superstitions}</p><p>Table aléatoire : @UUID[Compendium.world.fr-le-fleau-des-rois-barbares-tables.s7EqhHEcgNHr2jb4]{Rumeurs, Légendes, &amp; Superstitions}</p><table style=\"width:99.1453%\" border=\"1\"><tbody><tr><td style=\"width:8.98796%\">1</td><td style=\"width:90.7246%\">Le molosse craint l’aconit. (F)</td></tr><tr><td style=\"width:8.98796%\">2</td><td>Ymae, la Veuve Folle, est une sorcière et sait comment piéger le molosse.</td></tr><tr><td style=\"width:8.98796%\">3</td><td>Le molosse est immunisé aux armes. (À la fois vrai et faux.)</td></tr><tr><td style=\"width:8.98796%\">4</td><td>Les armes en argent, bénies par un homme de foi, brûlent le molosse comme des tisons ardents. (F)</td></tr><tr><td style=\"width:8.98796%\">5</td><td>Le jarl et ses thegns n’ont pas la moindre idée sur la manière de vaincre le molosse.</td></tr><tr><td style=\"width:8.98796%\">6</td><td>Le molosse ne peut pas être tué par les seules armes.</td></tr><tr><td style=\"width:8.98796%\">7</td><td>Le molosse ne tue que les pécheurs. (F)</td></tr><tr><td style=\"width:8.98796%\">8</td><td>Le jarl travaille à un plan pour se débarrasser du molosse; il faut juste qu’on lui laisse le temps d’accomplir sa tâche! (F)</td></tr><tr><td style=\"width:8.98796%\">9</td><td style=\"width:90.7246%\">La tombe d’un ancien chef est dissimulée dans les collines au nord de la ville. Le roi barbare était surnommé le Tueur de Loups.</td></tr><tr><td style=\"width:8.98796%\">10</td><td style=\"width:90.7246%\">Le sorcier du jarl contrôle secrètement le molosse. Tuez le sorcier et vous tuerez la bête ! (F)</td></tr><tr><td style=\"width:8.98796%\">11</td><td style=\"width:90.7246%\">Les frères Kej, Stein et Ilham ont découvert un trésor digne d’un roi, caché dans les collines au nord de Hirot et sont partis pour les contrées du sud. (F)</td></tr><tr><td style=\"width:8.98796%\">12</td><td style=\"width:90.7246%\">Le molosse ne peut pas être repoussé ou renvoyé par les hommes de foi.</td></tr><tr><td style=\"width:8.98796%\">13</td><td style=\"width:90.7246%\">Dans les temps anciens, les tribus sauvages vénéraient un esprit de loup maléfique, lui offrant des sacrifices dans une fosse des tourbières basses.</td></tr><tr><td style=\"width:8.98796%\">14</td><td style=\"width:90.7246%\">Le molosse peut traverser les murs. (F)</td></tr><tr><td style=\"width:8.98796%\">15</td><td style=\"width:90.7246%\">Un ancien seigneur de guerre possédait une lance magique qui pourrait tuer le molosse et un bouclier magique qui pourrait repousser les attaques de la bête. Les bardes l’appellent l’Ulfheonar et disent que sa tombe se trouve au nord.</td></tr><tr><td style=\"width:8.98796%\">16</td><td style=\"width:90.7246%\">Le molosse guérit de ses blessures pendant le jour, et revient aussi puissant la nuit suivante.</td></tr><tr><td style=\"width:8.98796%\">17</td><td style=\"width:90.7246%\">Le molosse prend des femmes sublimes pour en faire ses épouses dans un royaume sous la lande. (F)</td></tr><tr><td style=\"width:8.98796%\">18</td><td style=\"width:90.7246%\">Le molosse n’attaquera pas un homme de vraie foi. (F)</td></tr><tr><td style=\"width:8.98796%\">19</td><td style=\"width:90.7246%\">Pour tuer le molosse, il faut l’immobiliser avant d’administrer le coup fatal !</td></tr><tr><td style=\"width:8.98796%\">20</td><td style=\"width:90.7246%\">Le sang frais distrait le molosse. Portez une outre de sang de mouton avec vous et vous pourrez peut-être vous en sortir vivant ! (F)</td></tr><tr><td style=\"width:8.98796%\">21</td><td style=\"width:90.7246%\">Le molosse se terre quelque part dans les tourbières basses.</td></tr><tr><td style=\"width:8.98796%\">22</td><td style=\"width:90.7246%\">Les corps des victimes du molosse doivent être brûlés sous peine de revenir sous forme d’horreurs mortvivantes à la prochaine pleine lune. (F)</td></tr><tr><td style=\"width:8.98796%\">23</td><td style=\"width:90.7246%\">Le molosse ne trouvera pas le repos avant la mort du dernier habitant de Hirot.</td></tr><tr><td style=\"width:8.98796%\">24</td><td style=\"width:90.7246%\">La morsure du molosse transfère une maladie atroce qui transforme sa victime en loup. (F)</td></tr></tbody></table><p style=\"margin-bottom:0in;line-height:100%\"> </p><p style=\"margin-bottom:0in;line-height:100%\"> </p><p style=\"margin-bottom:0in;line-height:100%\"> </p><p style=\"margin-bottom:0in;line-height:100%\"> </p>",
+            "markdown": ""
+          },
+          "_id": "ZPFVpQo2Jlz0PtGu",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683363275334,
+        "modifiedTime": 1684781478823,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "rJeyzNIK0MROxDCr"
+    },
+    {
+      "name": "Zone D-1 – L’antre du molosse",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dcc-doom-of-the-savage-kings.dcc-doom-of-the-savage-kings-text.2Ga4BvXFMZz4gSGX"
+        }
+      },
+      "pages": [
+        {
+          "name": "Zone D-1 – L’antre du molosse",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<blockquote><p>Vous atteignez enfin le cœur de l’infecte tourbière. Toute trace du soleil a disparu, noyé dans les brumes grises sans fin, et une lourde sensation d’oppression plane dans l’air, accompagnée de la puanteur des sources sulfureuses gargouillantes. Tout le marais semble être aspiré vers cet endroit, ce gouffre sinistre voilé de nuages tourbillonnants de miasmes noirâtres.</p><p>Il ne fait guère de doute que cet ignoble endroit est l’antre de la bête qui terrorise Hirot!</p></blockquote><section class=\"secret\" id=\"secret-f5hXz2RGCwcxGa6T\"><p>L’embouchure du gouffre fait environ 6 m de large, mais, comme un goulot de bouteille, elle s’ouvre sur une grotte bien plus large en dessous. L’eau du marais ruisselle par-dessus le bord du gouffre, pour tomber dans une mare noire 20 m plus bas.</p><p>Les PJ peuvent facilement descendre en rappel dans le gouffre s’ils disposent d’assez de corde. Ceux qui descendent depuis le bord du gouffre sont douchés par les fétides eaux marécageuses pendant toute la durée de leur descente. Descendre en escaladant la paroi intérieure de la caverne est beaucoup plus délicat, même pour des grimpeurs aguerris (DD 15). Les filets de brume noire bloquent toute tentative d’observer le fond du gouffre; ces nuages laissent un résidu huileux et glissant sur tout ce qu’ils touchent.</p><p>Lisez ou paraphrasez ce qui suit quand les PJ descendent dans le gouffre :</p></section><blockquote><p>Vous observez le fond de la caverne à travers les brumes épaisses et délétères. Le sol rocheux et glissant s’évase vers une mare d’un noir d’encre au centre de la caverne. Le rivage autour de la mare est tapissé d’os brisés, de morceaux de métal rouillé et d’armes cassées. Les eaux du marais tombent en cascade depuis l’ouverture au sommet alors que des vapeurs chaudes et nauséabondes montent des profondeurs.</p></blockquote><p style=\"margin-bottom:0in;line-height:100%\"> </p><section class=\"secret\" id=\"secret-ZLhc0f01p5VLxvgw\"><p>Bien qu’alimentée en permanence par les eaux du marais, la mare au centre de la caverne n’est pas issue de ce monde. Le liquide gargouillant et bouillonnant absorbe toute la lumière et a l’apparence d’un trou noir qui bloque toute vision. Le liquide est extrêmement visqueux et brûlant au toucher ; ceux qui s’y retrouvent immergés doivent réussir un JS Vigueur DD 10 ou subir 1d3 points de dégâts par round de contact.</p><p>Chaque soir au crépuscule, le bouillonnement cesse, et le molosse émerge de la mare, dégoulinant de ténèbres absolues. Quand il tombe à 0 point de vie ou moins, le molosse se transforme en brume et retourne vers cette mare, pour en émerger à nouveau (complètement régénéré) la nuit suivante.</p><p>Même dans son antre, le molosse doit être immobilisé pour qu’un coup fatal puisse lui être porté. S’il est retenu, le molosse tente de traîner ceux qui le maîtrisent dans la mare noire. Il peut utiliser une de ses actions pour tenter un test de Force en opposition contre le PJ qui tente de le maintenir (considérez que le molosse a un bonus de Force de +4). L’arme qui administre le coup fatal, couverte du sang du molosse, devient enchantée de façon permanente pour devenir une arme +1/+2 contre le Chaos. (Une arme qui serait déjà magique n’acquiert pas de pouvoirs supplémentaires).</p><p><strong>@UUID[Actor.slcGngCkHtdSyFAY]{Le molosse de Hirot (dans son antre)}</strong> : <strong>Init</strong> +2; <strong>Att morsure</strong> +3 <strong>corps-à-corps</strong> (1d8) ou <strong>griffe</strong> +3 <strong>corps-à-corps</strong> (1d4); <strong>CA</strong> 15 ; <strong>DV</strong> 4d12; <strong>PV</strong> 34; <strong>Mvt</strong> 9 m ou vol 9 m ; <strong>Act</strong> 3d20; <strong>AS</strong> forme gazeuse, immunisé aux effets de charme; <strong>JS</strong> Vig +4, Réf +4, Vol +4; <strong>AL</strong> C.</p><p><strong>Trésor :</strong> Pendant des siècles, des tribus sauvages ont tenté d’apaiser le molosse en jetant des offrandes dans le gouffre. Les restes de leurs sacrifices tapissent encore les abords de la mare et, bien que brisées, des armes rouillées sont toujours à portée de main de PJ désespérés. Une fouille approfondie met au jour :</p><ul><li><strong>@UUID[Item.UCqURD9Psjmotodt]{1d100 morceaux de bijoux en or ou en argent}</strong> (d’une valeur de 1-5 po chacun).</li><li><strong>@UUID[Item.5FpT3k6JAiwHjwKX]{Une petite targe en bronze}</strong>. Une fois polie, elle retrouve son statut de bouclier +1, et sa petite taille permet à son porteur de l’utiliser avec deux armes.</li><li><strong>@UUID[Item.SJltWMFYHQJ1R4vH]{Une lame de cérémonie serpentine incrustée d’argent}</strong> (d’une valeur de 15 po, 1d5 points de dégâts).</li><li><strong>@UUID[Item.tNRMIiwB6XSgv7oL]{Un grand heaume sculpté en forme de dragon}</strong>. C’était autrefois le heaume d’un seigneur de guerre barbare. Il impose une pénalité de -1 aux tests de moral des ennemis de 3 DV ou moins.</li><li><strong>@UUID[Item.sqYOAWr41HY1G8UG]{Un grand torque de bronze décoré de fils d’or } </strong>(d’une valeur de 35 po).</li></ul><p><strong>La mare noire :</strong> Les prêtres de toutes les confessions sont révulsés par la nature extérieure à notre monde et étrange de la mare. Des clercs méditant sur celle-ci sont assaillis mentalement d’une profonde crise de leur foi et doivent effectuer un JS de Volonté DD 10 ou être dépourvus de tout pouvoir clérical pendant 1d20 jours ou jusqu’à ce qu’ils effectuent une offrande de 100 po ou plus à leurs divinités.</p><p>Les elfes et les mages contemplant la mare comprennent qu’elle peut faire office de voie d’accès à de grands pouvoirs. Après avoir contemplé la mare pendant une heure, un incantateur arcanique a le droit d’effectuer un JS de Volonté DD 20. S’il est réussi, l’incantateur parvient à capter une infime partie du pouvoir de la mare à son profit, comme indiqué plus bas, mais s’il échoue, il devient provisoirement fou pendant 1d5 rounds et cherche à s’immerger dans la mare noire et bouillante.</p><p>Avec un JS réussi, un <em>orbe noir</em> luisant émerge de la mare. Sur l’ordre de l’incantateur, l’orbe peut adopter une taille allant de celle d’une bille à celle d’une boule de cristal. Un seul orbe noir peut être produit. Utiliser l’<em>orbe noir</em> pendant une incantation confère un bonus de +1 à tous les tests d’incantation. Toutefois, la prochaine fois qu’il obtiendra un 1 naturel à son test d’incantation, il devra, en plus des effets habituels, effectuer un JS de Volonté DD 10 + niveau du sort. En cas d’échec, l’incantateur se dissout en un brouillard noir et huileux pour ne réémerger que le soir suivant de la mare noire sous la forme du molosse de Hirot.</p></section>",
+            "markdown": ""
+          },
+          "_id": "HHZM7R7NL0kwLKPJ",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683558699195,
+        "modifiedTime": 1684781478825,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "tmMJLVtvFEEko4cH"
+    },
+    {
+      "name": "Zone C-01 – La mare et le serpent",
+      "flags": {
+        "core": {
+          "sourceId": "JournalEntry.MQfmR2CjrByUCVpy"
+        }
+      },
+      "pages": [
+        {
+          "name": "Zone C-1 – La mare et le serpent",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<blockquote><p>Deux cours d’eau argentés dévalent de chaque côté de la butte serpentine, se rejoignant pour former une mare scintillante et peu profonde au niveau de la tête de l’énorme tumulus. De l’autre côté de la mare, enchâssée dans le monticule de terre, se trouve une grande pierre circulaire décorée de spirales serpentines usées par le temps.</p></blockquote><section class=\"secret\" id=\"secret-rJdSar3oerslfn25\"><p>La mare fait à peine 30 cm de profondeur, avec un lit de sable blanc tacheté de mica qui fait scintiller et briller l’eau. Traverser la mare est une tâche simple, mais les PJ qui agitent le fond de la mare découvrent des paquets emballés de cuir dissimulés juste sous le sable. Ces paquets sont ficelés par des lanières de cuir pourries; chaque paquet détrempé contient une épée de bronze ébréchée et piquée, une poignée de pièces de bronze et d’étain et un crâne humanoïde fendu. Il y a quatre paquets en tout qui sont autant d’offrandes pour l’esprit du serpent qui réside dans la mare.</p><p>Pour pouvoir entrer dans la tombe, les PJ doivent faire rouler la pierre sur le côté ; une tâche herculéenne nécessitant un test de Force DD 25 (un maximum de 5 PJ peuvent ajouter leurs modificateurs de Force au total).</p><p>Toutefois, si les PJ parviennent à faire rouler la pierre sur le côté sans avoir déposé d’abord une offrande d’une valeur d’au moins 10 po dans la mare, l’esprit protecteur de la mare s’éveille. Les eaux argentées se rejoignent pour former la tête et le cou d’un serpent gigantesque. L’esprit serpent se rue sur les PJ fautifs, tentant de les « avaler» dans son corps aqueux. Les PJ frappés par l’esprit serpent doivent réussir un jet de sauvegarde de Vigueur DD 20 ou être aspirés dans le nuage d’eau où ils commencent immédiatement à se noyer. Des PJ peuvent extraire leurs camarades de la forme liquide en réussissant un jet d’attaque à mains nues contre la CA du serpent, suivi d’un test de Force DD 14. Les PJ piégés peuvent sinon uniquement essayer de se libérer du serpent en nageant (test de Force DD 18).</p><p>Si les PJ battent en retraite dans la tombe, le serpent se déverse à leur suite. Piégés dans l’étroit corridor fermé, les PJ devront soit distancer la vague, soit réussir un jet de sauvegarde de Vigueur DD 15. Ceux qui échouent sont entraînés par les flots jusque dans le gouffre de la zone C-3.</p><p>@UUID[Actor.8nTHFahqYuDkVoaU]{Esprit Serpent} : <strong>Init</strong> +3; <strong>Att coup</strong> +3 <strong>corps-à-corps</strong> (1d5); <strong>CA</strong> 14; <strong>DV</strong> 4d8; <strong>PV</strong> 24; <strong>Mvt</strong> 12 m; <strong>Act</strong> 1d20; <strong>AS</strong> engloutit et noie, vulnérable au feu et à la chaleur, traits élémentaires ; <strong>JS</strong> Vig +2, Réf +2, Vol +4; <strong>AL</strong> N.</p></section><p style=\"margin-bottom:0in;line-height:100%\"> </p><img src=\"modules/dcc-doom-of-the-savage-kings/assets/handouts/serpentspirit.webp\" width=\"694\" height=\"369\" />",
+            "markdown": ""
+          },
+          "_id": "dxz8p9Va7mpwEdv1",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683451834770,
+        "modifiedTime": 1684781478825,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "uTeTGQkyeJZ69Hu7"
+    },
+    {
+      "name": "10 Interlude : sortir du tertre du serpent",
+      "flags": {
+        "core": {
+          "sourceId": "JournalEntry.gd8AFdhHSJeGlD0S"
+        }
+      },
+      "pages": [
+        {
+          "name": "Interlude : sortir du tertre du serpent",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p>L'intérêt des PJ pour la légende de l’Ulfheonar n’est pas passé inaperçu du jarl et de ses espions. Le meilleur pisteur du jarl, Iraco, le maître de chasse, et cinq de ses chasseurs ont suivi les PJ depuis Hirot.</p><p>Si les PJ ont laissé des suivants avec leurs montures à l’extérieur de la tombe, Iraco a déjà massacré l’arrière-garde avant que les PJ ne ressortent. (À la discrétion du juge, des suivants auxquels tiendraient les PJ sont seulement bâillonnés et inconscients dans une clairière proche, même si les PJ ne le découvrent qu’après l’affrontement.)</p><p>Iraco et ses hommes surveillent l’entrée de la tombe jour et nuit (mais ne connaissent pas l’entrée sur le côté est du tertre du serpent). Iraco et ses hommes tendent une embuscade aux PJ lorsqu’ils émergent de la tombe obscure, lâchant une volée de flèches avant de se rapprocher pour le corps à corps. Deux des chasseurs restent en retrait pour décocher des flèches. Si Iraco est tué, le duo saute sur leurs montures et s’enfuient vers Hirot pour prévenir le jarl de l’échec du maître de chasse.</p><p>S’ils sont capturés, Iraco et ses hommes n’hésitent pas à trahir le jarl contre une promesse de liberté.</p><p><strong>@UUID[Actor.zrDLjkXzAIsIclwQ]{Iraco, le maître de chasse} :</strong> <strong>Init</strong> +4; <strong>Att épée longue</strong> +4 <strong>corps-à- corps</strong> (1d8+2) ou <strong>arc court</strong> +5 distance (1d6); <strong>CA</strong> 16 ; <strong>DV</strong> 2d8 ; <strong>PV</strong> 15; <strong>Mvt</strong> 6 m; <strong>Act</strong> 1d20; <strong>JS</strong> Vig +3, Réf +3, Vol +1; <strong>AL</strong> C.</p><p><strong>@UUID[Actor.1OAGKfRmFWhdhcsd]{Chasseurs} (5) :</strong> <strong>Init</strong> +2; <strong>Att épée courte</strong> +2 <strong>corps-à-corps</strong> (1d6+1) ou <strong>arc court</strong> +3 distance (1d6); <strong>CA</strong> 15; <strong>DV</strong> 1d8 ; <strong>PV</strong> 5 ; <strong>Mvt</strong> 6 m; <strong>Act</strong> 1d20; <strong>JS</strong> Vig +2, Réf +2, Vol +0; <strong>AL</strong> C.</p>",
+            "markdown": ""
+          },
+          "_id": "54PepnFyiDJS4sTz",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683466754881,
+        "modifiedTime": 1684781478826,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "v7Zvz8PN4WEteAzA"
+    },
+    {
+      "name": "Zone A-04 – Chapelle de Justicia",
+      "flags": {
+        "core": {
+          "sourceId": "JournalEntry.zFnJf9sfvNcKSCre"
+        }
+      },
+      "pages": [
+        {
+          "name": "Zone A-4 – Chapelle de Justicia",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<section class=\"secret\" id=\"secret-zwiYNReFg4dvpa1L\"><p>Cette modeste chapelle est le seul bâtiment de Hirot construit entièrement en pierre. Conçu pour servir à la fois de lieu de culte et de défense, le sanctuaire saint est l’un des lieux les plus sûrs de Hirot, juste après le grand hall du jarl. Malgré ça, l’église est vide la plupart du temps.</p><p>L’explication de cet abandon se trouve dans le comportement du grand prêtre, @UUID[Actor.d2YMUDB23MapYypk]{le père Beacom}. Homme mince, au visage de faucon, le Père est convaincu que le molosse est un châtiment pour les péchés du village. Il se poste sur la place centrale de l’aube au crépuscule, à hurler que la fin du monde est proche et que les villageois ne peuvent s’en prendre qu’à eux-mêmes. Le seul salut du pécheur, déclare-t-il, est de renoncer au monde matériel pour Justicia.</p><p>@UUID[Actor.d2YMUDB23MapYypk]{Le père Beacom} est assisté de deux acolytes, @UUID[Actor.hcpsn7w7RVy9MhXs]{frère Aker} et @UUID[Actor.NERDEWb1uP9FaaOV]{ frère Haams}. Tous deux ont fait vœu de silence et suivent le Père quand il arpente les rues, se fouettant pour expier leurs péchés.</p><p>Le Père ne supporte guère les prêtres vénérant d’autres dieux, mais il accueille avec ardeur les fidèles de Justicia, leur offrant asile ainsi qu’à leurs alliés.</p><p>Même si @UUID[Actor.d2YMUDB23MapYypk]{le père Beacom} rechigne à l’admettre, l’église renferme un secret qui peut aider les PJ dans leur combat contre le molosse de Hirot. Le vitrail en rosace surplombant la nef de l’église dépeint Justicia en train d’affronter un molosse-démon avec un grand marteau de guerre. La tête à pointes de ce même marteau de guerre repose sur l’autel de l’église, dissimulée sous une tenture de velours.</p><p>@UUID[Actor.d2YMUDB23MapYypk]{Le père Beacom} refuse que cette sainte relique quitte le sanctuaire de l’église, et seuls les fidèles peuvent poser le regard sur le marteau de guerre. Mais si la tête est accrochée sur un robuste manche et à nouveau consacrée au service de la Loi, elle recouvre son enchantement de +1 contre les démons/diables. Quand l’arme est portée par un clerc de Justicia, elle est considérée comme un marteau de guerre +2. De plus, le marteau confère un bonus de +1 aux jets de sauvegarde contre les effets maléfiques, les créatures maléfiques, les morts-vivants et les démons et leur inflige 3 points de dégâts supplémentaires.</p></section>",
+            "markdown": ""
+          },
+          "_id": "ClPyZzj7xCQo2RCe",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683445942188,
+        "modifiedTime": 1684781478827,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "vCExO7eWHYtYvImt"
+    },
+    {
+      "name": "Zone A-03 – Enseigne de la lance Tue-Loup",
+      "flags": {
+        "core": {
+          "sourceId": "JournalEntry.DoX4VVUiuYes5Jsb"
+        }
+      },
+      "pages": [
+        {
+          "name": "Zone A-3 – Enseigne de la lance Tue-Loup (Auberge)",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<section class=\"secret\" id=\"secret-jLji0nQFEdYiEgKE\"><p>Située tout près de la place du village, l’unique auberge de Hirot accueille les voyageurs fourbus jour et nuit. Caravansérail isolé longtemps avant que Hirot ne devienne un village, l’auberge conserve encore des traces de ses rudes origines : des meurtrières sont taillées dans les volets, une lourde barre de fer peut servir à condamner la porte si besoin, et des créneaux sont visibles sur les rebords de la toiture.</p><p>Le rez-de-chaussée abrite une salle commune où l’on sert à boire et à manger. Une grande lance est suspendue au-dessus du bar (une réplique de la lance légendaire de l’Ulfheonar). Bien que la lance semble réelle, une inspection plus poussée fait apparaître que la lame est en réalité faite de bois peint en bleu argenté. Le bar est généralement tenu par <strong>Broegan Haverson, dit «Le Taureau»</strong>, et sa fille <strong>Morgane</strong> (la dernière offrande destinée au molosse). Si les PJ ont réussi à empêcher le sacrifice de Morgane, ils ont la gratitude éternelle de Broegan et n’auront plus besoin de payer le gîte et le couvert pour le temps qu’ils passeront à l’auberge. Si, par contre, ils n’ont pas pu ou pas voulu sauver la jeune fille, le géant autrefois cordial est écrasé par le chagrin.</p><p>Le deuxième étage de l’auberge est occupé par les chambres privées des clients alors qu’un petit troisième étage est réservé à la famille de <strong>Broegan</strong>. Depuis le début des attaques, toutefois, <strong>Broegan</strong> a pris l’habitude de dormir au rez-de-chaussée pour pouvoir mieux défendre ses hôtes en cas d’attaque du molosse.</p><p>La capacité de <strong>La Lance Tue-Loup</strong> à se défendre n’a pas échappé aux habitants de Hirot, et beaucoup d’entre eux ont pris l’habitude de passer leurs soirées à l’auberge et de dormir dans la salle commune. Chaque soir, il y a 2d12 autochtones qui passent la soirée à jouer aux dés et boire, pour tenter d’oublier la bête qui rôde à leurs portes.</p><p>La plupart des soirs, <strong>Lloré</strong>, le seul barde et raconteur de Hirot, est présent pour distraire la foule. Le jeune barde charismatique aspire à devenir aventurier, mais son amour secret pour <strong>Morgane</strong> le pousse à revenir nuit après nuit à <strong>La Lance Tue-Loup</strong>. <strong>Lloré</strong> connaît pratiquement chaque rumeur et légende se rapportant au molosse et est ravi de les partager avec de nouveaux auditeurs.</p></section>",
+            "markdown": ""
+          },
+          "_id": "1KEmQuFNxWa8azzH",
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "systemId": "dcc",
+        "systemVersion": "0.35.1",
+        "coreVersion": "10.291",
+        "createdTime": 1683391850026,
+        "modifiedTime": 1684781478827,
+        "lastModifiedBy": "xbI3xUfPhWLkJZtp"
+      },
+      "_id": "w3HWQDmsBfwzqHUR"
+    }
+  ],
+  "source": {
+    "world": "dcc-le-fleau-des-rois-barbares",
+    "system": "dcc",
+    "version": {
+      "core": "10.291",
+      "system": "0.35.1"
+    }
+  }
+}
